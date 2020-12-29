@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/anarg/CLionProjects/RPG/Item.cpp" "C:/Users/anarg/CLionProjects/RPG/cmake-build-debug/CMakeFiles/untitled1.dir/Item.cpp.obj"
-  "C:/Users/anarg/CLionProjects/RPG/Weapon.cpp" "C:/Users/anarg/CLionProjects/RPG/cmake-build-debug/CMakeFiles/untitled1.dir/Weapon.cpp.obj"
-  "C:/Users/anarg/CLionProjects/RPG/main.cpp" "C:/Users/anarg/CLionProjects/RPG/cmake-build-debug/CMakeFiles/untitled1.dir/main.cpp.obj"
+  "C:/Users/anarg/CLionProjects/Project_OOP/Item.cpp" "C:/Users/anarg/CLionProjects/Project_OOP/cmake-build-debug/CMakeFiles/untitled1.dir/Item.cpp.obj"
+  "C:/Users/anarg/CLionProjects/Project_OOP/Weapon.cpp" "C:/Users/anarg/CLionProjects/Project_OOP/cmake-build-debug/CMakeFiles/untitled1.dir/Weapon.cpp.obj"
+  "C:/Users/anarg/CLionProjects/Project_OOP/main.cpp" "C:/Users/anarg/CLionProjects/Project_OOP/cmake-build-debug/CMakeFiles/untitled1.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
