@@ -1,9 +1,13 @@
 file(REMOVE_RECURSE
   "CMakeFiles/untitled1.dir/Armour.cpp.obj"
   "CMakeFiles/untitled1.dir/Entity.cpp.obj"
+  "CMakeFiles/untitled1.dir/Hero.cpp.obj"
   "CMakeFiles/untitled1.dir/Item.cpp.obj"
+  "CMakeFiles/untitled1.dir/Paladin.cpp.obj"
   "CMakeFiles/untitled1.dir/Potion.cpp.obj"
+  "CMakeFiles/untitled1.dir/Sorcerer.cpp.obj"
   "CMakeFiles/untitled1.dir/Utils.cpp.obj"
+  "CMakeFiles/untitled1.dir/Warrior.cpp.obj"
   "CMakeFiles/untitled1.dir/Weapon.cpp.obj"
   "CMakeFiles/untitled1.dir/main.cpp.obj"
   "libuntitled1.dll.a"

@@ -196,6 +196,33 @@ Entity.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Entity.cpp.s
 .PHONY : Entity.cpp.s
 
+Hero.obj: Hero.cpp.obj
+
+.PHONY : Hero.obj
+
+# target to build an object file
+Hero.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Hero.cpp.obj
+.PHONY : Hero.cpp.obj
+
+Hero.i: Hero.cpp.i
+
+.PHONY : Hero.i
+
+# target to preprocess a source file
+Hero.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Hero.cpp.i
+.PHONY : Hero.cpp.i
+
+Hero.s: Hero.cpp.s
+
+.PHONY : Hero.s
+
+# target to generate assembly for a file
+Hero.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Hero.cpp.s
+.PHONY : Hero.cpp.s
+
 Item.obj: Item.cpp.obj
 
 .PHONY : Item.obj
@@ -222,6 +249,33 @@ Item.s: Item.cpp.s
 Item.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Item.cpp.s
 .PHONY : Item.cpp.s
+
+Paladin.obj: Paladin.cpp.obj
+
+.PHONY : Paladin.obj
+
+# target to build an object file
+Paladin.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Paladin.cpp.obj
+.PHONY : Paladin.cpp.obj
+
+Paladin.i: Paladin.cpp.i
+
+.PHONY : Paladin.i
+
+# target to preprocess a source file
+Paladin.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Paladin.cpp.i
+.PHONY : Paladin.cpp.i
+
+Paladin.s: Paladin.cpp.s
+
+.PHONY : Paladin.s
+
+# target to generate assembly for a file
+Paladin.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Paladin.cpp.s
+.PHONY : Paladin.cpp.s
 
 Potion.obj: Potion.cpp.obj
 
@@ -250,6 +304,33 @@ Potion.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Potion.cpp.s
 .PHONY : Potion.cpp.s
 
+Sorcerer.obj: Sorcerer.cpp.obj
+
+.PHONY : Sorcerer.obj
+
+# target to build an object file
+Sorcerer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Sorcerer.cpp.obj
+.PHONY : Sorcerer.cpp.obj
+
+Sorcerer.i: Sorcerer.cpp.i
+
+.PHONY : Sorcerer.i
+
+# target to preprocess a source file
+Sorcerer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Sorcerer.cpp.i
+.PHONY : Sorcerer.cpp.i
+
+Sorcerer.s: Sorcerer.cpp.s
+
+.PHONY : Sorcerer.s
+
+# target to generate assembly for a file
+Sorcerer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Sorcerer.cpp.s
+.PHONY : Sorcerer.cpp.s
+
 Utils.obj: Utils.cpp.obj
 
 .PHONY : Utils.obj
@@ -276,6 +357,33 @@ Utils.s: Utils.cpp.s
 Utils.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Utils.cpp.s
 .PHONY : Utils.cpp.s
+
+Warrior.obj: Warrior.cpp.obj
+
+.PHONY : Warrior.obj
+
+# target to build an object file
+Warrior.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Warrior.cpp.obj
+.PHONY : Warrior.cpp.obj
+
+Warrior.i: Warrior.cpp.i
+
+.PHONY : Warrior.i
+
+# target to preprocess a source file
+Warrior.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Warrior.cpp.i
+.PHONY : Warrior.cpp.i
+
+Warrior.s: Warrior.cpp.s
+
+.PHONY : Warrior.s
+
+# target to generate assembly for a file
+Warrior.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Warrior.cpp.s
+.PHONY : Warrior.cpp.s
 
 Weapon.obj: Weapon.cpp.obj
 
@@ -346,15 +454,27 @@ help:
 	@echo ... Entity.obj
 	@echo ... Entity.i
 	@echo ... Entity.s
+	@echo ... Hero.obj
+	@echo ... Hero.i
+	@echo ... Hero.s
 	@echo ... Item.obj
 	@echo ... Item.i
 	@echo ... Item.s
+	@echo ... Paladin.obj
+	@echo ... Paladin.i
+	@echo ... Paladin.s
 	@echo ... Potion.obj
 	@echo ... Potion.i
 	@echo ... Potion.s
+	@echo ... Sorcerer.obj
+	@echo ... Sorcerer.i
+	@echo ... Sorcerer.s
 	@echo ... Utils.obj
 	@echo ... Utils.i
 	@echo ... Utils.s
+	@echo ... Warrior.obj
+	@echo ... Warrior.i
+	@echo ... Warrior.s
 	@echo ... Weapon.obj
 	@echo ... Weapon.i
 	@echo ... Weapon.s

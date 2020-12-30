@@ -8,13 +8,13 @@ using namespace std;
 #include <iostream>
 
 /// CONSTRUCTOR
-Entity::Entity(string name_, int level_, int health_) : name(std::move(name_)), level(level_), health(health_)
+Entity::Entity(string name_, int level_, int health_) : name(std::move(name_)), level(level_), maxHealth(health_), health(maxHealth)
 {
-    cout << "Created level " << level << " entity named " << name << " with " << health << " health." << endl;
+    ///cout << "Created level " << level << " entity named " << name << " with " << health << " health." << endl;
 }
 
 /// DESTRUCTOR
 Entity::~Entity()
 {
-    cout << "Destroyed level " << level << " entity named " << name << " with " << health << " health." << endl;
+    ///cout << "Destroyed level " << level << " entity named " << name << " with " << health << " health." << endl;
 }

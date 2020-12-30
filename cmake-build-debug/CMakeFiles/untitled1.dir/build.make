@@ -167,6 +167,58 @@ CMakeFiles/untitled1.dir/Entity.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled1.dir/Entity.cpp.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Giann\CLionProjects\Project_OOP\Entity.cpp -o CMakeFiles\untitled1.dir\Entity.cpp.s
 
+CMakeFiles/untitled1.dir/Hero.cpp.obj: CMakeFiles/untitled1.dir/flags.make
+CMakeFiles/untitled1.dir/Hero.cpp.obj: ../Hero.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Giann\CLionProjects\Project_OOP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/untitled1.dir/Hero.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled1.dir\Hero.cpp.obj -c C:\Users\Giann\CLionProjects\Project_OOP\Hero.cpp
+
+CMakeFiles/untitled1.dir/Hero.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled1.dir/Hero.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Giann\CLionProjects\Project_OOP\Hero.cpp > CMakeFiles\untitled1.dir\Hero.cpp.i
+
+CMakeFiles/untitled1.dir/Hero.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled1.dir/Hero.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Giann\CLionProjects\Project_OOP\Hero.cpp -o CMakeFiles\untitled1.dir\Hero.cpp.s
+
+CMakeFiles/untitled1.dir/Warrior.cpp.obj: CMakeFiles/untitled1.dir/flags.make
+CMakeFiles/untitled1.dir/Warrior.cpp.obj: ../Warrior.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Giann\CLionProjects\Project_OOP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/untitled1.dir/Warrior.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled1.dir\Warrior.cpp.obj -c C:\Users\Giann\CLionProjects\Project_OOP\Warrior.cpp
+
+CMakeFiles/untitled1.dir/Warrior.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled1.dir/Warrior.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Giann\CLionProjects\Project_OOP\Warrior.cpp > CMakeFiles\untitled1.dir\Warrior.cpp.i
+
+CMakeFiles/untitled1.dir/Warrior.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled1.dir/Warrior.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Giann\CLionProjects\Project_OOP\Warrior.cpp -o CMakeFiles\untitled1.dir\Warrior.cpp.s
+
+CMakeFiles/untitled1.dir/Paladin.cpp.obj: CMakeFiles/untitled1.dir/flags.make
+CMakeFiles/untitled1.dir/Paladin.cpp.obj: ../Paladin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Giann\CLionProjects\Project_OOP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/untitled1.dir/Paladin.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled1.dir\Paladin.cpp.obj -c C:\Users\Giann\CLionProjects\Project_OOP\Paladin.cpp
+
+CMakeFiles/untitled1.dir/Paladin.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled1.dir/Paladin.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Giann\CLionProjects\Project_OOP\Paladin.cpp > CMakeFiles\untitled1.dir\Paladin.cpp.i
+
+CMakeFiles/untitled1.dir/Paladin.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled1.dir/Paladin.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Giann\CLionProjects\Project_OOP\Paladin.cpp -o CMakeFiles\untitled1.dir\Paladin.cpp.s
+
+CMakeFiles/untitled1.dir/Sorcerer.cpp.obj: CMakeFiles/untitled1.dir/flags.make
+CMakeFiles/untitled1.dir/Sorcerer.cpp.obj: ../Sorcerer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Giann\CLionProjects\Project_OOP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/untitled1.dir/Sorcerer.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled1.dir\Sorcerer.cpp.obj -c C:\Users\Giann\CLionProjects\Project_OOP\Sorcerer.cpp
+
+CMakeFiles/untitled1.dir/Sorcerer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled1.dir/Sorcerer.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Giann\CLionProjects\Project_OOP\Sorcerer.cpp > CMakeFiles\untitled1.dir\Sorcerer.cpp.i
+
+CMakeFiles/untitled1.dir/Sorcerer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled1.dir/Sorcerer.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Giann\CLionProjects\Project_OOP\Sorcerer.cpp -o CMakeFiles\untitled1.dir\Sorcerer.cpp.s
+
 # Object files for target untitled1
 untitled1_OBJECTS = \
 "CMakeFiles/untitled1.dir/main.cpp.obj" \
@@ -175,7 +227,11 @@ untitled1_OBJECTS = \
 "CMakeFiles/untitled1.dir/Utils.cpp.obj" \
 "CMakeFiles/untitled1.dir/Armour.cpp.obj" \
 "CMakeFiles/untitled1.dir/Potion.cpp.obj" \
-"CMakeFiles/untitled1.dir/Entity.cpp.obj"
+"CMakeFiles/untitled1.dir/Entity.cpp.obj" \
+"CMakeFiles/untitled1.dir/Hero.cpp.obj" \
+"CMakeFiles/untitled1.dir/Warrior.cpp.obj" \
+"CMakeFiles/untitled1.dir/Paladin.cpp.obj" \
+"CMakeFiles/untitled1.dir/Sorcerer.cpp.obj"
 
 # External object files for target untitled1
 untitled1_EXTERNAL_OBJECTS =
@@ -187,11 +243,15 @@ untitled1.exe: CMakeFiles/untitled1.dir/Utils.cpp.obj
 untitled1.exe: CMakeFiles/untitled1.dir/Armour.cpp.obj
 untitled1.exe: CMakeFiles/untitled1.dir/Potion.cpp.obj
 untitled1.exe: CMakeFiles/untitled1.dir/Entity.cpp.obj
+untitled1.exe: CMakeFiles/untitled1.dir/Hero.cpp.obj
+untitled1.exe: CMakeFiles/untitled1.dir/Warrior.cpp.obj
+untitled1.exe: CMakeFiles/untitled1.dir/Paladin.cpp.obj
+untitled1.exe: CMakeFiles/untitled1.dir/Sorcerer.cpp.obj
 untitled1.exe: CMakeFiles/untitled1.dir/build.make
 untitled1.exe: CMakeFiles/untitled1.dir/linklibs.rsp
 untitled1.exe: CMakeFiles/untitled1.dir/objects1.rsp
 untitled1.exe: CMakeFiles/untitled1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Giann\CLionProjects\Project_OOP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable untitled1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Giann\CLionProjects\Project_OOP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable untitled1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\untitled1.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

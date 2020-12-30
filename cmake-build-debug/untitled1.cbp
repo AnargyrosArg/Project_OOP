@@ -92,10 +92,22 @@
 		<Unit filename="C:/Users/Giann/CLionProjects/Project_OOP/Entity.h">
 			<Option target="untitled1"/>
 		</Unit>
+		<Unit filename="C:/Users/Giann/CLionProjects/Project_OOP/Hero.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="C:/Users/Giann/CLionProjects/Project_OOP/Hero.h">
+			<Option target="untitled1"/>
+		</Unit>
 		<Unit filename="C:/Users/Giann/CLionProjects/Project_OOP/Item.cpp">
 			<Option target="untitled1"/>
 		</Unit>
 		<Unit filename="C:/Users/Giann/CLionProjects/Project_OOP/Item.h">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="C:/Users/Giann/CLionProjects/Project_OOP/Paladin.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="C:/Users/Giann/CLionProjects/Project_OOP/Paladin.h">
 			<Option target="untitled1"/>
 		</Unit>
 		<Unit filename="C:/Users/Giann/CLionProjects/Project_OOP/Potion.cpp">
@@ -104,10 +116,22 @@
 		<Unit filename="C:/Users/Giann/CLionProjects/Project_OOP/Potion.h">
 			<Option target="untitled1"/>
 		</Unit>
+		<Unit filename="C:/Users/Giann/CLionProjects/Project_OOP/Sorcerer.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="C:/Users/Giann/CLionProjects/Project_OOP/Sorcerer.h">
+			<Option target="untitled1"/>
+		</Unit>
 		<Unit filename="C:/Users/Giann/CLionProjects/Project_OOP/Utils.cpp">
 			<Option target="untitled1"/>
 		</Unit>
 		<Unit filename="C:/Users/Giann/CLionProjects/Project_OOP/Utils.h">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="C:/Users/Giann/CLionProjects/Project_OOP/Warrior.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="C:/Users/Giann/CLionProjects/Project_OOP/Warrior.h">
 			<Option target="untitled1"/>
 		</Unit>
 		<Unit filename="C:/Users/Giann/CLionProjects/Project_OOP/Weapon.cpp">
