@@ -6,8 +6,20 @@ CMakeFiles/untitled1.dir/Armour.cpp.obj: ../Armour.h
 CMakeFiles/untitled1.dir/Armour.cpp.obj: ../Item.h
 CMakeFiles/untitled1.dir/Armour.cpp.obj: ../Utils.h
 
+CMakeFiles/untitled1.dir/Dragon.cpp.obj: ../Dragon.cpp
+CMakeFiles/untitled1.dir/Dragon.cpp.obj: ../Dragon.h
+CMakeFiles/untitled1.dir/Dragon.cpp.obj: ../Entity.h
+CMakeFiles/untitled1.dir/Dragon.cpp.obj: ../Monster.h
+CMakeFiles/untitled1.dir/Dragon.cpp.obj: ../Utils.h
+
 CMakeFiles/untitled1.dir/Entity.cpp.obj: ../Entity.cpp
 CMakeFiles/untitled1.dir/Entity.cpp.obj: ../Entity.h
+
+CMakeFiles/untitled1.dir/Exoskeleton.cpp.obj: ../Entity.h
+CMakeFiles/untitled1.dir/Exoskeleton.cpp.obj: ../Exoskeleton.cpp
+CMakeFiles/untitled1.dir/Exoskeleton.cpp.obj: ../Exoskeleton.h
+CMakeFiles/untitled1.dir/Exoskeleton.cpp.obj: ../Monster.h
+CMakeFiles/untitled1.dir/Exoskeleton.cpp.obj: ../Utils.h
 
 CMakeFiles/untitled1.dir/Hero.cpp.obj: ../Entity.h
 CMakeFiles/untitled1.dir/Hero.cpp.obj: ../Hero.cpp
@@ -15,6 +27,10 @@ CMakeFiles/untitled1.dir/Hero.cpp.obj: ../Hero.h
 
 CMakeFiles/untitled1.dir/Item.cpp.obj: ../Item.cpp
 CMakeFiles/untitled1.dir/Item.cpp.obj: ../Item.h
+
+CMakeFiles/untitled1.dir/Monster.cpp.obj: ../Entity.h
+CMakeFiles/untitled1.dir/Monster.cpp.obj: ../Monster.cpp
+CMakeFiles/untitled1.dir/Monster.cpp.obj: ../Monster.h
 
 CMakeFiles/untitled1.dir/Paladin.cpp.obj: ../Entity.h
 CMakeFiles/untitled1.dir/Paladin.cpp.obj: ../Hero.h
@@ -32,6 +48,12 @@ CMakeFiles/untitled1.dir/Sorcerer.cpp.obj: ../Sorcerer.cpp
 CMakeFiles/untitled1.dir/Sorcerer.cpp.obj: ../Sorcerer.h
 CMakeFiles/untitled1.dir/Sorcerer.cpp.obj: ../Utils.h
 
+CMakeFiles/untitled1.dir/Spirit.cpp.obj: ../Entity.h
+CMakeFiles/untitled1.dir/Spirit.cpp.obj: ../Monster.h
+CMakeFiles/untitled1.dir/Spirit.cpp.obj: ../Spirit.cpp
+CMakeFiles/untitled1.dir/Spirit.cpp.obj: ../Spirit.h
+CMakeFiles/untitled1.dir/Spirit.cpp.obj: ../Utils.h
+
 CMakeFiles/untitled1.dir/Utils.cpp.obj: ../Utils.cpp
 CMakeFiles/untitled1.dir/Utils.cpp.obj: ../Utils.h
 
@@ -47,11 +69,15 @@ CMakeFiles/untitled1.dir/Weapon.cpp.obj: ../Weapon.cpp
 CMakeFiles/untitled1.dir/Weapon.cpp.obj: ../Weapon.h
 
 CMakeFiles/untitled1.dir/main.cpp.obj: ../Armour.h
+CMakeFiles/untitled1.dir/main.cpp.obj: ../Dragon.h
 CMakeFiles/untitled1.dir/main.cpp.obj: ../Entity.h
+CMakeFiles/untitled1.dir/main.cpp.obj: ../Exoskeleton.h
 CMakeFiles/untitled1.dir/main.cpp.obj: ../Hero.h
 CMakeFiles/untitled1.dir/main.cpp.obj: ../Item.h
+CMakeFiles/untitled1.dir/main.cpp.obj: ../Monster.h
 CMakeFiles/untitled1.dir/main.cpp.obj: ../Paladin.h
 CMakeFiles/untitled1.dir/main.cpp.obj: ../Sorcerer.h
+CMakeFiles/untitled1.dir/main.cpp.obj: ../Spirit.h
 CMakeFiles/untitled1.dir/main.cpp.obj: ../Utils.h
 CMakeFiles/untitled1.dir/main.cpp.obj: ../Warrior.h
 CMakeFiles/untitled1.dir/main.cpp.obj: ../Weapon.h

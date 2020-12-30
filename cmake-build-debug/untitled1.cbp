@@ -86,10 +86,22 @@
 		<Unit filename="C:/Users/Giann/CLionProjects/Project_OOP/Armour.h">
 			<Option target="untitled1"/>
 		</Unit>
+		<Unit filename="C:/Users/Giann/CLionProjects/Project_OOP/Dragon.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="C:/Users/Giann/CLionProjects/Project_OOP/Dragon.h">
+			<Option target="untitled1"/>
+		</Unit>
 		<Unit filename="C:/Users/Giann/CLionProjects/Project_OOP/Entity.cpp">
 			<Option target="untitled1"/>
 		</Unit>
 		<Unit filename="C:/Users/Giann/CLionProjects/Project_OOP/Entity.h">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="C:/Users/Giann/CLionProjects/Project_OOP/Exoskeleton.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="C:/Users/Giann/CLionProjects/Project_OOP/Exoskeleton.h">
 			<Option target="untitled1"/>
 		</Unit>
 		<Unit filename="C:/Users/Giann/CLionProjects/Project_OOP/Hero.cpp">
@@ -102,6 +114,12 @@
 			<Option target="untitled1"/>
 		</Unit>
 		<Unit filename="C:/Users/Giann/CLionProjects/Project_OOP/Item.h">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="C:/Users/Giann/CLionProjects/Project_OOP/Monster.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="C:/Users/Giann/CLionProjects/Project_OOP/Monster.h">
 			<Option target="untitled1"/>
 		</Unit>
 		<Unit filename="C:/Users/Giann/CLionProjects/Project_OOP/Paladin.cpp">
@@ -120,6 +138,12 @@
 			<Option target="untitled1"/>
 		</Unit>
 		<Unit filename="C:/Users/Giann/CLionProjects/Project_OOP/Sorcerer.h">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="C:/Users/Giann/CLionProjects/Project_OOP/Spirit.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="C:/Users/Giann/CLionProjects/Project_OOP/Spirit.h">
 			<Option target="untitled1"/>
 		</Unit>
 		<Unit filename="C:/Users/Giann/CLionProjects/Project_OOP/Utils.cpp">

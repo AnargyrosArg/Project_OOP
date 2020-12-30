@@ -169,6 +169,33 @@ Armour.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Armour.cpp.s
 .PHONY : Armour.cpp.s
 
+Dragon.obj: Dragon.cpp.obj
+
+.PHONY : Dragon.obj
+
+# target to build an object file
+Dragon.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Dragon.cpp.obj
+.PHONY : Dragon.cpp.obj
+
+Dragon.i: Dragon.cpp.i
+
+.PHONY : Dragon.i
+
+# target to preprocess a source file
+Dragon.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Dragon.cpp.i
+.PHONY : Dragon.cpp.i
+
+Dragon.s: Dragon.cpp.s
+
+.PHONY : Dragon.s
+
+# target to generate assembly for a file
+Dragon.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Dragon.cpp.s
+.PHONY : Dragon.cpp.s
+
 Entity.obj: Entity.cpp.obj
 
 .PHONY : Entity.obj
@@ -195,6 +222,33 @@ Entity.s: Entity.cpp.s
 Entity.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Entity.cpp.s
 .PHONY : Entity.cpp.s
+
+Exoskeleton.obj: Exoskeleton.cpp.obj
+
+.PHONY : Exoskeleton.obj
+
+# target to build an object file
+Exoskeleton.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Exoskeleton.cpp.obj
+.PHONY : Exoskeleton.cpp.obj
+
+Exoskeleton.i: Exoskeleton.cpp.i
+
+.PHONY : Exoskeleton.i
+
+# target to preprocess a source file
+Exoskeleton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Exoskeleton.cpp.i
+.PHONY : Exoskeleton.cpp.i
+
+Exoskeleton.s: Exoskeleton.cpp.s
+
+.PHONY : Exoskeleton.s
+
+# target to generate assembly for a file
+Exoskeleton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Exoskeleton.cpp.s
+.PHONY : Exoskeleton.cpp.s
 
 Hero.obj: Hero.cpp.obj
 
@@ -249,6 +303,33 @@ Item.s: Item.cpp.s
 Item.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Item.cpp.s
 .PHONY : Item.cpp.s
+
+Monster.obj: Monster.cpp.obj
+
+.PHONY : Monster.obj
+
+# target to build an object file
+Monster.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Monster.cpp.obj
+.PHONY : Monster.cpp.obj
+
+Monster.i: Monster.cpp.i
+
+.PHONY : Monster.i
+
+# target to preprocess a source file
+Monster.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Monster.cpp.i
+.PHONY : Monster.cpp.i
+
+Monster.s: Monster.cpp.s
+
+.PHONY : Monster.s
+
+# target to generate assembly for a file
+Monster.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Monster.cpp.s
+.PHONY : Monster.cpp.s
 
 Paladin.obj: Paladin.cpp.obj
 
@@ -330,6 +411,33 @@ Sorcerer.s: Sorcerer.cpp.s
 Sorcerer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Sorcerer.cpp.s
 .PHONY : Sorcerer.cpp.s
+
+Spirit.obj: Spirit.cpp.obj
+
+.PHONY : Spirit.obj
+
+# target to build an object file
+Spirit.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Spirit.cpp.obj
+.PHONY : Spirit.cpp.obj
+
+Spirit.i: Spirit.cpp.i
+
+.PHONY : Spirit.i
+
+# target to preprocess a source file
+Spirit.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Spirit.cpp.i
+.PHONY : Spirit.cpp.i
+
+Spirit.s: Spirit.cpp.s
+
+.PHONY : Spirit.s
+
+# target to generate assembly for a file
+Spirit.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Spirit.cpp.s
+.PHONY : Spirit.cpp.s
 
 Utils.obj: Utils.cpp.obj
 
@@ -451,15 +559,24 @@ help:
 	@echo ... Armour.obj
 	@echo ... Armour.i
 	@echo ... Armour.s
+	@echo ... Dragon.obj
+	@echo ... Dragon.i
+	@echo ... Dragon.s
 	@echo ... Entity.obj
 	@echo ... Entity.i
 	@echo ... Entity.s
+	@echo ... Exoskeleton.obj
+	@echo ... Exoskeleton.i
+	@echo ... Exoskeleton.s
 	@echo ... Hero.obj
 	@echo ... Hero.i
 	@echo ... Hero.s
 	@echo ... Item.obj
 	@echo ... Item.i
 	@echo ... Item.s
+	@echo ... Monster.obj
+	@echo ... Monster.i
+	@echo ... Monster.s
 	@echo ... Paladin.obj
 	@echo ... Paladin.i
 	@echo ... Paladin.s
@@ -469,6 +586,9 @@ help:
 	@echo ... Sorcerer.obj
 	@echo ... Sorcerer.i
 	@echo ... Sorcerer.s
+	@echo ... Spirit.obj
+	@echo ... Spirit.i
+	@echo ... Spirit.s
 	@echo ... Utils.obj
 	@echo ... Utils.i
 	@echo ... Utils.s
