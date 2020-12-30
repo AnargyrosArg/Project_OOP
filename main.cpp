@@ -3,10 +3,12 @@
 #include "Item.h"
 #include "Weapon.h"
 #include "Utils.h"
+#include "Armour.h"
 
 
 using namespace std;
 int main() {
-   Weapon test(50);
+   Weapon testweapon(50);
+   Armour testarmour(50);
     return 0;
 }

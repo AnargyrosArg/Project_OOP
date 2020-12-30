@@ -80,10 +80,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/anarg/CLionProjects/Project_OOP/Armour.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="C:/Users/anarg/CLionProjects/Project_OOP/Armour.h">
+			<Option target="untitled1"/>
+		</Unit>
 		<Unit filename="C:/Users/anarg/CLionProjects/Project_OOP/Item.cpp">
 			<Option target="untitled1"/>
 		</Unit>
 		<Unit filename="C:/Users/anarg/CLionProjects/Project_OOP/Item.h">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="C:/Users/anarg/CLionProjects/Project_OOP/Potion.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="C:/Users/anarg/CLionProjects/Project_OOP/Potion.h">
 			<Option target="untitled1"/>
 		</Unit>
 		<Unit filename="C:/Users/anarg/CLionProjects/Project_OOP/Utils.cpp">

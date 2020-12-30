@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/anarg/CLionProjects/Project_OOP/Armour.cpp" "C:/Users/anarg/CLionProjects/Project_OOP/cmake-build-debug/CMakeFiles/untitled1.dir/Armour.cpp.obj"
   "C:/Users/anarg/CLionProjects/Project_OOP/Item.cpp" "C:/Users/anarg/CLionProjects/Project_OOP/cmake-build-debug/CMakeFiles/untitled1.dir/Item.cpp.obj"
+  "C:/Users/anarg/CLionProjects/Project_OOP/Potion.cpp" "C:/Users/anarg/CLionProjects/Project_OOP/cmake-build-debug/CMakeFiles/untitled1.dir/Potion.cpp.obj"
   "C:/Users/anarg/CLionProjects/Project_OOP/Utils.cpp" "C:/Users/anarg/CLionProjects/Project_OOP/cmake-build-debug/CMakeFiles/untitled1.dir/Utils.cpp.obj"
   "C:/Users/anarg/CLionProjects/Project_OOP/Weapon.cpp" "C:/Users/anarg/CLionProjects/Project_OOP/cmake-build-debug/CMakeFiles/untitled1.dir/Weapon.cpp.obj"
   "C:/Users/anarg/CLionProjects/Project_OOP/main.cpp" "C:/Users/anarg/CLionProjects/Project_OOP/cmake-build-debug/CMakeFiles/untitled1.dir/main.cpp.obj"

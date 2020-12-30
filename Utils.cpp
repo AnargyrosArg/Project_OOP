@@ -5,6 +5,7 @@
 
 string getRandomName(const string& file_name){
     ifstream input(file_name);
+    srand(time(NULL));
     if(!input){
         cerr << "Couldn't open file: "<< file_name << " !" <<endl;
     }

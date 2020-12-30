@@ -142,6 +142,33 @@ untitled1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/build
 .PHONY : untitled1/fast
 
+Armour.obj: Armour.cpp.obj
+
+.PHONY : Armour.obj
+
+# target to build an object file
+Armour.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Armour.cpp.obj
+.PHONY : Armour.cpp.obj
+
+Armour.i: Armour.cpp.i
+
+.PHONY : Armour.i
+
+# target to preprocess a source file
+Armour.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Armour.cpp.i
+.PHONY : Armour.cpp.i
+
+Armour.s: Armour.cpp.s
+
+.PHONY : Armour.s
+
+# target to generate assembly for a file
+Armour.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Armour.cpp.s
+.PHONY : Armour.cpp.s
+
 Item.obj: Item.cpp.obj
 
 .PHONY : Item.obj
@@ -168,6 +195,33 @@ Item.s: Item.cpp.s
 Item.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Item.cpp.s
 .PHONY : Item.cpp.s
+
+Potion.obj: Potion.cpp.obj
+
+.PHONY : Potion.obj
+
+# target to build an object file
+Potion.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Potion.cpp.obj
+.PHONY : Potion.cpp.obj
+
+Potion.i: Potion.cpp.i
+
+.PHONY : Potion.i
+
+# target to preprocess a source file
+Potion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Potion.cpp.i
+.PHONY : Potion.cpp.i
+
+Potion.s: Potion.cpp.s
+
+.PHONY : Potion.s
+
+# target to generate assembly for a file
+Potion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Potion.cpp.s
+.PHONY : Potion.cpp.s
 
 Utils.obj: Utils.cpp.obj
 
@@ -259,9 +313,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... untitled1
+	@echo ... Armour.obj
+	@echo ... Armour.i
+	@echo ... Armour.s
 	@echo ... Item.obj
 	@echo ... Item.i
 	@echo ... Item.s
+	@echo ... Potion.obj
+	@echo ... Potion.i
+	@echo ... Potion.s
 	@echo ... Utils.obj
 	@echo ... Utils.i
 	@echo ... Utils.s
