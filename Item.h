@@ -6,6 +6,7 @@
 #define UNTITLED1_ITEM_H
 #include "string"
 #include <iostream>
+
 using namespace std;
 
 class Item {
@@ -17,7 +18,7 @@ public:
     int getCost()const{return cost;}
     int getLevelReq() const{return levelReq;}
     string getName()const{return name;}
-    Item(string,int,int);
+    Item(string name,int level_requirement,int cost);
     virtual ~Item();
 };
 

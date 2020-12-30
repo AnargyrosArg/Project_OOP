@@ -2,9 +2,11 @@
 #include <string>
 #include "Item.h"
 #include "Weapon.h"
+#include "Utils.h"
+
 
 using namespace std;
 int main() {
-    cout << "This is asdasdasdasasda test"<<endl;
+   Weapon test(50);
     return 0;
 }
