@@ -9,6 +9,10 @@ CMakeFiles/untitled1.dir/Armour.cpp.obj: ../Utils.h
 CMakeFiles/untitled1.dir/Item.cpp.obj: ../Item.cpp
 CMakeFiles/untitled1.dir/Item.cpp.obj: ../Item.h
 
+CMakeFiles/untitled1.dir/Potion.cpp.obj: ../Item.h
+CMakeFiles/untitled1.dir/Potion.cpp.obj: ../Potion.cpp
+CMakeFiles/untitled1.dir/Potion.cpp.obj: ../Potion.h
+
 CMakeFiles/untitled1.dir/Utils.cpp.obj: ../Utils.cpp
 CMakeFiles/untitled1.dir/Utils.cpp.obj: ../Utils.h
 

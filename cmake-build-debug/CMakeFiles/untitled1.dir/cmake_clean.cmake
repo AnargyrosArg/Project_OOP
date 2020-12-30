@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/untitled1.dir/Armour.cpp.obj"
+  "CMakeFiles/untitled1.dir/Entity.cpp.obj"
   "CMakeFiles/untitled1.dir/Item.cpp.obj"
   "CMakeFiles/untitled1.dir/Potion.cpp.obj"
   "CMakeFiles/untitled1.dir/Utils.cpp.obj"

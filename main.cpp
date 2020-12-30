@@ -4,11 +4,14 @@
 #include "Weapon.h"
 #include "Utils.h"
 #include "Armour.h"
+#include "Entity.h"
 
 
 using namespace std;
-int main() {
-   Weapon testweapon(50);
-   Armour testarmour(50);
-    return 0;
+int main()
+{
+   Weapon testWeapon(50);
+   Armour testArmour(50);
+
+   return 0;
 }

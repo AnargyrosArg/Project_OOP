@@ -67,10 +67,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\anarg\CLionProjects\Project_OOP
+CMAKE_SOURCE_DIR = C:\Users\Giann\CLionProjects\Project_OOP
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\anarg\CLionProjects\Project_OOP\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Giann\CLionProjects\Project_OOP\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\anarg\CLionProjects\Project_OOP\cmake-build-debug\CMakeFiles C:\Users\anarg\CLionProjects\Project_OOP\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Giann\CLionProjects\Project_OOP\cmake-build-debug\CMakeFiles C:\Users\Giann\CLionProjects\Project_OOP\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\anarg\CLionProjects\Project_OOP\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Giann\CLionProjects\Project_OOP\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -168,6 +168,33 @@ Armour.s: Armour.cpp.s
 Armour.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Armour.cpp.s
 .PHONY : Armour.cpp.s
+
+Entity.obj: Entity.cpp.obj
+
+.PHONY : Entity.obj
+
+# target to build an object file
+Entity.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Entity.cpp.obj
+.PHONY : Entity.cpp.obj
+
+Entity.i: Entity.cpp.i
+
+.PHONY : Entity.i
+
+# target to preprocess a source file
+Entity.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Entity.cpp.i
+.PHONY : Entity.cpp.i
+
+Entity.s: Entity.cpp.s
+
+.PHONY : Entity.s
+
+# target to generate assembly for a file
+Entity.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Entity.cpp.s
+.PHONY : Entity.cpp.s
 
 Item.obj: Item.cpp.obj
 
@@ -316,6 +343,9 @@ help:
 	@echo ... Armour.obj
 	@echo ... Armour.i
 	@echo ... Armour.s
+	@echo ... Entity.obj
+	@echo ... Entity.i
+	@echo ... Entity.s
 	@echo ... Item.obj
 	@echo ... Item.i
 	@echo ... Item.s
