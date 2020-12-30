@@ -2,6 +2,8 @@
 #include "Weapon.h"
 #include "Armour.h"
 #include "Warrior.h"
+#include "Paladin.h"
+#include "Sorcerer.h"
 
 
 using namespace std;
@@ -14,6 +16,12 @@ int main()
 
    Warrior warrior(50);
    warrior.levelUp();
+
+   Paladin paladin(50);
+   paladin.levelUp();
+
+   Sorcerer sorcerer(50);
+   sorcerer.levelUp();
 
    return 0;
 }
