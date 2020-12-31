@@ -6,15 +6,17 @@
 #define UNTITLED1_POTION_H
 
 #include "Item.h"
-
-enum PotionTypes{Health=0,Strength=1,Dexterity=2,Agility=3};
+#include "Hero.h"
 
 class Potion : public Item{
 private:
-    PotionTypes type;
+    int potency;
 public:
-    PotionTypes getType(){return type;}
-    int getEffect();
+    void equip(Hero* hero);
+    Potion(string Name,int Cost,int Level,int Potency);
+    virtual ~Potion();
+    virtual void use(Hero* hero)=0;
+    int getPotency() const{return potency;}
 };
 
 

@@ -250,6 +250,33 @@ Exoskeleton.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Exoskeleton.cpp.s
 .PHONY : Exoskeleton.cpp.s
 
+HealthPotion.obj: HealthPotion.cpp.obj
+
+.PHONY : HealthPotion.obj
+
+# target to build an object file
+HealthPotion.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/HealthPotion.cpp.obj
+.PHONY : HealthPotion.cpp.obj
+
+HealthPotion.i: HealthPotion.cpp.i
+
+.PHONY : HealthPotion.i
+
+# target to preprocess a source file
+HealthPotion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/HealthPotion.cpp.i
+.PHONY : HealthPotion.cpp.i
+
+HealthPotion.s: HealthPotion.cpp.s
+
+.PHONY : HealthPotion.s
+
+# target to generate assembly for a file
+HealthPotion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/HealthPotion.cpp.s
+.PHONY : HealthPotion.cpp.s
+
 Hero.obj: Hero.cpp.obj
 
 .PHONY : Hero.obj
@@ -595,6 +622,9 @@ help:
 	@echo ... Exoskeleton.obj
 	@echo ... Exoskeleton.i
 	@echo ... Exoskeleton.s
+	@echo ... HealthPotion.obj
+	@echo ... HealthPotion.i
+	@echo ... HealthPotion.s
 	@echo ... Hero.obj
 	@echo ... Hero.i
 	@echo ... Hero.s

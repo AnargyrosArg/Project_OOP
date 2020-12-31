@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/anarg/CLionProjects/Project_OOP/Dragon.cpp" "C:/Users/anarg/CLionProjects/Project_OOP/cmake-build-debug/CMakeFiles/untitled1.dir/Dragon.cpp.obj"
   "C:/Users/anarg/CLionProjects/Project_OOP/Entity.cpp" "C:/Users/anarg/CLionProjects/Project_OOP/cmake-build-debug/CMakeFiles/untitled1.dir/Entity.cpp.obj"
   "C:/Users/anarg/CLionProjects/Project_OOP/Exoskeleton.cpp" "C:/Users/anarg/CLionProjects/Project_OOP/cmake-build-debug/CMakeFiles/untitled1.dir/Exoskeleton.cpp.obj"
+  "C:/Users/anarg/CLionProjects/Project_OOP/HealthPotion.cpp" "C:/Users/anarg/CLionProjects/Project_OOP/cmake-build-debug/CMakeFiles/untitled1.dir/HealthPotion.cpp.obj"
   "C:/Users/anarg/CLionProjects/Project_OOP/Hero.cpp" "C:/Users/anarg/CLionProjects/Project_OOP/cmake-build-debug/CMakeFiles/untitled1.dir/Hero.cpp.obj"
   "C:/Users/anarg/CLionProjects/Project_OOP/Item.cpp" "C:/Users/anarg/CLionProjects/Project_OOP/cmake-build-debug/CMakeFiles/untitled1.dir/Item.cpp.obj"
   "C:/Users/anarg/CLionProjects/Project_OOP/Monster.cpp" "C:/Users/anarg/CLionProjects/Project_OOP/cmake-build-debug/CMakeFiles/untitled1.dir/Monster.cpp.obj"

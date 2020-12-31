@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/untitled1.dir/Dragon.cpp.obj"
   "CMakeFiles/untitled1.dir/Entity.cpp.obj"
   "CMakeFiles/untitled1.dir/Exoskeleton.cpp.obj"
+  "CMakeFiles/untitled1.dir/HealthPotion.cpp.obj"
   "CMakeFiles/untitled1.dir/Hero.cpp.obj"
   "CMakeFiles/untitled1.dir/Item.cpp.obj"
   "CMakeFiles/untitled1.dir/Monster.cpp.obj"

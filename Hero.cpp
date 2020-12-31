@@ -60,8 +60,16 @@ void Hero::equipWeapon(Weapon* weapon){
 }
 
 void Hero::print() {
-    cout << Entity::getName()<<" Level: "<<getLevel() <<endl << "---Stats---" << endl << "Mag: " << Hero::getMaxMagic() << endl << "Str: "
-         << Hero::getStrength() << endl << "Dex: " << Hero::getDexterity() << endl << "Agil: " << Hero::getAgility() << endl;
+    cout << Entity::getName()<<endl
+    << "Level: "<<getLevel() <<endl
+    << "Health:" <<getHealth()<<"/"<<getMaxHealth()<<endl
+    <<"Magic: "<<getMagic() <<"/"<< getMaxMagic()<<endl
+    << "--------------Stats--------------" << endl <<
+    "Mag: " << Hero::getMaxMagic()  <<
+    " Str: "<< Hero::getStrength()  <<
+    " Dex: " << Hero::getDexterity() <<
+    " Agil: " << Hero::getAgility()<<endl
+    <<"---------------------------------"<< endl;
     if(weapon1!= nullptr){
         cout << "Weapon 1: "<<weapon1->getName()<<endl;
     }

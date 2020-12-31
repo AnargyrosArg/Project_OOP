@@ -24,6 +24,16 @@ CMakeFiles/untitled1.dir/Exoskeleton.cpp.obj: ../Exoskeleton.h
 CMakeFiles/untitled1.dir/Exoskeleton.cpp.obj: ../Monster.h
 CMakeFiles/untitled1.dir/Exoskeleton.cpp.obj: ../Utils.h
 
+CMakeFiles/untitled1.dir/HealthPotion.cpp.obj: ../Armour.h
+CMakeFiles/untitled1.dir/HealthPotion.cpp.obj: ../Entity.h
+CMakeFiles/untitled1.dir/HealthPotion.cpp.obj: ../HealthPotion.cpp
+CMakeFiles/untitled1.dir/HealthPotion.cpp.obj: ../HealthPotion.h
+CMakeFiles/untitled1.dir/HealthPotion.cpp.obj: ../Hero.h
+CMakeFiles/untitled1.dir/HealthPotion.cpp.obj: ../Item.h
+CMakeFiles/untitled1.dir/HealthPotion.cpp.obj: ../Potion.h
+CMakeFiles/untitled1.dir/HealthPotion.cpp.obj: ../Utils.h
+CMakeFiles/untitled1.dir/HealthPotion.cpp.obj: ../Weapon.h
+
 CMakeFiles/untitled1.dir/Hero.cpp.obj: ../Armour.h
 CMakeFiles/untitled1.dir/Hero.cpp.obj: ../Entity.h
 CMakeFiles/untitled1.dir/Hero.cpp.obj: ../Hero.cpp
@@ -110,11 +120,13 @@ CMakeFiles/untitled1.dir/main.cpp.obj: ../Armour.h
 CMakeFiles/untitled1.dir/main.cpp.obj: ../Dragon.h
 CMakeFiles/untitled1.dir/main.cpp.obj: ../Entity.h
 CMakeFiles/untitled1.dir/main.cpp.obj: ../Exoskeleton.h
+CMakeFiles/untitled1.dir/main.cpp.obj: ../HealthPotion.h
 CMakeFiles/untitled1.dir/main.cpp.obj: ../Hero.h
 CMakeFiles/untitled1.dir/main.cpp.obj: ../Item.h
 CMakeFiles/untitled1.dir/main.cpp.obj: ../Monster.h
 CMakeFiles/untitled1.dir/main.cpp.obj: ../Paladin.h
 CMakeFiles/untitled1.dir/main.cpp.obj: ../Party.h
+CMakeFiles/untitled1.dir/main.cpp.obj: ../Potion.h
 CMakeFiles/untitled1.dir/main.cpp.obj: ../Sorcerer.h
 CMakeFiles/untitled1.dir/main.cpp.obj: ../Spirit.h
 CMakeFiles/untitled1.dir/main.cpp.obj: ../Utils.h
