@@ -7,6 +7,7 @@
 #include "Spirit.h"
 #include "Dragon.h"
 #include "Exoskeleton.h"
+#include "Party.h"
 
 using namespace std;
 
@@ -30,12 +31,16 @@ int main()
 //   Spirit spirit(50);
 //   Dragon dragon(50);
 //   Exoskeleton exoskeleton(50);
-Weapon sword1(50);
-Weapon sword2(50);
-Warrior warrior(51);
-warrior.equipWeapon(&sword1);
-warrior.equipWeapon(&sword2);
-warrior.equipWeapon(&sword2);
-warrior.print();
+    Warrior warrior(50);
+    Sorcerer sorcerer(50);
+    Party party(&warrior,&sorcerer);
+    party.print();
+    party.pickUp(new Weapon(50));
+    party.pickUp(new Armour(50));
+    party.pickUp(new Weapon(50));
+    party.pickUp(new Armour(50));
+    party.printInv();
+    party.equip();
+    party.print();
    return 0;
 }

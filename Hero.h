@@ -5,7 +5,8 @@
 #include "Entity.h"
 #include "Armour.h"
 #include "Weapon.h"
-
+class Weapon;
+class Armour;
 #ifndef HERO_H
 #define HERO_H
 

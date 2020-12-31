@@ -20,3 +20,14 @@ Weapon::Weapon(int level):Item(getRandomName("../Names/Weapons.txt"),level,
 Weapon::~Weapon(){
     cout << "Weapon: " << getName() << " deleted"<<endl;
 }
+
+void Weapon::print() {
+    cout << (isTwoHanded() ? "Two Handed " : "One Handed ");
+    cout << "Weapon ";
+    Item::print();
+}
+
+void Weapon::equip(Hero *hero) {
+    hero->equipWeapon(this);
+}
+

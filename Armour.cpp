@@ -15,3 +15,12 @@ Armour::Armour(int level)
     cout << "Cost: " << getCost() << endl;
     cout << "Level: " << getLevelReq() << endl;
 }
+
+void Armour::print() {
+    cout << "Armour ";
+    Item::print();
+}
+
+void Armour::equip(Hero *hero) {
+    hero->setArmour(this);
+}

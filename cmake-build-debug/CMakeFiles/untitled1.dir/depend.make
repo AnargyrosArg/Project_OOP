@@ -3,8 +3,11 @@
 
 CMakeFiles/untitled1.dir/Armour.cpp.obj: ../Armour.cpp
 CMakeFiles/untitled1.dir/Armour.cpp.obj: ../Armour.h
+CMakeFiles/untitled1.dir/Armour.cpp.obj: ../Entity.h
+CMakeFiles/untitled1.dir/Armour.cpp.obj: ../Hero.h
 CMakeFiles/untitled1.dir/Armour.cpp.obj: ../Item.h
 CMakeFiles/untitled1.dir/Armour.cpp.obj: ../Utils.h
+CMakeFiles/untitled1.dir/Armour.cpp.obj: ../Weapon.h
 
 CMakeFiles/untitled1.dir/Dragon.cpp.obj: ../Dragon.cpp
 CMakeFiles/untitled1.dir/Dragon.cpp.obj: ../Dragon.h
@@ -29,8 +32,13 @@ CMakeFiles/untitled1.dir/Hero.cpp.obj: ../Item.h
 CMakeFiles/untitled1.dir/Hero.cpp.obj: ../Utils.h
 CMakeFiles/untitled1.dir/Hero.cpp.obj: ../Weapon.h
 
+CMakeFiles/untitled1.dir/Item.cpp.obj: ../Armour.h
+CMakeFiles/untitled1.dir/Item.cpp.obj: ../Entity.h
+CMakeFiles/untitled1.dir/Item.cpp.obj: ../Hero.h
 CMakeFiles/untitled1.dir/Item.cpp.obj: ../Item.cpp
 CMakeFiles/untitled1.dir/Item.cpp.obj: ../Item.h
+CMakeFiles/untitled1.dir/Item.cpp.obj: ../Utils.h
+CMakeFiles/untitled1.dir/Item.cpp.obj: ../Weapon.h
 
 CMakeFiles/untitled1.dir/Monster.cpp.obj: ../Entity.h
 CMakeFiles/untitled1.dir/Monster.cpp.obj: ../Monster.cpp
@@ -45,9 +53,23 @@ CMakeFiles/untitled1.dir/Paladin.cpp.obj: ../Paladin.h
 CMakeFiles/untitled1.dir/Paladin.cpp.obj: ../Utils.h
 CMakeFiles/untitled1.dir/Paladin.cpp.obj: ../Weapon.h
 
+CMakeFiles/untitled1.dir/Party.cpp.obj: ../Armour.h
+CMakeFiles/untitled1.dir/Party.cpp.obj: ../Entity.h
+CMakeFiles/untitled1.dir/Party.cpp.obj: ../Hero.h
+CMakeFiles/untitled1.dir/Party.cpp.obj: ../Item.h
+CMakeFiles/untitled1.dir/Party.cpp.obj: ../Party.cpp
+CMakeFiles/untitled1.dir/Party.cpp.obj: ../Party.h
+CMakeFiles/untitled1.dir/Party.cpp.obj: ../Utils.h
+CMakeFiles/untitled1.dir/Party.cpp.obj: ../Weapon.h
+
+CMakeFiles/untitled1.dir/Potion.cpp.obj: ../Armour.h
+CMakeFiles/untitled1.dir/Potion.cpp.obj: ../Entity.h
+CMakeFiles/untitled1.dir/Potion.cpp.obj: ../Hero.h
 CMakeFiles/untitled1.dir/Potion.cpp.obj: ../Item.h
 CMakeFiles/untitled1.dir/Potion.cpp.obj: ../Potion.cpp
 CMakeFiles/untitled1.dir/Potion.cpp.obj: ../Potion.h
+CMakeFiles/untitled1.dir/Potion.cpp.obj: ../Utils.h
+CMakeFiles/untitled1.dir/Potion.cpp.obj: ../Weapon.h
 
 CMakeFiles/untitled1.dir/Sorcerer.cpp.obj: ../Armour.h
 CMakeFiles/untitled1.dir/Sorcerer.cpp.obj: ../Entity.h
@@ -76,6 +98,9 @@ CMakeFiles/untitled1.dir/Warrior.cpp.obj: ../Warrior.cpp
 CMakeFiles/untitled1.dir/Warrior.cpp.obj: ../Warrior.h
 CMakeFiles/untitled1.dir/Warrior.cpp.obj: ../Weapon.h
 
+CMakeFiles/untitled1.dir/Weapon.cpp.obj: ../Armour.h
+CMakeFiles/untitled1.dir/Weapon.cpp.obj: ../Entity.h
+CMakeFiles/untitled1.dir/Weapon.cpp.obj: ../Hero.h
 CMakeFiles/untitled1.dir/Weapon.cpp.obj: ../Item.h
 CMakeFiles/untitled1.dir/Weapon.cpp.obj: ../Utils.h
 CMakeFiles/untitled1.dir/Weapon.cpp.obj: ../Weapon.cpp
@@ -89,6 +114,7 @@ CMakeFiles/untitled1.dir/main.cpp.obj: ../Hero.h
 CMakeFiles/untitled1.dir/main.cpp.obj: ../Item.h
 CMakeFiles/untitled1.dir/main.cpp.obj: ../Monster.h
 CMakeFiles/untitled1.dir/main.cpp.obj: ../Paladin.h
+CMakeFiles/untitled1.dir/main.cpp.obj: ../Party.h
 CMakeFiles/untitled1.dir/main.cpp.obj: ../Sorcerer.h
 CMakeFiles/untitled1.dir/main.cpp.obj: ../Spirit.h
 CMakeFiles/untitled1.dir/main.cpp.obj: ../Utils.h

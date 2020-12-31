@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/untitled1.dir/Item.cpp.obj"
   "CMakeFiles/untitled1.dir/Monster.cpp.obj"
   "CMakeFiles/untitled1.dir/Paladin.cpp.obj"
+  "CMakeFiles/untitled1.dir/Party.cpp.obj"
   "CMakeFiles/untitled1.dir/Potion.cpp.obj"
   "CMakeFiles/untitled1.dir/Sorcerer.cpp.obj"
   "CMakeFiles/untitled1.dir/Spirit.cpp.obj"

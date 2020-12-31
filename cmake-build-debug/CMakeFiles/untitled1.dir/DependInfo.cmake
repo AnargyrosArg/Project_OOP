@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/anarg/CLionProjects/Project_OOP/Item.cpp" "C:/Users/anarg/CLionProjects/Project_OOP/cmake-build-debug/CMakeFiles/untitled1.dir/Item.cpp.obj"
   "C:/Users/anarg/CLionProjects/Project_OOP/Monster.cpp" "C:/Users/anarg/CLionProjects/Project_OOP/cmake-build-debug/CMakeFiles/untitled1.dir/Monster.cpp.obj"
   "C:/Users/anarg/CLionProjects/Project_OOP/Paladin.cpp" "C:/Users/anarg/CLionProjects/Project_OOP/cmake-build-debug/CMakeFiles/untitled1.dir/Paladin.cpp.obj"
+  "C:/Users/anarg/CLionProjects/Project_OOP/Party.cpp" "C:/Users/anarg/CLionProjects/Project_OOP/cmake-build-debug/CMakeFiles/untitled1.dir/Party.cpp.obj"
   "C:/Users/anarg/CLionProjects/Project_OOP/Potion.cpp" "C:/Users/anarg/CLionProjects/Project_OOP/cmake-build-debug/CMakeFiles/untitled1.dir/Potion.cpp.obj"
   "C:/Users/anarg/CLionProjects/Project_OOP/Sorcerer.cpp" "C:/Users/anarg/CLionProjects/Project_OOP/cmake-build-debug/CMakeFiles/untitled1.dir/Sorcerer.cpp.obj"
   "C:/Users/anarg/CLionProjects/Project_OOP/Spirit.cpp" "C:/Users/anarg/CLionProjects/Project_OOP/cmake-build-debug/CMakeFiles/untitled1.dir/Spirit.cpp.obj"

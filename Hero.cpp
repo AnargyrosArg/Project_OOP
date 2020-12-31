@@ -16,6 +16,7 @@ Hero::~Hero() {}
 void Hero::setArmour(Armour *armour) {
     if(getLevel()>=armour->getLevelReq()) {
         armour = armour;
+        cout << "Equipped armour "<<armour->getName()<<endl;
         return;
     }else{
         cout << "Level requirement for "<<armour->getName()<<" not met"<<endl;
@@ -59,7 +60,7 @@ void Hero::equipWeapon(Weapon* weapon){
 }
 
 void Hero::print() {
-    cout << Entity::getName() << ". Stats:" << endl << "Mag: " << Hero::getMaxMagic() << endl << "Str: "
+    cout << Entity::getName()<<" Level: "<<getLevel() <<endl << "---Stats---" << endl << "Mag: " << Hero::getMaxMagic() << endl << "Str: "
          << Hero::getStrength() << endl << "Dex: " << Hero::getDexterity() << endl << "Agil: " << Hero::getAgility() << endl;
     if(weapon1!= nullptr){
         cout << "Weapon 1: "<<weapon1->getName()<<endl;

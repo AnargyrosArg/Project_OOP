@@ -358,6 +358,33 @@ Paladin.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Paladin.cpp.s
 .PHONY : Paladin.cpp.s
 
+Party.obj: Party.cpp.obj
+
+.PHONY : Party.obj
+
+# target to build an object file
+Party.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Party.cpp.obj
+.PHONY : Party.cpp.obj
+
+Party.i: Party.cpp.i
+
+.PHONY : Party.i
+
+# target to preprocess a source file
+Party.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Party.cpp.i
+.PHONY : Party.cpp.i
+
+Party.s: Party.cpp.s
+
+.PHONY : Party.s
+
+# target to generate assembly for a file
+Party.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Party.cpp.s
+.PHONY : Party.cpp.s
+
 Potion.obj: Potion.cpp.obj
 
 .PHONY : Potion.obj
@@ -580,6 +607,9 @@ help:
 	@echo ... Paladin.obj
 	@echo ... Paladin.i
 	@echo ... Paladin.s
+	@echo ... Party.obj
+	@echo ... Party.i
+	@echo ... Party.s
 	@echo ... Potion.obj
 	@echo ... Potion.i
 	@echo ... Potion.s

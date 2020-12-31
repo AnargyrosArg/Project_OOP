@@ -13,3 +13,8 @@ Item::Item(string Name,int level_requirement,int cost):name(move(Name)),levelReq
 Item::~Item(){
     cout<< "Item "<<getName()<<" Deleted"<<endl;
 }
+
+void Item::print() {
+    cout << getName();
+}
+
