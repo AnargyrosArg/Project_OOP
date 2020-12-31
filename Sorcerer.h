@@ -16,6 +16,7 @@ public:
     Sorcerer(int lvl);
     ~Sorcerer() override;
     void levelUp() override;
+    void print();
 };
 
 

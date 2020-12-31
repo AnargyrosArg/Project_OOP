@@ -16,6 +16,7 @@ public:
     Warrior(int lvl);
     ~Warrior() override;
     void levelUp() override;
+    void print();
 };
 
 

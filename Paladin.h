@@ -16,6 +16,7 @@ public:
     Paladin(int lvl);
     ~Paladin() override;
     void levelUp() override;
+    void print();
 };
 
 

@@ -3,6 +3,8 @@
 ///
 
 #include "Entity.h"
+#include "Armour.h"
+#include "Weapon.h"
 
 #ifndef HERO_H
 #define HERO_H
@@ -10,6 +12,9 @@
 class Hero : public Entity
 {
     private:
+        Weapon* weapon1;
+        Weapon* weapon2;
+        Armour* armour;
         int maxMagic;
         int magic;
         int strength;
@@ -37,8 +42,13 @@ class Hero : public Entity
         void setAgility(int agil) { agility = agil; }
         void setMoney(int money_) { money = money_; }
         void setExperience(int exp) { experience = exp; }
+        void setArmour(Armour* armour);
+        void equipWeapon(Weapon* weapon);
 
+        virtual void print();
         virtual void levelUp() {};
+
+
 };
 
 

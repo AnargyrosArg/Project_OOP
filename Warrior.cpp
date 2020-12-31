@@ -33,3 +33,8 @@ void Warrior::levelUp()
 
     cout << "Warrior named " << Entity::getName() << " leveled up to level " << Entity::getLevel() << "!" << endl << endl;
 }
+
+void Warrior::print() {
+    cout << "Warrior: ";
+    Hero::print();
+}
