@@ -12,7 +12,7 @@ void Potion::equip(Hero* hero) {
 
 Potion::Potion(string Name,int Cost,int Level,int Potency):Item(Name,Level,Cost),potency(Potency),duration(0)
 {
-    cout << "Potion created";
+    cout << "Potion created" << endl;
 }
 
 Potion::~Potion(){
@@ -21,5 +21,5 @@ Potion::~Potion(){
 
 Potion::Potion(string Name,int Cost,int Level,int Potency,int Duration):Item(Name,Level,Cost),potency(Potency),duration(Duration)
 {
-    cout << "Potion created";
+    cout << "Potion created" << endl;
 }

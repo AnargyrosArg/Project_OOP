@@ -13,22 +13,23 @@
 
 using namespace std;
 
-int main(){
+int main()
+{
     srand(time(NULL));
-//    Warrior warrior(40);
-//    HealthPotion hp(40);
-//    StrengthPotion sp(50,50,3);
-//    warrior.setHealth(50);
-//    warrior.print();
-//    sp.use(&warrior);
-//    hp.use(&warrior);
-//    warrior.print();
-//    warrior.countTurn();
-//    warrior.countTurn();
-//    warrior.countTurn();
-//    warrior.print();
 
-
+/*-------------------------------------------------------------------------
+    Warrior warrior(40);
+    HealthPotion hp(40);
+    StrengthPotion sp(50,50,3);
+    warrior.setHealth(50);
+    warrior.print();
+    sp.use(&warrior);
+    hp.use(&warrior);
+    warrior.print();
+    warrior.countTurn();
+    warrior.countTurn();
+    warrior.countTurn();
+    warrior.print();*/
 //-------------------------------------------------------------------------
 //   Weapon testWeapon(50);
 //   cout << endl;

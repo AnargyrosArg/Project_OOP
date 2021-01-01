@@ -13,9 +13,9 @@ Hero::Hero(string name_, int lvl, int hp, int magic_, int str, int dex, int agil
 /// DESTRUCTOR
 Hero::~Hero() {}
 
-void Hero::setArmour(Armour *armour) {
-    if(getLevel()>=armour->getLevelReq()) {
-        armour = armour;
+void Hero::setArmour(Armour* armour_) {
+    if(getLevel() >= armour_->getLevelReq()) {
+        armour = armour_;
         cout << "Equipped armour "<<armour->getName()<<endl;
         return;
     }else{
