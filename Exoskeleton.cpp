@@ -22,6 +22,6 @@ Exoskeleton::~Exoskeleton()
 /// PRINT
 void Exoskeleton::print() const
 {
-    cout << endl << "Exoskeleton ";
+    cout << endl << endl << "Exoskeleton ";
     Monster::print();
 }

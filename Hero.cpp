@@ -130,10 +130,10 @@ void Hero::attack(Monster* monster)
 
         if (!dodged)
         {
-            int dmg = max((weapon1->getDamage() + strength - monster->getDefence()), 0);
+            int dmg = max((weapon1->getDamage() + strength - monster->getDefence()), 0); /// add max(..., 0) so we never do negative damage
             monster->setHealth(monster->getHealth() - dmg);
-            cout << endl << Entity::getName() << " attacks " << monster->getName() << " and deals " << dmg << " damage!" << endl;
-        } else cout << endl << monster->getName() << " dodges " << Entity::getName() << "'s attack!" << endl;
+            cout << endl << "Hero " << Entity::getName() << " attacks " << monster->getName() << " and deals " << dmg << " damage!";
+        } else cout << endl << "Monster " << monster->getName() << " dodges " << Entity::getName() << "'s attack!";
     }
     else cout << endl << Entity::getName() << " has no weapon!" << endl;
 
@@ -145,7 +145,7 @@ void Hero::attack(Monster* monster)
         {
             int dmg = max((weapon2->getDamage() + strength - monster->getDefence()), 0);
             monster->setHealth(monster->getHealth() - dmg);
-            cout << endl << Entity::getName() << " attacks " << monster->getName() << " again and deals " << dmg << " damage!" << endl;
-        } else cout << endl << monster->getName() << " dodges " << Entity::getName() << "'s second attack!" << endl;
+            cout << endl << "Hero " << Entity::getName() << " attacks " << monster->getName() << " again and deals " << dmg << " damage!";
+        } else cout << endl << "Monster " << monster->getName() << " dodges " << Entity::getName() << "'s second attack!";
     }
 }

@@ -71,8 +71,15 @@ int main()
     for (int i=0; i<10; i++)
         sorcerer.attack(&spirit);
 
+    for (int i=0; i<10; i++)
+        dragon.attack(&warrior);
+
+    for (int i=0; i<10; i++)
+        spirit.attack(&sorcerer);
+
     dragon.print();
     spirit.print();
+    party.print();
 
     cout << endl;
     return 0;

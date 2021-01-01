@@ -3,6 +3,7 @@
 ///
 
 #include "Entity.h"
+class Hero;
 
 #ifndef MONSTER_H
 #define MONSTER_H
@@ -23,7 +24,7 @@ class Monster : public Entity
         double getDodge() const { return dodgeChance; }
 
         virtual void print() const;
+        void attack(Hero* hero);
 };
-
 
 #endif //MONSTER_H

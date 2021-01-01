@@ -54,9 +54,15 @@ CMakeFiles/untitled1.dir/Hero.cpp.obj: ../Weapon.h
 CMakeFiles/untitled1.dir/Item.cpp.obj: ../Item.cpp
 CMakeFiles/untitled1.dir/Item.cpp.obj: ../Item.h
 
+CMakeFiles/untitled1.dir/Monster.cpp.obj: ../Armour.h
+CMakeFiles/untitled1.dir/Monster.cpp.obj: ../Effects.h
 CMakeFiles/untitled1.dir/Monster.cpp.obj: ../Entity.h
+CMakeFiles/untitled1.dir/Monster.cpp.obj: ../Hero.h
+CMakeFiles/untitled1.dir/Monster.cpp.obj: ../Item.h
 CMakeFiles/untitled1.dir/Monster.cpp.obj: ../Monster.cpp
 CMakeFiles/untitled1.dir/Monster.cpp.obj: ../Monster.h
+CMakeFiles/untitled1.dir/Monster.cpp.obj: ../Utils.h
+CMakeFiles/untitled1.dir/Monster.cpp.obj: ../Weapon.h
 
 CMakeFiles/untitled1.dir/Paladin.cpp.obj: ../Armour.h
 CMakeFiles/untitled1.dir/Paladin.cpp.obj: ../Effects.h
