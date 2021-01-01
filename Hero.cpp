@@ -13,6 +13,7 @@ Hero::Hero(string name_, int lvl, int hp, int magic_, int str, int dex, int agil
 /// DESTRUCTOR
 Hero::~Hero() {}
 
+/// SET ARMOUR
 void Hero::setArmour(Armour* armour_) {
     if(getLevel() >= armour_->getLevelReq()) {
         armour = armour_;
@@ -25,6 +26,7 @@ void Hero::setArmour(Armour* armour_) {
 
 }
 
+/// EQUIP WEAPON
 void Hero::equipWeapon(Weapon* weapon){
     if(weapon->getLevelReq()<=getLevel()){
         if(weapon->isTwoHanded()){
@@ -59,6 +61,7 @@ void Hero::equipWeapon(Weapon* weapon){
 
 }
 
+/// PRINT
 void Hero::print() {
     cout << Entity::getName()<<endl
     << "Level: "<<getLevel() <<endl
@@ -82,6 +85,7 @@ void Hero::print() {
     cout << endl;
 }
 
+/// ADD EFFECT
 void Hero::addEffect(EffectType type,int power, int duration) {
     effects.push_back(new Effects(type,power,duration));
     if(type==STRENGTH){
@@ -98,6 +102,7 @@ void Hero::addEffect(EffectType type,int power, int duration) {
     }
 }
 
+/// COUNT TURN
 void Hero::countTurn() {
     for(int i=0;i<effects.size();i++){
         effects.at(i)->setDuration(effects.at(i)->getDuration()-1);
@@ -116,3 +121,31 @@ void Hero::countTurn() {
     }
 }
 
+/// ATTACK
+void Hero::attack(Monster* monster)
+{
+    if (weapon1 != nullptr)
+    {
+        bool dodged = (rand() % 100) < (monster->getDodge())*100;
+
+        if (!dodged)
+        {
+            int dmg = max((weapon1->getDamage() + strength - monster->getDefence()), 0);
+            monster->setHealth(monster->getHealth() - dmg);
+            cout << endl << Entity::getName() << " attacks " << monster->getName() << " and deals " << dmg << " damage!" << endl;
+        } else cout << endl << monster->getName() << " dodges " << Entity::getName() << "'s attack!" << endl;
+    }
+    else cout << endl << Entity::getName() << " has no weapon!" << endl;
+
+    if (weapon2 != nullptr)
+    {
+        bool dodged = (rand() % 100) < (monster->getDodge())*100;
+
+        if (!dodged)
+        {
+            int dmg = max((weapon2->getDamage() + strength - monster->getDefence()), 0);
+            monster->setHealth(monster->getHealth() - dmg);
+            cout << endl << Entity::getName() << " attacks " << monster->getName() << " again and deals " << dmg << " damage!" << endl;
+        } else cout << endl << monster->getName() << " dodges " << Entity::getName() << "'s second attack!" << endl;
+    }
+}

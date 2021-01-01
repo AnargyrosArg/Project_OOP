@@ -18,3 +18,10 @@ Spirit::~Spirit()
     cout << "Destroyed Spirit named " << Entity::getName() << ". Stats:" << endl << "Dmg: " << Monster::getDamage() << endl << "Def: "
          << Monster::getDefence() << endl << "Dodge: " << Monster::getDodge() << endl << endl;
 }
+
+/// PRINT
+void Spirit::print() const
+{
+    cout << endl << "Spirit ";
+    Monster::print();
+}

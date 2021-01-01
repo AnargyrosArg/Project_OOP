@@ -21,6 +21,8 @@ class Monster : public Entity
         int getDamage() const { return baseDamage; }
         int getDefence() const { return defence; }
         double getDodge() const { return dodgeChance; }
+
+        virtual void print() const;
 };
 
 

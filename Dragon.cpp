@@ -18,3 +18,10 @@ Dragon::~Dragon()
     cout << "Destroyed Dragon named " << Entity::getName() << ". Stats:" << endl << "Dmg: " << Monster::getDamage() << endl << "Def: "
     << Monster::getDefence() << endl << "Dodge: " << Monster::getDodge() << endl << endl;
 }
+
+/// PRINT
+void Dragon::print() const
+{
+    cout << endl << "Dragon ";
+    Monster::print();
+}1

@@ -7,7 +7,7 @@
 #ifndef HERO_H
 #define HERO_H
 #include <vector>
-#include "Entity.h"
+#include "Monster.h"
 #include "Armour.h"
 #include "Weapon.h"
 #include "Effects.h"
@@ -47,13 +47,12 @@ class Hero : public Entity
         void setExperience(int exp) { experience = exp; }
         void setArmour(Armour* armour);
         void equipWeapon(Weapon* weapon);
+
+        void attack(Monster* monster);
         void addEffect(EffectType type,int power,int duration);
         void countTurn();
-
         virtual void print();
         virtual void levelUp() {};
-
-
 };
 
 

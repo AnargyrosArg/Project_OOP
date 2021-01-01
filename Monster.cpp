@@ -3,6 +3,7 @@
 ///
 
 #include "Monster.h"
+#include <iostream>
 
 /// CONSTRUCTOR
 Monster::Monster(string name_, int lvl, int maxHp, int dmg, int def, double dodge)
@@ -10,3 +11,16 @@ Monster::Monster(string name_, int lvl, int maxHp, int dmg, int def, double dodg
 
 /// DESTRUCTOR
 Monster::~Monster() = default;
+
+/// PRINT
+void Monster::print() const
+{
+    cout << Entity::getName() << endl
+    << "Level: "<< getLevel() << endl
+    << "Health:" << getHealth() << "/" << getMaxHealth() << endl
+    << "--------------Stats--------------" << endl <<
+    " Dmg: " << getDamage()  <<
+    " Def: " << getDefence() <<
+    " Dodge: " << getDodge() << endl
+    <<"---------------------------------"<< endl << endl;
+}

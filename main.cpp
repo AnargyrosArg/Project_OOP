@@ -61,5 +61,19 @@ int main()
     party.equip();
     party.equip();
     party.print();
-   return 0;
+
+    Dragon dragon(50);
+    Spirit spirit(50);
+
+    for (int i=0; i<10; i++)
+        warrior.attack(&dragon);
+
+    for (int i=0; i<10; i++)
+        sorcerer.attack(&spirit);
+
+    dragon.print();
+    spirit.print();
+
+    cout << endl;
+    return 0;
 }

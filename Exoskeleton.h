@@ -12,6 +12,8 @@ class Exoskeleton : public Monster
     public:
         Exoskeleton(int lvl);
         ~Exoskeleton() override;
+
+        void print() const override;
 };
 
 #endif //EXOSKELETON_H
