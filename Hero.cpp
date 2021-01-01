@@ -81,3 +81,38 @@ void Hero::print() {
     }
     cout << endl;
 }
+
+void Hero::addEffect(EffectType type,int power, int duration) {
+    effects.push_back(new Effects(type,power,duration));
+    if(type==STRENGTH){
+        setStrength(getStrength()+power);
+        return;
+    }
+    if(type==DEXTERITY){
+        setStrength(getDexterity()+power);
+        return;
+    }
+    if(type==AGILITY){
+        setAgility(getAgility()+power);
+        return;
+    }
+}
+
+void Hero::countTurn() {
+    for(int i=0;i<effects.size();i++){
+        effects.at(i)->setDuration(effects.at(i)->getDuration()-1);
+        if(effects.at(i)->getDuration()==0){
+            if(effects.at(i)->getType()==STRENGTH){
+                setStrength(getStrength()-effects.at(i)->getPower());
+            }
+            else if(effects.at(i)->getType()==DEXTERITY){
+                setDexterity(getDexterity()-effects.at(i)->getPower());
+            }
+            else if(effects.at(i)->getType()==AGILITY){
+                setAgility(getAgility()-effects.at(i)->getPower());
+            }
+            effects.erase(effects.begin()+i);
+        }
+    }
+}
+

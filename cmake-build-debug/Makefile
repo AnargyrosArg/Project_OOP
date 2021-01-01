@@ -196,6 +196,33 @@ Dragon.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Dragon.cpp.s
 .PHONY : Dragon.cpp.s
 
+Effects.obj: Effects.cpp.obj
+
+.PHONY : Effects.obj
+
+# target to build an object file
+Effects.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Effects.cpp.obj
+.PHONY : Effects.cpp.obj
+
+Effects.i: Effects.cpp.i
+
+.PHONY : Effects.i
+
+# target to preprocess a source file
+Effects.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Effects.cpp.i
+.PHONY : Effects.cpp.i
+
+Effects.s: Effects.cpp.s
+
+.PHONY : Effects.s
+
+# target to generate assembly for a file
+Effects.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Effects.cpp.s
+.PHONY : Effects.cpp.s
+
 Entity.obj: Entity.cpp.obj
 
 .PHONY : Entity.obj
@@ -493,6 +520,33 @@ Spirit.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Spirit.cpp.s
 .PHONY : Spirit.cpp.s
 
+StrengthPotion.obj: StrengthPotion.cpp.obj
+
+.PHONY : StrengthPotion.obj
+
+# target to build an object file
+StrengthPotion.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/StrengthPotion.cpp.obj
+.PHONY : StrengthPotion.cpp.obj
+
+StrengthPotion.i: StrengthPotion.cpp.i
+
+.PHONY : StrengthPotion.i
+
+# target to preprocess a source file
+StrengthPotion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/StrengthPotion.cpp.i
+.PHONY : StrengthPotion.cpp.i
+
+StrengthPotion.s: StrengthPotion.cpp.s
+
+.PHONY : StrengthPotion.s
+
+# target to generate assembly for a file
+StrengthPotion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/StrengthPotion.cpp.s
+.PHONY : StrengthPotion.cpp.s
+
 Utils.obj: Utils.cpp.obj
 
 .PHONY : Utils.obj
@@ -616,6 +670,9 @@ help:
 	@echo ... Dragon.obj
 	@echo ... Dragon.i
 	@echo ... Dragon.s
+	@echo ... Effects.obj
+	@echo ... Effects.i
+	@echo ... Effects.s
 	@echo ... Entity.obj
 	@echo ... Entity.i
 	@echo ... Entity.s
@@ -649,6 +706,9 @@ help:
 	@echo ... Spirit.obj
 	@echo ... Spirit.i
 	@echo ... Spirit.s
+	@echo ... StrengthPotion.obj
+	@echo ... StrengthPotion.i
+	@echo ... StrengthPotion.s
 	@echo ... Utils.obj
 	@echo ... Utils.i
 	@echo ... Utils.s

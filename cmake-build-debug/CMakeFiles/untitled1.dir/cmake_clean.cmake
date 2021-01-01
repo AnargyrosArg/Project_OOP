@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/untitled1.dir/Armour.cpp.obj"
   "CMakeFiles/untitled1.dir/Dragon.cpp.obj"
+  "CMakeFiles/untitled1.dir/Effects.cpp.obj"
   "CMakeFiles/untitled1.dir/Entity.cpp.obj"
   "CMakeFiles/untitled1.dir/Exoskeleton.cpp.obj"
   "CMakeFiles/untitled1.dir/HealthPotion.cpp.obj"
@@ -12,6 +13,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/untitled1.dir/Potion.cpp.obj"
   "CMakeFiles/untitled1.dir/Sorcerer.cpp.obj"
   "CMakeFiles/untitled1.dir/Spirit.cpp.obj"
+  "CMakeFiles/untitled1.dir/StrengthPotion.cpp.obj"
   "CMakeFiles/untitled1.dir/Utils.cpp.obj"
   "CMakeFiles/untitled1.dir/Warrior.cpp.obj"
   "CMakeFiles/untitled1.dir/Weapon.cpp.obj"

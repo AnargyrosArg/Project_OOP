@@ -3,6 +3,8 @@
 //
 
 #include "Armour.h"
+#include "Hero.h"
+
 Armour::Armour(string name, int cost, int level, int defence)
 :Item(name,level,cost),defence(defence){
     cout << "Armour "<<getName()<<" created"<<endl;

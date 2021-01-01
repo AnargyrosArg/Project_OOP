@@ -5,7 +5,6 @@
 #include "Item.h"
 
 
-
 Item::Item(string Name,int level_requirement,int cost):name(move(Name)),levelReq(level_requirement),cost(cost){
     cout << "Item " << getName() << " Created"<< endl;
 }

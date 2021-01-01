@@ -9,6 +9,7 @@
 #include "Exoskeleton.h"
 #include "Party.h"
 #include "HealthPotion.h"
+#include "StrengthPotion.h"
 
 using namespace std;
 
@@ -16,10 +17,17 @@ int main(){
     srand(time(NULL)); //keep this here
     Warrior warrior(40);
     HealthPotion hp(40);
+    StrengthPotion sp(50,50,3);
     warrior.setHealth(50);
     warrior.print();
+    sp.use(&warrior);
     hp.use(&warrior);
     warrior.print();
+    warrior.countTurn();
+    warrior.countTurn();
+    warrior.countTurn();
+    warrior.print();
+
 
 //-------------------------------------------------------------------------
 //   Weapon testWeapon(50);

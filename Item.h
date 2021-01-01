@@ -1,13 +1,12 @@
 //
 // Created by anarg on 12/29/2020.
 //
-#include "string"
-#include <iostream>
-#include "Hero.h"
 
 #ifndef UNTITLED1_ITEM_H
 #define UNTITLED1_ITEM_H
-
+#include <string>
+#include <iostream>
+class Hero;
 
 using namespace std;
 

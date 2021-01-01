@@ -15,7 +15,7 @@ void HealthPotion::use(Hero *hero) {
     }
 }
 
-HealthPotion::HealthPotion(int level):Potion("Health Potion",100*level,level,30*level)
+HealthPotion::HealthPotion(int level):Potion("Health Potion",100*level,level,5*level)
 {
     cout << "Health potion created"<<endl;
 }

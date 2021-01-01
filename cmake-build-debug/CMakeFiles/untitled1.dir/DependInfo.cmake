@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/anarg/CLionProjects/Project_OOP/Armour.cpp" "C:/Users/anarg/CLionProjects/Project_OOP/cmake-build-debug/CMakeFiles/untitled1.dir/Armour.cpp.obj"
   "C:/Users/anarg/CLionProjects/Project_OOP/Dragon.cpp" "C:/Users/anarg/CLionProjects/Project_OOP/cmake-build-debug/CMakeFiles/untitled1.dir/Dragon.cpp.obj"
+  "C:/Users/anarg/CLionProjects/Project_OOP/Effects.cpp" "C:/Users/anarg/CLionProjects/Project_OOP/cmake-build-debug/CMakeFiles/untitled1.dir/Effects.cpp.obj"
   "C:/Users/anarg/CLionProjects/Project_OOP/Entity.cpp" "C:/Users/anarg/CLionProjects/Project_OOP/cmake-build-debug/CMakeFiles/untitled1.dir/Entity.cpp.obj"
   "C:/Users/anarg/CLionProjects/Project_OOP/Exoskeleton.cpp" "C:/Users/anarg/CLionProjects/Project_OOP/cmake-build-debug/CMakeFiles/untitled1.dir/Exoskeleton.cpp.obj"
   "C:/Users/anarg/CLionProjects/Project_OOP/HealthPotion.cpp" "C:/Users/anarg/CLionProjects/Project_OOP/cmake-build-debug/CMakeFiles/untitled1.dir/HealthPotion.cpp.obj"
@@ -17,6 +18,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/anarg/CLionProjects/Project_OOP/Potion.cpp" "C:/Users/anarg/CLionProjects/Project_OOP/cmake-build-debug/CMakeFiles/untitled1.dir/Potion.cpp.obj"
   "C:/Users/anarg/CLionProjects/Project_OOP/Sorcerer.cpp" "C:/Users/anarg/CLionProjects/Project_OOP/cmake-build-debug/CMakeFiles/untitled1.dir/Sorcerer.cpp.obj"
   "C:/Users/anarg/CLionProjects/Project_OOP/Spirit.cpp" "C:/Users/anarg/CLionProjects/Project_OOP/cmake-build-debug/CMakeFiles/untitled1.dir/Spirit.cpp.obj"
+  "C:/Users/anarg/CLionProjects/Project_OOP/StrengthPotion.cpp" "C:/Users/anarg/CLionProjects/Project_OOP/cmake-build-debug/CMakeFiles/untitled1.dir/StrengthPotion.cpp.obj"
   "C:/Users/anarg/CLionProjects/Project_OOP/Utils.cpp" "C:/Users/anarg/CLionProjects/Project_OOP/cmake-build-debug/CMakeFiles/untitled1.dir/Utils.cpp.obj"
   "C:/Users/anarg/CLionProjects/Project_OOP/Warrior.cpp" "C:/Users/anarg/CLionProjects/Project_OOP/cmake-build-debug/CMakeFiles/untitled1.dir/Warrior.cpp.obj"
   "C:/Users/anarg/CLionProjects/Project_OOP/Weapon.cpp" "C:/Users/anarg/CLionProjects/Project_OOP/cmake-build-debug/CMakeFiles/untitled1.dir/Weapon.cpp.obj"
