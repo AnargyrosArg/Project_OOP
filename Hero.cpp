@@ -97,7 +97,7 @@ void Hero::addEffect(EffectType type,int power, int duration) {
         return;
     }
     if(type==DEXTERITY){
-        setStrength(getDexterity()+power);
+        setDexterity(getDexterity()+power);
         return;
     }
     if(type==AGILITY){

@@ -169,6 +169,33 @@ Armour.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Armour.cpp.s
 .PHONY : Armour.cpp.s
 
+DexterityPotion.obj: DexterityPotion.cpp.obj
+
+.PHONY : DexterityPotion.obj
+
+# target to build an object file
+DexterityPotion.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/DexterityPotion.cpp.obj
+.PHONY : DexterityPotion.cpp.obj
+
+DexterityPotion.i: DexterityPotion.cpp.i
+
+.PHONY : DexterityPotion.i
+
+# target to preprocess a source file
+DexterityPotion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/DexterityPotion.cpp.i
+.PHONY : DexterityPotion.cpp.i
+
+DexterityPotion.s: DexterityPotion.cpp.s
+
+.PHONY : DexterityPotion.s
+
+# target to generate assembly for a file
+DexterityPotion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/DexterityPotion.cpp.s
+.PHONY : DexterityPotion.cpp.s
+
 Dragon.obj: Dragon.cpp.obj
 
 .PHONY : Dragon.obj
@@ -667,6 +694,9 @@ help:
 	@echo ... Armour.obj
 	@echo ... Armour.i
 	@echo ... Armour.s
+	@echo ... DexterityPotion.obj
+	@echo ... DexterityPotion.i
+	@echo ... DexterityPotion.s
 	@echo ... Dragon.obj
 	@echo ... Dragon.i
 	@echo ... Dragon.s

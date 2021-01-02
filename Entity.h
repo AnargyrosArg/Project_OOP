@@ -28,7 +28,7 @@ class Entity
         int getLevel() const { return level; }
         int getMaxHealth() const { return maxHealth; }
         int getHealth() const { return health; }
-        vector <Effects*> getEffects() const { return effects; }
+        vector <Effects*>& getEffects(){ return effects; }
 
         void setMaxHealth(int maxHp) { maxHealth = maxHp; }
         void setHealth(int hp) { health = hp; }
