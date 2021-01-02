@@ -16,7 +16,9 @@ Hero::~Hero() {}
 /// SET ARMOUR
 void Hero::setArmour(Armour* armour_) {
     if(getLevel() >= armour_->getLevelReq()) {
+        if (armour != nullptr) armour->setEquipped(false);
         armour = armour_;
+        armour->setEquipped(true);
         cout << "Equipped armour "<<armour->getName()<<endl;
         return;
     }else{
@@ -27,38 +29,40 @@ void Hero::setArmour(Armour* armour_) {
 }
 
 /// EQUIP WEAPON
-void Hero::equipWeapon(Weapon* weapon){
-    if(weapon->getLevelReq()<=getLevel()){
-        if(weapon->isTwoHanded()){
+void Hero::equipWeapon(Weapon* weapon)
+{
+    if (weapon->getLevelReq()<=getLevel()) {
+        if (weapon->isTwoHanded()) {
+            if (weapon1 != nullptr) weapon1->setEquipped(false);
+            if (weapon2 != nullptr) weapon2->setEquipped(false);
             weapon1=weapon;
             weapon2= nullptr;
+            weapon1->setEquipped(true);
             cout << "Equipped "<<weapon->getName()<<" in both hands"<<endl;
             return;
-        }else{
-            if(weapon1== nullptr){
+        }
+        else {
+            if (weapon1 == nullptr) {
                 weapon1=weapon;
-                cout << "Equipped "<<weapon->getName()<<" in one hand"<<endl;
+                weapon1->setEquipped(true);
+                cout << "Equipped " << weapon->getName() << " in one hand" << endl;
                 return;
             }
-            if(weapon2== nullptr){
-                weapon2=weapon;
-                cout << "Equipped "<<weapon->getName()<<" in one hand"<<endl;
+            if (weapon2 == nullptr) {
+                weapon2 = weapon;
+                weapon2->setEquipped(true);
+                cout << "Equipped " << weapon->getName() << " in one hand" << endl;
                 return;
             }
-            if(weapon==weapon2 || weapon==weapon1){
-                cout << "Item already equipped"<<endl;
-                return;
-            }
-            if(weapon1!= nullptr && weapon2!= nullptr){
-                cout << "Swapped "<<weapon1->getName()<<" for "<<weapon->getName()<<endl;
-                weapon1=weapon;
+            if (weapon1 != nullptr && weapon2 != nullptr) {
+                weapon1->setEquipped(false);
+                weapon1 = weapon;
+                weapon1->setEquipped(true);
+                cout << "Swapped "<< weapon1->getName() << " for " << weapon->getName() << endl;
                 return;
             }
         }
-    }else{
-        cout << "Level requirement for "<<weapon->getName()<<" not met"<<endl;
-    }
-
+    } else cout << "Level requirement for "<<weapon->getName()<<" not met"<<endl;
 }
 
 /// PRINT
@@ -135,7 +139,7 @@ void Hero::attack(Monster* monster)
             cout << endl << "Hero " << Entity::getName() << " attacks " << monster->getName() << " and deals " << dmg << " damage!";
         } else cout << endl << "Monster " << monster->getName() << " dodges " << Entity::getName() << "'s attack!";
     }
-    else cout << endl << Entity::getName() << " has no weapon!" << endl;
+    else cout << endl << Entity::getName() << " has no weapon!";
 
     if (weapon2 != nullptr)
     {

@@ -5,11 +5,11 @@
 #include "Item.h"
 
 
-Item::Item(string Name,int level_requirement,int cost):name(move(Name)),levelReq(level_requirement),cost(cost){
+Item::Item(string Name,int level_requirement,int cost):name(move(Name)),levelReq(level_requirement),cost(cost), equipped(false) {
     cout << "Item " << getName() << " Created"<< endl;
 }
 
-Item::~Item(){
+Item::~Item() {
     cout<< "Item "<<getName()<<" Deleted"<<endl;
 }
 

@@ -51,7 +51,7 @@ void Party::equip() {
     cin >> heroindex;
     heroindex--;
     if(heroindex>=party.size()){
-        cerr << "No such hero"<<endl;
+        cerr << "No such hero"<< endl;
         return;
     }
     cout << "Selected "<<party.at(heroindex)->getName()<<endl;
@@ -60,8 +60,11 @@ void Party::equip() {
     cin >> itemindex;
     itemindex--;
     if(itemindex>=inventory.size()){
-        cerr << "No such item"<<endl;
+        cerr << "No such item"<< endl;
         return;
     }
-    inventory.at(itemindex)->equip(party.at(heroindex));
+
+    if (!(inventory.at(itemindex)->isEquipped()))
+        inventory.at(itemindex)->equip(party.at(heroindex));
+    else cout << "Item is already equipped in party" << endl;
 }

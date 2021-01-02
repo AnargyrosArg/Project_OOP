@@ -60,6 +60,7 @@ int main()
     party.printInv();
     party.equip();
     party.equip();
+    party.equip();
     party.print();
 
     Dragon dragon(50);
