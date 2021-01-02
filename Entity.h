@@ -3,6 +3,8 @@
 ///
 
 #include <string>
+#include <vector>
+#include "Effects.h"
 
 using namespace std;
 
@@ -16,6 +18,7 @@ class Entity
         int level;
         int maxHealth;
         int health;
+        vector <Effects*> effects;
 
     public:
         Entity(string name_, int level_, int maxHealth_);
@@ -25,10 +28,13 @@ class Entity
         int getLevel() const { return level; }
         int getMaxHealth() const { return maxHealth; }
         int getHealth() const { return health; }
+        vector <Effects*> getEffects() const { return effects; }
 
         void setMaxHealth(int maxHp) { maxHealth = maxHp; }
         void setHealth(int hp) { health = hp; }
         void setLevel(int lvl) { level = lvl; }
+        virtual void countTurn() {}
+        virtual void addEffect(EffectType type,int power,int duration) {}
 };
 
 

@@ -18,7 +18,6 @@ class Hero : public Entity
         Weapon* weapon1;
         Weapon* weapon2;
         Armour* armour;
-        vector <Effects*> effects;
         int maxMagic;
         int magic;
         int strength;
@@ -49,8 +48,8 @@ class Hero : public Entity
         void equipWeapon(Weapon* weapon);
 
         void attack(Monster* monster);
-        void addEffect(EffectType type,int power,int duration);
-        void countTurn();
+        void addEffect(EffectType type,int power,int duration) override;
+        void countTurn() override;
         virtual void print();
         virtual void levelUp() {};
 };

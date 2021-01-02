@@ -29,7 +29,6 @@ void Monster::print() const
 /// ATTACK
 void Monster::attack(Hero* hero)
 {
-
     bool dodged = (rand() % 100) < hero->getAgility()/4;
 
     if (!dodged)
@@ -42,3 +41,41 @@ void Monster::attack(Hero* hero)
     } else cout << endl << "Hero " << hero->getName() << " dodges " << Entity::getName() << "'s attack!";
 }
 
+/// ADD EFFECT (DEBUFF)
+void Monster::addEffect(EffectType type, int power, int duration)
+{
+    Entity::getEffects().push_back(new Effects(type,power,duration));
+
+    if(type == DMG_DEBUFF){
+        setDamage(getDamage()-power);
+        return;
+    }
+    if(type == DEF_DEBUFF){
+        setDefence(getDefence()-power);
+        return;
+    }
+    if(type == DODGE_DEBUFF){
+        /// for a power of 100 (perhaps derived from a spell from a level 50 hero), this reduces dodge chance by 50%
+        setDodge(getDodge()-(((double) power)/200.0));
+        return;
+    }
+}
+
+/// COUNT TURN
+void Monster::countTurn() {
+    for(int i=0;i<Entity::getEffects().size();i++){
+        Entity::getEffects().at(i)->setDuration(Entity::getEffects().at(i)->getDuration()-1);
+        if(Entity::getEffects().at(i)->getDuration()==0){
+            if(Entity::getEffects().at(i)->getType()==DMG_DEBUFF){
+                setDamage(getDamage()+Entity::getEffects().at(i)->getPower());
+            }
+            else if(Entity::getEffects().at(i)->getType()==DEF_DEBUFF){
+                setDefence(getDefence()+Entity::getEffects().at(i)->getPower());
+            }
+            else if(Entity::getEffects().at(i)->getType()==DODGE_DEBUFF){
+                setDodge(getDodge()+((double) Entity::getEffects().at(i)->getPower())/250.0);
+            }
+            Entity::getEffects().erase(Entity::getEffects().begin()+i);
+        }
+    }
+}
