@@ -12,12 +12,15 @@
 #include "StrengthPotion.h"
 #include "DexterityPotion.h"
 #include "AgilityPotion.h"
+#include "IceSpell.h"
+#include "FireSpell.h"
+#include "LightningSpell.h"
 
 using namespace std;
 
 int main()
 {
-    srand(time(NULL));
+    srand(time(nullptr));
 //-------------------------------------------------------------------------
 //    Warrior warrior(50);
 //    HealthPotion hp(40);
@@ -50,7 +53,7 @@ int main()
 //   Dragon dragon(50);
 //   Exoskeleton exoskeleton(50);
 //----------------------------------------------------------------------------
-    Warrior warrior(50);
+/*    Warrior warrior(50);
     Sorcerer sorcerer(50);
     Party party(&warrior,&sorcerer);
     party.print();
@@ -90,6 +93,33 @@ int main()
     party.printInv();
     party.useItem();
     party.useItem();
+
+    cout << endl;*/
+//----------------------------------------------------------------------------
+    Warrior warrior(50);
+    Sorcerer sorcerer(50);
+    Party party(&warrior, &sorcerer);
+
+    warrior.learnSpell(new IceSpell(50));
+    warrior.learnSpell(new IceSpell(20));
+    sorcerer.learnSpell(new FireSpell(50));
+    sorcerer.learnSpell(new LightningSpell(50));
+
+    party.print();
+
+    Dragon dragon(50);
+    Spirit spirit(50);
+
+    warrior.castSpell(&dragon);
+    warrior.castSpell(&spirit);
+
+    sorcerer.castSpell(&spirit);
+    sorcerer.castSpell(&dragon);
+
+    dragon.print();
+    spirit.print();
+
+    party.print();
 
     cout << endl;
     return 0;

@@ -67,10 +67,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\anarg\CLionProjects\Project_OOP
+CMAKE_SOURCE_DIR = C:\Users\Giann\CLionProjects\Project_OOP
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\anarg\CLionProjects\Project_OOP\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Giann\CLionProjects\Project_OOP\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\anarg\CLionProjects\Project_OOP\cmake-build-debug\CMakeFiles C:\Users\anarg\CLionProjects\Project_OOP\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Giann\CLionProjects\Project_OOP\cmake-build-debug\CMakeFiles C:\Users\Giann\CLionProjects\Project_OOP\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\anarg\CLionProjects\Project_OOP\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Giann\CLionProjects\Project_OOP\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -331,6 +331,33 @@ Exoskeleton.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Exoskeleton.cpp.s
 .PHONY : Exoskeleton.cpp.s
 
+FireSpell.obj: FireSpell.cpp.obj
+
+.PHONY : FireSpell.obj
+
+# target to build an object file
+FireSpell.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/FireSpell.cpp.obj
+.PHONY : FireSpell.cpp.obj
+
+FireSpell.i: FireSpell.cpp.i
+
+.PHONY : FireSpell.i
+
+# target to preprocess a source file
+FireSpell.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/FireSpell.cpp.i
+.PHONY : FireSpell.cpp.i
+
+FireSpell.s: FireSpell.cpp.s
+
+.PHONY : FireSpell.s
+
+# target to generate assembly for a file
+FireSpell.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/FireSpell.cpp.s
+.PHONY : FireSpell.cpp.s
+
 HealthPotion.obj: HealthPotion.cpp.obj
 
 .PHONY : HealthPotion.obj
@@ -385,6 +412,33 @@ Hero.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Hero.cpp.s
 .PHONY : Hero.cpp.s
 
+IceSpell.obj: IceSpell.cpp.obj
+
+.PHONY : IceSpell.obj
+
+# target to build an object file
+IceSpell.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/IceSpell.cpp.obj
+.PHONY : IceSpell.cpp.obj
+
+IceSpell.i: IceSpell.cpp.i
+
+.PHONY : IceSpell.i
+
+# target to preprocess a source file
+IceSpell.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/IceSpell.cpp.i
+.PHONY : IceSpell.cpp.i
+
+IceSpell.s: IceSpell.cpp.s
+
+.PHONY : IceSpell.s
+
+# target to generate assembly for a file
+IceSpell.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/IceSpell.cpp.s
+.PHONY : IceSpell.cpp.s
+
 Item.obj: Item.cpp.obj
 
 .PHONY : Item.obj
@@ -411,6 +465,33 @@ Item.s: Item.cpp.s
 Item.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Item.cpp.s
 .PHONY : Item.cpp.s
+
+LightningSpell.obj: LightningSpell.cpp.obj
+
+.PHONY : LightningSpell.obj
+
+# target to build an object file
+LightningSpell.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/LightningSpell.cpp.obj
+.PHONY : LightningSpell.cpp.obj
+
+LightningSpell.i: LightningSpell.cpp.i
+
+.PHONY : LightningSpell.i
+
+# target to preprocess a source file
+LightningSpell.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/LightningSpell.cpp.i
+.PHONY : LightningSpell.cpp.i
+
+LightningSpell.s: LightningSpell.cpp.s
+
+.PHONY : LightningSpell.s
+
+# target to generate assembly for a file
+LightningSpell.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/LightningSpell.cpp.s
+.PHONY : LightningSpell.cpp.s
 
 Monster.obj: Monster.cpp.obj
 
@@ -546,6 +627,33 @@ Sorcerer.s: Sorcerer.cpp.s
 Sorcerer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Sorcerer.cpp.s
 .PHONY : Sorcerer.cpp.s
+
+Spell.obj: Spell.cpp.obj
+
+.PHONY : Spell.obj
+
+# target to build an object file
+Spell.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Spell.cpp.obj
+.PHONY : Spell.cpp.obj
+
+Spell.i: Spell.cpp.i
+
+.PHONY : Spell.i
+
+# target to preprocess a source file
+Spell.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Spell.cpp.i
+.PHONY : Spell.cpp.i
+
+Spell.s: Spell.cpp.s
+
+.PHONY : Spell.s
+
+# target to generate assembly for a file
+Spell.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Spell.cpp.s
+.PHONY : Spell.cpp.s
 
 Spirit.obj: Spirit.cpp.obj
 
@@ -739,15 +847,24 @@ help:
 	@echo ... Exoskeleton.obj
 	@echo ... Exoskeleton.i
 	@echo ... Exoskeleton.s
+	@echo ... FireSpell.obj
+	@echo ... FireSpell.i
+	@echo ... FireSpell.s
 	@echo ... HealthPotion.obj
 	@echo ... HealthPotion.i
 	@echo ... HealthPotion.s
 	@echo ... Hero.obj
 	@echo ... Hero.i
 	@echo ... Hero.s
+	@echo ... IceSpell.obj
+	@echo ... IceSpell.i
+	@echo ... IceSpell.s
 	@echo ... Item.obj
 	@echo ... Item.i
 	@echo ... Item.s
+	@echo ... LightningSpell.obj
+	@echo ... LightningSpell.i
+	@echo ... LightningSpell.s
 	@echo ... Monster.obj
 	@echo ... Monster.i
 	@echo ... Monster.s
@@ -763,6 +880,9 @@ help:
 	@echo ... Sorcerer.obj
 	@echo ... Sorcerer.i
 	@echo ... Sorcerer.s
+	@echo ... Spell.obj
+	@echo ... Spell.i
+	@echo ... Spell.s
 	@echo ... Spirit.obj
 	@echo ... Spirit.i
 	@echo ... Spirit.s

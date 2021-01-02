@@ -11,6 +11,7 @@
 #include "Armour.h"
 #include "Weapon.h"
 #include "Effects.h"
+#include "Spell.h"
 
 class Hero : public Entity
 {
@@ -18,6 +19,7 @@ class Hero : public Entity
         Weapon* weapon1;
         Weapon* weapon2;
         Armour* armour;
+        vector <Spell*> spells;
         int maxMagic;
         int magic;
         int strength;
@@ -48,9 +50,12 @@ class Hero : public Entity
         void equipWeapon(Weapon* weapon);
 
         void attack(Monster* monster);
+        void learnSpell(Spell* spell);
+        void castSpell(Monster* monster);
         void addEffect(EffectType type,int power,int duration) override;
         void countTurn() override;
         virtual void print();
+        void printSpells();
         virtual void levelUp() {};
 };
 

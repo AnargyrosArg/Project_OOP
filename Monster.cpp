@@ -37,8 +37,9 @@ void Monster::attack(Hero* hero)
         if ((rand() % 100) < 50) extraDamage = extraDamage*(-1); /// 50% of the time monster deals less damage than the base
         int damageTotal = max(baseDamage + extraDamage, 0); /// add max(..., 0) so we never do negative damage
         hero->setHealth(hero->getHealth() - damageTotal);
-        cout << endl << "Monster " << Entity::getName() << " attacks " << hero->getName() << " and deals " << damageTotal << " damage!";
-    } else cout << endl << "Hero " << hero->getName() << " dodges " << Entity::getName() << "'s attack!";
+        cout << endl << "Filled with rage, monster " << Entity::getName() << " attacks "
+        << hero->getName() << " and deals an impressive " << damageTotal << " damage!";
+    } else cout << endl << "Hero " << hero->getName() << " dodges " << Entity::getName() << "'s attack! Inhuman reactions!";
 }
 
 /// ADD EFFECT (DEBUFF)

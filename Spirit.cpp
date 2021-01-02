@@ -6,10 +6,10 @@
 #include "Spirit.h"
 
 /// CONSTRUCTOR
-Spirit::Spirit(int lvl) : Monster(getRandomName("../Names/Names.txt"), lvl, lvl*4, lvl, lvl, (double) lvl*3)
+Spirit::Spirit(int lvl) : Monster(getRandomName("../Names/Names.txt"), lvl, lvl*50, lvl, lvl, (double) lvl*3)
 {
-    cout << "Created Spirit named " << Entity::getName() << ". Stats:" << endl << "Dmg: " << Monster::getDamage() << endl << "Def: "
-         << Monster::getDefence() << endl << "Dodge: " << Monster::getDodge() << endl << endl;
+    cout << "Created Spirit named " << Entity::getName() << ". Stats:" << endl << "Hp: " << Entity::getMaxHealth() << endl << "Dmg: "
+    << Monster::getDamage() << endl << "Def: " << Monster::getDefence() << endl << "Dodge: " << Monster::getDodge() << endl << endl;
 }
 
 /// DESTRUCTOR
