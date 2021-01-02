@@ -13,10 +13,6 @@ class DexterityPotion:public Potion {
         DexterityPotion(int level);
         ~DexterityPotion();
         void equip(Hero* hero) override; /// When we "equip" a potion, we consume it
-
-
-
-
 };
 
 

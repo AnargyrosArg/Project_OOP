@@ -142,6 +142,33 @@ untitled1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/build
 .PHONY : untitled1/fast
 
+AgilityPotion.obj: AgilityPotion.cpp.obj
+
+.PHONY : AgilityPotion.obj
+
+# target to build an object file
+AgilityPotion.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/AgilityPotion.cpp.obj
+.PHONY : AgilityPotion.cpp.obj
+
+AgilityPotion.i: AgilityPotion.cpp.i
+
+.PHONY : AgilityPotion.i
+
+# target to preprocess a source file
+AgilityPotion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/AgilityPotion.cpp.i
+.PHONY : AgilityPotion.cpp.i
+
+AgilityPotion.s: AgilityPotion.cpp.s
+
+.PHONY : AgilityPotion.s
+
+# target to generate assembly for a file
+AgilityPotion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/AgilityPotion.cpp.s
+.PHONY : AgilityPotion.cpp.s
+
 Armour.obj: Armour.cpp.obj
 
 .PHONY : Armour.obj
@@ -691,6 +718,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... untitled1
+	@echo ... AgilityPotion.obj
+	@echo ... AgilityPotion.i
+	@echo ... AgilityPotion.s
 	@echo ... Armour.obj
 	@echo ... Armour.i
 	@echo ... Armour.s

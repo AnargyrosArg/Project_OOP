@@ -29,5 +29,5 @@ DexterityPotion::DexterityPotion(int level):Potion("Dexterity Potion",100*level,
 }
 
 DexterityPotion::~DexterityPotion() {
-    cout << "Strength Potion deleted" << endl;
+    cout << "Dexterity Potion deleted" << endl;
 }

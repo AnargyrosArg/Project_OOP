@@ -11,26 +11,26 @@
 #include "HealthPotion.h"
 #include "StrengthPotion.h"
 #include "DexterityPotion.h"
+#include "AgilityPotion.h"
 
 using namespace std;
 
 int main()
 {
     srand(time(NULL));
-
 //-------------------------------------------------------------------------
-    Warrior warrior(50);
-    HealthPotion hp(40);
-    DexterityPotion sp(50,50,3);
-    warrior.setHealth(50);
-    warrior.print();
-    sp.equip(&warrior);
-    hp.equip(&warrior);
-    warrior.print();
-    warrior.countTurn();
-    warrior.countTurn();
-    warrior.countTurn();
-    warrior.print();
+//    Warrior warrior(50);
+//    HealthPotion hp(40);
+//    AgilityPotion sp(50,50,3);
+//    warrior.setHealth(50);
+//    warrior.print();
+//    sp.equip(&warrior);
+//    hp.equip(&warrior);
+//    warrior.print();
+//    warrior.countTurn();
+//    warrior.countTurn();
+//    warrior.countTurn();
+//    warrior.print();
 //-------------------------------------------------------------------------
 //   Weapon testWeapon(50);
 //   cout << endl;
@@ -50,7 +50,7 @@ int main()
 //   Dragon dragon(50);
 //   Exoskeleton exoskeleton(50);
 //----------------------------------------------------------------------------
-/*    Warrior warrior(50);
+    Warrior warrior(50);
     Sorcerer sorcerer(50);
     Party party(&warrior,&sorcerer);
     party.print();
@@ -93,5 +93,5 @@ int main()
 
     cout << endl;
     return 0;
-    */
+
 }

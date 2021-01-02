@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/anarg/CLionProjects/Project_OOP/AgilityPotion.cpp" "C:/Users/anarg/CLionProjects/Project_OOP/cmake-build-debug/CMakeFiles/untitled1.dir/AgilityPotion.cpp.obj"
   "C:/Users/anarg/CLionProjects/Project_OOP/Armour.cpp" "C:/Users/anarg/CLionProjects/Project_OOP/cmake-build-debug/CMakeFiles/untitled1.dir/Armour.cpp.obj"
   "C:/Users/anarg/CLionProjects/Project_OOP/DexterityPotion.cpp" "C:/Users/anarg/CLionProjects/Project_OOP/cmake-build-debug/CMakeFiles/untitled1.dir/DexterityPotion.cpp.obj"
   "C:/Users/anarg/CLionProjects/Project_OOP/Dragon.cpp" "C:/Users/anarg/CLionProjects/Project_OOP/cmake-build-debug/CMakeFiles/untitled1.dir/Dragon.cpp.obj"

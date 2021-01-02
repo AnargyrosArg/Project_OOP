@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/anarg/CLionProjects/Project_OOP/AgilityPotion.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="C:/Users/anarg/CLionProjects/Project_OOP/AgilityPotion.h">
+			<Option target="untitled1"/>
+		</Unit>
 		<Unit filename="C:/Users/anarg/CLionProjects/Project_OOP/Armour.cpp">
 			<Option target="untitled1"/>
 		</Unit>
