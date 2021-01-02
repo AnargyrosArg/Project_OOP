@@ -22,6 +22,6 @@ Spirit::~Spirit()
 /// PRINT
 void Spirit::print() const
 {
-    cout << endl << endl << "Spirit ";
+    cout << endl << endl << "Spirit: ";
     Monster::print();
 }

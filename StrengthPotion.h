@@ -11,8 +11,9 @@ class StrengthPotion:public Potion {
 private:
 public:
     StrengthPotion(int level,int potency,int duration);
+    StrengthPotion(int level);
     ~StrengthPotion();
-    void use(Hero* hero);
+    void equip(Hero* hero) override; /// When we "equip" a potion, we consume it
 
 };
 

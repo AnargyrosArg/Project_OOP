@@ -53,14 +53,18 @@ int main()
     Sorcerer sorcerer(50);
     Party party(&warrior,&sorcerer);
     party.print();
+
     party.pickUp(new Weapon(50));
     party.pickUp(new Armour(50));
     party.pickUp(new Weapon(50));
     party.pickUp(new Armour(50));
+    party.pickUp(new StrengthPotion(50));
+    party.pickUp(new HealthPotion(50));
     party.printInv();
-    party.equip();
-    party.equip();
-    party.equip();
+
+    party.useItem();
+    party.useItem();
+    party.useItem();
     party.print();
 
     Dragon dragon(50);
@@ -81,6 +85,10 @@ int main()
     dragon.print();
     spirit.print();
     party.print();
+
+    party.printInv();
+    party.useItem();
+    party.useItem();
 
     cout << endl;
     return 0;

@@ -41,30 +41,34 @@ void Party::printInv() {
     cout << "-----------------------------"<<endl;
 }
 
-void Party::equip() {
-    int heroindex=0,itemindex=0;
-    for(int i=0;i<party.size();i++){
+void Party::useItem() {
+    int heroIndex = 0, itemIndex = 0;
+    for(int i=0; i<party.size(); i++){
         cout << i+1<<". ";
         party.at(i)->print();
     }
-    cout << "Select Hero to equip item to" << endl;
-    cin >> heroindex;
-    heroindex--;
-    if(heroindex>=party.size()){
-        cerr << "No such hero"<< endl;
+    cout << "Select Hero to use item" << endl;
+    cin >> heroIndex;
+    heroIndex--;
+    if(heroIndex >= party.size()){
+        cerr << "No such hero" << endl;
         return;
     }
-    cout << "Selected "<<party.at(heroindex)->getName()<<endl;
+    cout << "Selected " << party.at(heroIndex)->getName() << endl;
     printInv();
-    cout << "Select item to equip" << endl;
-    cin >> itemindex;
-    itemindex--;
-    if(itemindex>=inventory.size()){
-        cerr << "No such item"<< endl;
+    cout << "Select item to use" << endl;
+    cin >> itemIndex;
+    itemIndex--;
+    if(itemIndex >= inventory.size()){
+        cerr << "No such item" << endl;
         return;
     }
 
-    if (!(inventory.at(itemindex)->isEquipped()))
-        inventory.at(itemindex)->equip(party.at(heroindex));
+    if (!(inventory.at(itemIndex)->isEquipped()))
+    {
+        inventory.at(itemIndex)->equip(party.at(heroIndex));
+        if (inventory.at(itemIndex)->isConsumable())
+            inventory.erase(inventory.begin() + itemIndex);
+    }
     else cout << "Item is already equipped in party" << endl;
 }

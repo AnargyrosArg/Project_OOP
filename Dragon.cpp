@@ -22,6 +22,6 @@ Dragon::~Dragon()
 /// PRINT
 void Dragon::print() const
 {
-    cout << endl << endl << "Dragon ";
+    cout << endl << endl << "Dragon: ";
     Monster::print();
 }

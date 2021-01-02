@@ -18,12 +18,15 @@ private:
     int cost;
     int levelReq;
     bool equipped;
+    bool consumable;
 public:
     int getCost()const{return cost;}
     int getLevelReq() const{return levelReq;}
     string getName()const{return name;}
     bool isEquipped() const { return equipped; }
     void setEquipped(bool status) { equipped = status; }
+    bool isConsumable() const { return consumable; }
+    void setConsumable(bool status) { consumable = status; }
     Item(string name,int level_requirement,int cost);
 
     virtual void equip(Hero* hero)=0;

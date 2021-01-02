@@ -20,7 +20,7 @@ public:
 
     void pickUp(Item* item);
     void printInv();
-    void equip();
+    void useItem();
 
     void print();
 };

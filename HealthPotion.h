@@ -12,7 +12,7 @@ private:
 public:
     HealthPotion(int level);
     ~HealthPotion();
-    void use(Hero* hero);
+    void equip(Hero* hero) override; /// When we "equip" a potion, we consume it
 };
 
 

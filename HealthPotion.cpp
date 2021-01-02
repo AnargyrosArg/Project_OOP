@@ -4,7 +4,8 @@
 
 #include "HealthPotion.h"
 
-void HealthPotion::use(Hero *hero) {
+/// When we "equip" a potion, we consume it
+void HealthPotion::equip(Hero *hero) {
     if(hero->getHealth()>0){
         hero->setHealth(hero->getHealth()+getPotency());
         if(hero->getHealth()>hero->getMaxHealth()){
