@@ -2,12 +2,15 @@
 /// Created by Giann on 12/30/2020.
 ///
 
-#include "Entity.h"
-#include "Armour.h"
-#include "Weapon.h"
+
 
 #ifndef HERO_H
 #define HERO_H
+#include <vector>
+#include "Monster.h"
+#include "Armour.h"
+#include "Weapon.h"
+#include "Effects.h"
 
 class Hero : public Entity
 {
@@ -22,7 +25,6 @@ class Hero : public Entity
         int agility;
         int money;
         int experience;
-
     public:
         Hero(string name_, int lvl, int hp, int magic_, int str, int dex, int agil);
         ~Hero() override = 0;
@@ -45,10 +47,11 @@ class Hero : public Entity
         void setArmour(Armour* armour);
         void equipWeapon(Weapon* weapon);
 
+        void attack(Monster* monster);
+        void addEffect(EffectType type,int power,int duration) override;
+        void countTurn() override;
         virtual void print();
         virtual void levelUp() {};
-
-
 };
 
 

@@ -3,6 +3,8 @@
 //
 
 #include "Armour.h"
+#include "Hero.h"
+
 Armour::Armour(string name, int cost, int level, int defence)
 :Item(name,level,cost),defence(defence){
     cout << "Armour "<<getName()<<" created"<<endl;
@@ -14,4 +16,13 @@ Armour::Armour(int level)
     cout << "Defence: " << getDefence() << endl;
     cout << "Cost: " << getCost() << endl;
     cout << "Level: " << getLevelReq() << endl;
+}
+
+void Armour::print() {
+    cout << "Armour ";
+    Item::print();
+}
+
+void Armour::equip(Hero *hero) {
+    hero->setArmour(this);
 }

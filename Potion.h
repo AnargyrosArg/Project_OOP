@@ -6,15 +6,20 @@
 #define UNTITLED1_POTION_H
 
 #include "Item.h"
-
-enum PotionTypes{Health=0,Strength=1,Dexterity=2,Agility=3};
+#include "Hero.h"
+#include "Effects.h"
 
 class Potion : public Item{
 private:
-    PotionTypes type;
+    int potency;
+    int duration;
 public:
-    PotionTypes getType(){return type;}
-    int getEffect();
+    void equip(Hero* hero) override = 0; /// When we "equip" a potion, we consume it
+    Potion(string Name,int Cost,int Level,int Potency,int Duration);
+    Potion(string Name,int Cost,int Level,int Potency);
+    virtual ~Potion();
+    int getPotency() const{return potency;}
+    int getDuration(){return duration;}
 };
 
 

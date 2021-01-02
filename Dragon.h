@@ -12,6 +12,8 @@ class Dragon : public Monster
     public:
         Dragon(int lvl);
         ~Dragon() override;
+
+        void print() const override;
 };
 
 #endif //DRAGON_H

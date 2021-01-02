@@ -12,6 +12,8 @@ class Spirit : public Monster
     public:
         Spirit(int lvl);
         ~Spirit() override;
+
+        void print() const override;
 };
 
 #endif //SPIRIT_H

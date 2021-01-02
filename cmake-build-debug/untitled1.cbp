@@ -92,6 +92,12 @@
 		<Unit filename="C:/Users/anarg/CLionProjects/Project_OOP/Dragon.h">
 			<Option target="untitled1"/>
 		</Unit>
+		<Unit filename="C:/Users/anarg/CLionProjects/Project_OOP/Effects.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="C:/Users/anarg/CLionProjects/Project_OOP/Effects.h">
+			<Option target="untitled1"/>
+		</Unit>
 		<Unit filename="C:/Users/anarg/CLionProjects/Project_OOP/Entity.cpp">
 			<Option target="untitled1"/>
 		</Unit>
@@ -102,6 +108,12 @@
 			<Option target="untitled1"/>
 		</Unit>
 		<Unit filename="C:/Users/anarg/CLionProjects/Project_OOP/Exoskeleton.h">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="C:/Users/anarg/CLionProjects/Project_OOP/HealthPotion.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="C:/Users/anarg/CLionProjects/Project_OOP/HealthPotion.h">
 			<Option target="untitled1"/>
 		</Unit>
 		<Unit filename="C:/Users/anarg/CLionProjects/Project_OOP/Hero.cpp">
@@ -128,6 +140,12 @@
 		<Unit filename="C:/Users/anarg/CLionProjects/Project_OOP/Paladin.h">
 			<Option target="untitled1"/>
 		</Unit>
+		<Unit filename="C:/Users/anarg/CLionProjects/Project_OOP/Party.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="C:/Users/anarg/CLionProjects/Project_OOP/Party.h">
+			<Option target="untitled1"/>
+		</Unit>
 		<Unit filename="C:/Users/anarg/CLionProjects/Project_OOP/Potion.cpp">
 			<Option target="untitled1"/>
 		</Unit>
@@ -144,6 +162,12 @@
 			<Option target="untitled1"/>
 		</Unit>
 		<Unit filename="C:/Users/anarg/CLionProjects/Project_OOP/Spirit.h">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="C:/Users/anarg/CLionProjects/Project_OOP/StrengthPotion.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="C:/Users/anarg/CLionProjects/Project_OOP/StrengthPotion.h">
 			<Option target="untitled1"/>
 		</Unit>
 		<Unit filename="C:/Users/anarg/CLionProjects/Project_OOP/Utils.cpp">

@@ -271,6 +271,58 @@ CMakeFiles/untitled1.dir/Spirit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled1.dir/Spirit.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\anarg\CLionProjects\Project_OOP\Spirit.cpp -o CMakeFiles\untitled1.dir\Spirit.cpp.s
 
+CMakeFiles/untitled1.dir/Party.cpp.obj: CMakeFiles/untitled1.dir/flags.make
+CMakeFiles/untitled1.dir/Party.cpp.obj: ../Party.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\anarg\CLionProjects\Project_OOP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/untitled1.dir/Party.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled1.dir\Party.cpp.obj -c C:\Users\anarg\CLionProjects\Project_OOP\Party.cpp
+
+CMakeFiles/untitled1.dir/Party.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled1.dir/Party.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\anarg\CLionProjects\Project_OOP\Party.cpp > CMakeFiles\untitled1.dir\Party.cpp.i
+
+CMakeFiles/untitled1.dir/Party.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled1.dir/Party.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\anarg\CLionProjects\Project_OOP\Party.cpp -o CMakeFiles\untitled1.dir\Party.cpp.s
+
+CMakeFiles/untitled1.dir/HealthPotion.cpp.obj: CMakeFiles/untitled1.dir/flags.make
+CMakeFiles/untitled1.dir/HealthPotion.cpp.obj: ../HealthPotion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\anarg\CLionProjects\Project_OOP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/untitled1.dir/HealthPotion.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled1.dir\HealthPotion.cpp.obj -c C:\Users\anarg\CLionProjects\Project_OOP\HealthPotion.cpp
+
+CMakeFiles/untitled1.dir/HealthPotion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled1.dir/HealthPotion.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\anarg\CLionProjects\Project_OOP\HealthPotion.cpp > CMakeFiles\untitled1.dir\HealthPotion.cpp.i
+
+CMakeFiles/untitled1.dir/HealthPotion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled1.dir/HealthPotion.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\anarg\CLionProjects\Project_OOP\HealthPotion.cpp -o CMakeFiles\untitled1.dir\HealthPotion.cpp.s
+
+CMakeFiles/untitled1.dir/StrengthPotion.cpp.obj: CMakeFiles/untitled1.dir/flags.make
+CMakeFiles/untitled1.dir/StrengthPotion.cpp.obj: ../StrengthPotion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\anarg\CLionProjects\Project_OOP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/untitled1.dir/StrengthPotion.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled1.dir\StrengthPotion.cpp.obj -c C:\Users\anarg\CLionProjects\Project_OOP\StrengthPotion.cpp
+
+CMakeFiles/untitled1.dir/StrengthPotion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled1.dir/StrengthPotion.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\anarg\CLionProjects\Project_OOP\StrengthPotion.cpp > CMakeFiles\untitled1.dir\StrengthPotion.cpp.i
+
+CMakeFiles/untitled1.dir/StrengthPotion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled1.dir/StrengthPotion.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\anarg\CLionProjects\Project_OOP\StrengthPotion.cpp -o CMakeFiles\untitled1.dir\StrengthPotion.cpp.s
+
+CMakeFiles/untitled1.dir/Effects.cpp.obj: CMakeFiles/untitled1.dir/flags.make
+CMakeFiles/untitled1.dir/Effects.cpp.obj: ../Effects.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\anarg\CLionProjects\Project_OOP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/untitled1.dir/Effects.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled1.dir\Effects.cpp.obj -c C:\Users\anarg\CLionProjects\Project_OOP\Effects.cpp
+
+CMakeFiles/untitled1.dir/Effects.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled1.dir/Effects.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\anarg\CLionProjects\Project_OOP\Effects.cpp > CMakeFiles\untitled1.dir\Effects.cpp.i
+
+CMakeFiles/untitled1.dir/Effects.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled1.dir/Effects.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\anarg\CLionProjects\Project_OOP\Effects.cpp -o CMakeFiles\untitled1.dir\Effects.cpp.s
+
 # Object files for target untitled1
 untitled1_OBJECTS = \
 "CMakeFiles/untitled1.dir/main.cpp.obj" \
@@ -287,7 +339,11 @@ untitled1_OBJECTS = \
 "CMakeFiles/untitled1.dir/Monster.cpp.obj" \
 "CMakeFiles/untitled1.dir/Dragon.cpp.obj" \
 "CMakeFiles/untitled1.dir/Exoskeleton.cpp.obj" \
-"CMakeFiles/untitled1.dir/Spirit.cpp.obj"
+"CMakeFiles/untitled1.dir/Spirit.cpp.obj" \
+"CMakeFiles/untitled1.dir/Party.cpp.obj" \
+"CMakeFiles/untitled1.dir/HealthPotion.cpp.obj" \
+"CMakeFiles/untitled1.dir/StrengthPotion.cpp.obj" \
+"CMakeFiles/untitled1.dir/Effects.cpp.obj"
 
 # External object files for target untitled1
 untitled1_EXTERNAL_OBJECTS =
@@ -307,11 +363,15 @@ untitled1.exe: CMakeFiles/untitled1.dir/Monster.cpp.obj
 untitled1.exe: CMakeFiles/untitled1.dir/Dragon.cpp.obj
 untitled1.exe: CMakeFiles/untitled1.dir/Exoskeleton.cpp.obj
 untitled1.exe: CMakeFiles/untitled1.dir/Spirit.cpp.obj
+untitled1.exe: CMakeFiles/untitled1.dir/Party.cpp.obj
+untitled1.exe: CMakeFiles/untitled1.dir/HealthPotion.cpp.obj
+untitled1.exe: CMakeFiles/untitled1.dir/StrengthPotion.cpp.obj
+untitled1.exe: CMakeFiles/untitled1.dir/Effects.cpp.obj
 untitled1.exe: CMakeFiles/untitled1.dir/build.make
 untitled1.exe: CMakeFiles/untitled1.dir/linklibs.rsp
 untitled1.exe: CMakeFiles/untitled1.dir/objects1.rsp
 untitled1.exe: CMakeFiles/untitled1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\anarg\CLionProjects\Project_OOP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable untitled1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\anarg\CLionProjects\Project_OOP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable untitled1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\untitled1.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

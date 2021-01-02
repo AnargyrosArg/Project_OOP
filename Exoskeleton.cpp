@@ -18,3 +18,10 @@ Exoskeleton::~Exoskeleton()
     cout << "Destroyed Exoskeleton named " << Entity::getName() << ". Stats:" << endl << "Dmg: " << Monster::getDamage() << endl << "Def: "
          << Monster::getDefence() << endl << "Dodge: " << Monster::getDodge() << endl << endl;
 }
+
+/// PRINT
+void Exoskeleton::print() const
+{
+    cout << endl << endl << "Exoskeleton: ";
+    Monster::print();
+}

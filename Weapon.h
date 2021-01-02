@@ -16,6 +16,8 @@ public:
     int isTwoHanded()const{return twoHanded;}
     Weapon(string name, int cost, int level, int damage, bool two_handed);
     Weapon(int level);
+    void print();
+    void equip(Hero* hero);
     ~Weapon();
 };
 

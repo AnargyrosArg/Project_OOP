@@ -196,6 +196,33 @@ Dragon.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Dragon.cpp.s
 .PHONY : Dragon.cpp.s
 
+Effects.obj: Effects.cpp.obj
+
+.PHONY : Effects.obj
+
+# target to build an object file
+Effects.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Effects.cpp.obj
+.PHONY : Effects.cpp.obj
+
+Effects.i: Effects.cpp.i
+
+.PHONY : Effects.i
+
+# target to preprocess a source file
+Effects.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Effects.cpp.i
+.PHONY : Effects.cpp.i
+
+Effects.s: Effects.cpp.s
+
+.PHONY : Effects.s
+
+# target to generate assembly for a file
+Effects.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Effects.cpp.s
+.PHONY : Effects.cpp.s
+
 Entity.obj: Entity.cpp.obj
 
 .PHONY : Entity.obj
@@ -249,6 +276,33 @@ Exoskeleton.s: Exoskeleton.cpp.s
 Exoskeleton.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Exoskeleton.cpp.s
 .PHONY : Exoskeleton.cpp.s
+
+HealthPotion.obj: HealthPotion.cpp.obj
+
+.PHONY : HealthPotion.obj
+
+# target to build an object file
+HealthPotion.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/HealthPotion.cpp.obj
+.PHONY : HealthPotion.cpp.obj
+
+HealthPotion.i: HealthPotion.cpp.i
+
+.PHONY : HealthPotion.i
+
+# target to preprocess a source file
+HealthPotion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/HealthPotion.cpp.i
+.PHONY : HealthPotion.cpp.i
+
+HealthPotion.s: HealthPotion.cpp.s
+
+.PHONY : HealthPotion.s
+
+# target to generate assembly for a file
+HealthPotion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/HealthPotion.cpp.s
+.PHONY : HealthPotion.cpp.s
 
 Hero.obj: Hero.cpp.obj
 
@@ -358,6 +412,33 @@ Paladin.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Paladin.cpp.s
 .PHONY : Paladin.cpp.s
 
+Party.obj: Party.cpp.obj
+
+.PHONY : Party.obj
+
+# target to build an object file
+Party.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Party.cpp.obj
+.PHONY : Party.cpp.obj
+
+Party.i: Party.cpp.i
+
+.PHONY : Party.i
+
+# target to preprocess a source file
+Party.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Party.cpp.i
+.PHONY : Party.cpp.i
+
+Party.s: Party.cpp.s
+
+.PHONY : Party.s
+
+# target to generate assembly for a file
+Party.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Party.cpp.s
+.PHONY : Party.cpp.s
+
 Potion.obj: Potion.cpp.obj
 
 .PHONY : Potion.obj
@@ -438,6 +519,33 @@ Spirit.s: Spirit.cpp.s
 Spirit.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Spirit.cpp.s
 .PHONY : Spirit.cpp.s
+
+StrengthPotion.obj: StrengthPotion.cpp.obj
+
+.PHONY : StrengthPotion.obj
+
+# target to build an object file
+StrengthPotion.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/StrengthPotion.cpp.obj
+.PHONY : StrengthPotion.cpp.obj
+
+StrengthPotion.i: StrengthPotion.cpp.i
+
+.PHONY : StrengthPotion.i
+
+# target to preprocess a source file
+StrengthPotion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/StrengthPotion.cpp.i
+.PHONY : StrengthPotion.cpp.i
+
+StrengthPotion.s: StrengthPotion.cpp.s
+
+.PHONY : StrengthPotion.s
+
+# target to generate assembly for a file
+StrengthPotion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/StrengthPotion.cpp.s
+.PHONY : StrengthPotion.cpp.s
 
 Utils.obj: Utils.cpp.obj
 
@@ -562,12 +670,18 @@ help:
 	@echo ... Dragon.obj
 	@echo ... Dragon.i
 	@echo ... Dragon.s
+	@echo ... Effects.obj
+	@echo ... Effects.i
+	@echo ... Effects.s
 	@echo ... Entity.obj
 	@echo ... Entity.i
 	@echo ... Entity.s
 	@echo ... Exoskeleton.obj
 	@echo ... Exoskeleton.i
 	@echo ... Exoskeleton.s
+	@echo ... HealthPotion.obj
+	@echo ... HealthPotion.i
+	@echo ... HealthPotion.s
 	@echo ... Hero.obj
 	@echo ... Hero.i
 	@echo ... Hero.s
@@ -580,6 +694,9 @@ help:
 	@echo ... Paladin.obj
 	@echo ... Paladin.i
 	@echo ... Paladin.s
+	@echo ... Party.obj
+	@echo ... Party.i
+	@echo ... Party.s
 	@echo ... Potion.obj
 	@echo ... Potion.i
 	@echo ... Potion.s
@@ -589,6 +706,9 @@ help:
 	@echo ... Spirit.obj
 	@echo ... Spirit.i
 	@echo ... Spirit.s
+	@echo ... StrengthPotion.obj
+	@echo ... StrengthPotion.i
+	@echo ... StrengthPotion.s
 	@echo ... Utils.obj
 	@echo ... Utils.i
 	@echo ... Utils.s

@@ -3,12 +3,13 @@
 //
 
 #include "Weapon.h"
+#include "Hero.h"
 
 Weapon::Weapon(string name,int cost,int level,int damage, bool two_handed = false):damage(damage),twoHanded(two_handed),Item(name,cost,level){
     cout << "Weapon: "<<getName()<<" created"<<endl;
 }
 Weapon::Weapon(int level):Item(getRandomName("../Names/Weapons.txt"),level,
- (100*level)+rand()%(10*level)),damage((level*10+rand()%level)),twoHanded(rand()%1){
+ (100*level)+rand()%(10*level)),damage((level*10+rand()%level)),twoHanded(rand()%2){
     cout << "Generated random weapon" << endl;
     cout << "Name: " << getName() << endl;
     cout << "Damage: " << getDamage() << endl;
@@ -20,3 +21,14 @@ Weapon::Weapon(int level):Item(getRandomName("../Names/Weapons.txt"),level,
 Weapon::~Weapon(){
     cout << "Weapon: " << getName() << " deleted"<<endl;
 }
+
+void Weapon::print() {
+    cout << (isTwoHanded() ? "Two Handed " : "One Handed ");
+    cout << "Weapon ";
+    Item::print();
+}
+
+void Weapon::equip(Hero *hero) {
+    hero->equipWeapon(this);
+}
+

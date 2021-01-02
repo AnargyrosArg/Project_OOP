@@ -14,6 +14,9 @@ private:
     int defence;
 public:
     int getDefence(){return defence;}
+
+    void equip(Hero* hero);
+    void print();
     Armour(int level);
     Armour(string name, int cost, int level, int defence);
 };
