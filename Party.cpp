@@ -20,6 +20,7 @@ Party::Party(Hero *hero) {
 }
 
 void Party::print() {
+    cout << endl;
     for(int i=0;i<party.size();i++){
         cout << i+1 << ". ";
         party.at(i)->print();
@@ -44,20 +45,30 @@ void Party::printInv() {
     cout << "-----------------------------"<<endl;
 }
 
-void Party::useItem() {
+void Party::useItem(Hero* hero)
+{
     int heroIndex = 0, itemIndex = 0;
-    for(int i=0; i<party.size(); i++){
-        cout << i+1<<". ";
-        party.at(i)->print();
+
+    if (hero == nullptr) {
+        for (int i = 0; i < party.size(); i++) {
+            cout << i + 1 << ". ";
+            party.at(i)->print();
+        }
+        cout << "Someone in the group wants to use an item..." << endl;
+        cin >> heroIndex;
+        heroIndex--;
+        if (heroIndex >= party.size()) {
+            cout << "No such hero" << endl;
+            return;
+        }
+        cout << "That person is " << party.at(heroIndex)->getName() << endl;
+        hero = party.at(heroIndex);
     }
-    cout << "Someone in the group wants to use an item..." << endl;
-    cin >> heroIndex;
-    heroIndex--;
-    if(heroIndex >= party.size()){
-        cout << "No such hero" << endl;
+    if (hero->checkDead()) {
+        cout << "Can't use items on fainted heroes!";
         return;
     }
-    cout << "That person is " << party.at(heroIndex)->getName() << endl;
+
     printInv();
     cout << "Which item will he use?" << endl;
     cin >> itemIndex;
@@ -66,13 +77,13 @@ void Party::useItem() {
         cout << "No such item" << endl;
         return;
     }
-    if(inventory.at(itemIndex)->getLevelReq()>party.at(heroIndex)->getLevel()){ //Item level check
+    if(inventory.at(itemIndex)->getLevelReq()>hero->getLevel()){ //Item level check
         cout << "Level requirement not met"<<endl;
         return;
     }
     if (!(inventory.at(itemIndex)->isEquipped()))
     {
-        inventory.at(itemIndex)->equip(party.at(heroIndex));
+        inventory.at(itemIndex)->equip(hero);
         if (inventory.at(itemIndex)->isConsumable())
             inventory.erase(inventory.begin() + itemIndex);
     }

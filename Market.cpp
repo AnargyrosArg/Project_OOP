@@ -6,13 +6,13 @@
 
 
 Market::Market(int level) {
-    for(int i=0;i<WEAPONS;i++){
+    for(int i=0;i<WEAPONS;i++) {
         items.push_back(new Weapon(level));
     }
-    for(int i=0;i<ARMOURS;i++){
+    for(int i=0;i<ARMOURS;i++) {
         items.push_back(new Armour(level));
     }
-    for(int i=0;i<POTIONS;i++){
+    for(int i=0;i<POTIONS;i++) {
         int select=rand()%4;
         switch (select) {
             case 0:
@@ -32,7 +32,7 @@ Market::Market(int level) {
                 return;
         }
     }
-    for(int i=0;i<SPELLS;i++){
+    for(int i=0;i<SPELLS;i++) {
         int select=rand()%3;
         switch (select) {
             case 0:
@@ -54,16 +54,16 @@ Market::Market(int level) {
 void Market::printStock() {
     int i;
     cout << "---------- Market Stock ----------"<<endl;
-    for(i=0;i<items.size();i++){
+    for(i=0;i<items.size();i++) {
         cout << i+1 <<". ";
         items.at(i)->print();
-        cout << " Cost: "<<items.at(i)->getCost();
+        cout << " / Cost: "<<items.at(i)->getCost();
         cout << endl;
     }
-    for(int j=0;j<spells.size();i++,j++){
+    for(int j=0;j<spells.size();i++,j++) {
         cout << i+1 <<". ";
         spells.at(j)->print();
-        cout << " Cost: "<< spells.at(j)->getCost()<<endl;
+        cout << " / Cost: "<< spells.at(j)->getCost()<<endl;
     }
 }
 
@@ -77,15 +77,15 @@ void Market::event(Party *party) {
     if(itemindex>=items.size()+spells.size()){
         return;
     }
-    if(purchase(itemindex,party)==true){
+    if(purchase(itemindex, party)){
         removeFromStock(itemindex);
     }
     event(party);
 }
 
 bool Market::purchase(int itemindex,Party* party) {
-    if(itemindex<items.size()){
-        if(party->getMoney()<items.at(itemindex)->getCost()){
+    if(itemindex<items.size()) {
+        if(party->getMoney()<items.at(itemindex)->getCost()) {
             cout << "Not enough money"<<endl;
             return false;
         }else{
@@ -95,7 +95,7 @@ bool Market::purchase(int itemindex,Party* party) {
         }
     }else{
         int spellindex=itemindex-items.size();
-        if(party->getMoney()<spells.at(spellindex)->getCost()){
+        if(party->getMoney()<spells.at(spellindex)->getCost()) {
             cout << "Not enough money"<<endl;
             return false;
         }
@@ -106,7 +106,7 @@ bool Market::purchase(int itemindex,Party* party) {
         cout << "Select hero to teach spell to"<<endl;
         cin >> heroindex;
         --heroindex;
-        if(heroindex<0||heroindex >= party->getHeroes().size()){
+        if(heroindex<0||heroindex >= party->getHeroes().size()) {
             cout << "No such hero "<<endl;
             return false;
         }

@@ -26,9 +26,7 @@ class Party
         void setMoney(int amount){money=amount;}
         void pickUp(Item* item);
         void printInv();
-        void useItem();
-
-
+        void useItem(Hero* hero = nullptr);
         void print();
 };
 

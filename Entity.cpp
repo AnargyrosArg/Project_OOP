@@ -18,3 +18,10 @@ Entity::~Entity()
 {
     ///cout << "Destroyed level " << level << " entity named " << name << " with " << health << " health." << endl;
 }
+
+/// CHECK DEAD
+bool Entity::checkDead() const
+{
+    if (health <= 0) return true;
+    return false;
+}

@@ -18,7 +18,7 @@ FireSpell::FireSpell(int lvl)
 /// PRINT
 void FireSpell::print() const
 {
-    cout << Spell::getName() << ": " << "Level " << Spell::getLevelReq() << " fire spell" << endl;
+    cout << Spell::getName() << ": " << "Level " << Spell::getLevelReq() << " fire spell";
 }
 
 /// CAST

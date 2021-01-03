@@ -18,7 +18,7 @@ IceSpell::IceSpell(int lvl)
 /// PRINT
 void IceSpell::print() const
 {
-    cout << Spell::getName() << ": " << "Level " << Spell::getLevelReq() << " ice spell" << endl;
+    cout << Spell::getName() << ": " << "Level " << Spell::getLevelReq() << " ice spell";
 }
 
 /// CAST

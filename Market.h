@@ -27,7 +27,7 @@ protected:
     void removeFromStock(int itemindex); //protected because its intended for internal use
 public:
     Market(int level);
-    void event(Party* party);
+    void event(Party* party) override;
     void printStock();
     bool purchase(int itemindex,Party* party); //returns if purchase was successfull or not
 };

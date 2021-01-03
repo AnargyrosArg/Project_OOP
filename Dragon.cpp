@@ -8,16 +8,16 @@
 /// CONSTRUCTOR
 Dragon::Dragon(int lvl) : Monster(getRandomName("../Names/Names.txt"), lvl, lvl*100, lvl*3, lvl, (double) lvl)
 {
-    cout << "Created Dragon named " << Entity::getName() << ". Stats:" << endl << "Hp: " << Entity::getMaxHealth()
+    /*cout << "Created Dragon named " << Entity::getName() << ". Stats:" << endl << "Hp: " << Entity::getMaxHealth()
     << endl << "Dmg: " << Monster::getDamage() << endl << "Def: "
-    << Monster::getDefence() << endl << "Dodge: " << Monster::getDodge() << endl << endl;
+    << Monster::getDefence() << endl << "Dodge: " << Monster::getDodge() << endl << endl;*/
 }
 
 /// DESTRUCTOR
 Dragon::~Dragon()
 {
-    cout << "Destroyed Dragon named " << Entity::getName() << ". Stats:" << endl << "Dmg: " << Monster::getDamage() << endl << "Def: "
-    << Monster::getDefence() << endl << "Dodge: " << Monster::getDodge() << endl << endl;
+    /*cout << "Destroyed Dragon named " << Entity::getName() << ". Stats:" << endl << "Dmg: " << Monster::getDamage() << endl << "Def: "
+    << Monster::getDefence() << endl << "Dodge: " << Monster::getDodge() << endl << endl;*/
 }
 
 /// PRINT

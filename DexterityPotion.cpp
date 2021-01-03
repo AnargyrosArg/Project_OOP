@@ -20,12 +20,12 @@ void DexterityPotion::equip(Hero *hero) {
 
 DexterityPotion::DexterityPotion(int level,int potency,int duration):Potion("Dexterity Potion",100*level,level,potency,duration)
 {
-    cout << "Dexterity potion created"<<endl;
+    cout << "Dexterity potion created"<<endl << endl;
 }
 
 DexterityPotion::DexterityPotion(int level):Potion("Dexterity Potion",100*level,level,level*2,3)
 {
-    cout << "Dexterity potion created"<<endl;
+    cout << "Dexterity potion created"<<endl << endl;
 }
 
 DexterityPotion::~DexterityPotion() {

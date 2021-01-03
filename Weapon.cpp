@@ -15,7 +15,7 @@ Weapon::Weapon(int level):Item(getRandomName("../Names/Weapons.txt"),level,
     cout << "Damage: " << getDamage() << endl;
     cout << "Cost: " << getCost() << endl;
     cout << (twoHanded ? "Two Handed" : "One Handed ") << endl;
-    cout << "Level: " << getLevelReq() << endl;
+    cout << "Level: " << getLevelReq() << endl << endl;
 }
 
 Weapon::~Weapon(){

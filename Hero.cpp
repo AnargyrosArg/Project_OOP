@@ -97,6 +97,7 @@ void Hero::printSpells()
     {
         cout << i+1 << ". ";
         spells.at(i)->print();
+        cout << endl;
     }
     cout << "--------------------------" << endl;
 }
@@ -145,8 +146,10 @@ void Hero::countTurn() {
 }
 
 /// ATTACK
-void Hero::attack(Monster* monster)
+bool Hero::attack(Monster* monster)
 {
+    if (checkDead() || monster->checkDead()) return false;
+
     if (weapon1 != nullptr)
     {
         bool dodged = (rand() % 100) < (monster->getDodge())*100;
@@ -155,12 +158,18 @@ void Hero::attack(Monster* monster)
         {
             int dmg = max((weapon1->getDamage() + strength - monster->getDefence()), 0); /// add max(..., 0) so we never do negative damage
             monster->setHealth(monster->getHealth() - dmg);
-            cout << endl << "Hero " << Entity::getName() << " strikes " << monster->getName() << " dealing " << dmg << " damage! Ouch.";
-        } else cout << endl << "Monster " << monster->getName() << " dodges " << Entity::getName() << "'s attack, mocking his lack of accuracy";
-    }
-    else cout << endl << Entity::getName() << " attempts to attack unarmed! A foolish attempt.";
 
-    if (weapon2 != nullptr)
+            cout << endl << "Hero " << Entity::getName() << " strikes " << monster->getName() << " dealing " << dmg << " damage! Ouch." << endl;
+
+            if (monster->checkDead()) cout << endl << "Monster " << monster->getName() << " is slain by " << Entity::getName()
+            << ", using " << weapon1->getName() << ". As the creature draws its last breath," << endl
+            << "its lifeless body drops down on the floor." << endl;
+        } else cout << endl << "Monster " << monster->getName() << " dodges " << Entity::getName()
+        << "'s attack, laughing at his lack of accuracy." << endl;
+    }
+    else cout << endl << Entity::getName() << " attempts to attack unarmed! A foolish attempt." << endl;
+
+    if ((weapon2 != nullptr) && (!monster->checkDead()))
     {
         bool dodged = (rand() % 100) < (monster->getDodge())*100;
 
@@ -168,14 +177,22 @@ void Hero::attack(Monster* monster)
         {
             int dmg = max((weapon2->getDamage() + strength - monster->getDefence()), 0);
             monster->setHealth(monster->getHealth() - dmg);
-            cout << endl << "Hero " << Entity::getName() << " attacks " << monster->getName() << " again and deals " << dmg << " damage!";
-        } else cout << endl << "With swift reflexes, monster " << monster->getName() << " dodges " << Entity::getName() << "'s second attack!";
+
+            cout << endl << "Hero " << Entity::getName() << " attacks " << monster->getName() << " again and deals " << dmg << " damage!" << endl;
+
+            if (monster->checkDead()) cout << endl << "Monster " << monster->getName() << " is killed by " << Entity::getName()
+            << ", wielding " << weapon1->getName() << ". The flourish of attacks is overwhelming," << endl
+            << "and the creature succumbs to the pressure." << endl;
+        } else cout << endl << "With swift reflexes, monster " << monster->getName() << " dodges " << Entity::getName() << "'s second attack!" << endl;
     }
+    return true;
 }
 
 /// CAST SPELL
-void Hero::castSpell(Monster *monster)
+bool Hero::castSpell(Monster *monster)
 {
+    if (checkDead() || monster->checkDead()) return false;
+
     int spellIndex;
 
     printSpells();
@@ -185,7 +202,7 @@ void Hero::castSpell(Monster *monster)
 
     if(spellIndex >= spells.size()) {
         cout << "No such spell" << endl;
-        return;
+        return true;
     }
 
     Spell* spell = spells.at(spellIndex);
@@ -196,7 +213,7 @@ void Hero::castSpell(Monster *monster)
     if (magic < manaCost)
     {
         cout << endl << "Hero " << heroName << " acts hastily, disregarding his lack of mana required to cast " << spellName << "!";
-        return;
+        return true;
     }
 
     bool dodged = (rand() % 100) < (monster->getDodge())*100;
@@ -206,8 +223,13 @@ void Hero::castSpell(Monster *monster)
     {
         int dmg = max((spell->getDamage() + dexterity + (rand() % (spell->getLevelReq()*10)) - monster->getDefence()), 0);
         monster->setHealth(monster->getHealth() - dmg);
+
         cout << endl << "Hero " << heroName << " casts " << spellName << " targeting " <<
         monster->getName() << " and deals a whopping " << dmg << " damage!" << endl;
         spell->cast(monster); /// apply debuff
-    } else cout << endl << "Monster " << monster->getName() << " dodges " << heroName << "'s " << spellName << " gracefully!";
+
+        if (monster->checkDead()) cout << endl << "Monster " << monster->getName() << " is no match for " << heroName << "'s " << spellName
+        << " spell. What could have been a simple corpse," << endl << "is now a barrage of body parts flying in every direction. Such power!" << endl;
+    } else cout << endl << "Monster " << monster->getName() << " dodges " << heroName << "'s " << spellName << " gracefully!" << endl;
+    return true;
 }

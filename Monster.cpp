@@ -29,6 +29,7 @@ void Monster::print() const
 /// ATTACK
 void Monster::attack(Hero* hero)
 {
+    if (checkDead() || hero->checkDead()) return;
     bool dodged = (rand() % 100) < hero->getAgility()/4;
 
     if (!dodged)
@@ -37,9 +38,13 @@ void Monster::attack(Hero* hero)
         if ((rand() % 100) < 50) extraDamage = extraDamage*(-1); /// 50% of the time monster deals less damage than the base
         int damageTotal = max(baseDamage + extraDamage, 0); /// add max(..., 0) so we never do negative damage
         hero->setHealth(hero->getHealth() - damageTotal);
+
         cout << endl << "Filled with rage, monster " << Entity::getName() << " attacks "
-        << hero->getName() << " and deals an impressive " << damageTotal << " damage!";
-    } else cout << endl << "Hero " << hero->getName() << " dodges " << Entity::getName() << "'s attack! Inhuman reactions!";
+        << hero->getName() << " and deals an impressive " << damageTotal << " damage!" << endl;
+
+        if (hero->checkDead()) cout << endl << "A devastating strike! Our hero " << hero->getName()
+        << " falls unconscious, barely clinging on dear life!" << endl;
+    } else cout << endl << "Hero " << hero->getName() << " dodges " << Entity::getName() << "'s attack! Inhuman reactions!" << endl;
 }
 
 /// ADD EFFECT (DEBUFF)

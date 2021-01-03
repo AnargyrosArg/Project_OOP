@@ -15,7 +15,7 @@ Armour::Armour(int level)
     cout << "Name: " << getName() << endl;
     cout << "Defence: " << getDefence() << endl;
     cout << "Cost: " << getCost() << endl;
-    cout << "Level: " << getLevelReq() << endl;
+    cout << "Level: " << getLevelReq() << endl << endl;
 }
 
 void Armour::print() {

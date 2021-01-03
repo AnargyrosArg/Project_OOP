@@ -38,6 +38,23 @@ CMakeFiles/untitled1.dir/Block.cpp.obj: ../Spell.h
 CMakeFiles/untitled1.dir/Block.cpp.obj: ../Utils.h
 CMakeFiles/untitled1.dir/Block.cpp.obj: ../Weapon.h
 
+CMakeFiles/untitled1.dir/Common.cpp.obj: ../Armour.h
+CMakeFiles/untitled1.dir/Common.cpp.obj: ../Block.h
+CMakeFiles/untitled1.dir/Common.cpp.obj: ../Common.cpp
+CMakeFiles/untitled1.dir/Common.cpp.obj: ../Common.h
+CMakeFiles/untitled1.dir/Common.cpp.obj: ../Dragon.h
+CMakeFiles/untitled1.dir/Common.cpp.obj: ../Effects.h
+CMakeFiles/untitled1.dir/Common.cpp.obj: ../Entity.h
+CMakeFiles/untitled1.dir/Common.cpp.obj: ../Exoskeleton.h
+CMakeFiles/untitled1.dir/Common.cpp.obj: ../Hero.h
+CMakeFiles/untitled1.dir/Common.cpp.obj: ../Item.h
+CMakeFiles/untitled1.dir/Common.cpp.obj: ../Monster.h
+CMakeFiles/untitled1.dir/Common.cpp.obj: ../Party.h
+CMakeFiles/untitled1.dir/Common.cpp.obj: ../Spell.h
+CMakeFiles/untitled1.dir/Common.cpp.obj: ../Spirit.h
+CMakeFiles/untitled1.dir/Common.cpp.obj: ../Utils.h
+CMakeFiles/untitled1.dir/Common.cpp.obj: ../Weapon.h
+
 CMakeFiles/untitled1.dir/DexterityPotion.cpp.obj: ../Armour.h
 CMakeFiles/untitled1.dir/DexterityPotion.cpp.obj: ../DexterityPotion.cpp
 CMakeFiles/untitled1.dir/DexterityPotion.cpp.obj: ../DexterityPotion.h
@@ -259,6 +276,7 @@ CMakeFiles/untitled1.dir/Weapon.cpp.obj: ../Weapon.h
 CMakeFiles/untitled1.dir/main.cpp.obj: ../AgilityPotion.h
 CMakeFiles/untitled1.dir/main.cpp.obj: ../Armour.h
 CMakeFiles/untitled1.dir/main.cpp.obj: ../Block.h
+CMakeFiles/untitled1.dir/main.cpp.obj: ../Common.h
 CMakeFiles/untitled1.dir/main.cpp.obj: ../DexterityPotion.h
 CMakeFiles/untitled1.dir/main.cpp.obj: ../Dragon.h
 CMakeFiles/untitled1.dir/main.cpp.obj: ../Effects.h

@@ -18,7 +18,7 @@ LightningSpell::LightningSpell(int lvl)
 /// PRINT
 void LightningSpell::print() const
 {
-    cout << Spell::getName() << ": " << "Level " << Spell::getLevelReq() << " lightning spell" << endl;
+    cout << Spell::getName() << ": " << "Level " << Spell::getLevelReq() << " lightning spell";
 }
 
 /// CAST

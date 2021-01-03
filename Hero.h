@@ -49,9 +49,9 @@ class Hero : public Entity
         void setArmour(Armour* armour);
         void equipWeapon(Weapon* weapon);
 
-        void attack(Monster* monster);
+        bool attack(Monster* monster);
         void learnSpell(Spell* spell);
-        void castSpell(Monster* monster);
+        bool castSpell(Monster* monster);
         void addEffect(EffectType type,int power,int duration) override;
         void countTurn() override;
         virtual void print();

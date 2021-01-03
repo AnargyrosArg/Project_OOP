@@ -35,6 +35,7 @@ class Entity
         void setLevel(int lvl) { level = lvl; }
         virtual void countTurn() {}
         virtual void addEffect(EffectType type,int power,int duration) {}
+        bool checkDead() const;
 };
 
 

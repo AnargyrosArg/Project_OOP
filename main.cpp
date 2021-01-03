@@ -16,18 +16,19 @@
 #include "FireSpell.h"
 #include "LightningSpell.h"
 #include "Market.h"
+#include "Common.h"
 
 using namespace std;
 
 int main()
 {
     srand(time(nullptr));
-    Party party(new Warrior(30));
+    /*Party party(new Warrior(30));
     party.setMoney(5200);
     Market market(25);
     market.event(&party);
     cout << ((120*25) + (rand() % (12*25)))<<endl;
-    party.printInv();
+    party.printInv();*/
 //-------------------------------------------------------------------------
 //    Warrior warrior(50);
 //    HealthPotion hp(40);
@@ -60,7 +61,7 @@ int main()
 //   Dragon dragon(50);
 //   Exoskeleton exoskeleton(50);
 //----------------------------------------------------------------------------
-/*    Warrior warrior(50);
+    Warrior warrior(50);
     Sorcerer sorcerer(50);
     Party party(&warrior,&sorcerer);
     party.print();
@@ -71,64 +72,45 @@ int main()
     party.pickUp(new Armour(50));
     party.pickUp(new StrengthPotion(50));
     party.pickUp(new HealthPotion(50));
+    sorcerer.learnSpell(new IceSpell(50));
     party.printInv();
 
     party.useItem();
     party.useItem();
-    party.useItem();
+
+    Common common(50);
+    Common common2(200);
+    common.event(&party);
+    common2.event(&party);
+
+    cout << endl;
+//----------------------------------------------------------------------------
+/*    Warrior warrior(50);
+    Sorcerer sorcerer(50);
+    Party party(&warrior, &sorcerer);
+
+    warrior.learnSpell(new IceSpell(50));
+    warrior.learnSpell(new IceSpell(20));
+    sorcerer.learnSpell(new FireSpell(50));
+    sorcerer.learnSpell(new LightningSpell(50));
+
     party.print();
 
     Dragon dragon(50);
     Spirit spirit(50);
 
-    for (int i=0; i<10; i++)
-        warrior.attack(&dragon);
+    warrior.castSpell(&dragon);
+    warrior.castSpell(&spirit);
 
-    for (int i=0; i<10; i++)
-        sorcerer.attack(&spirit);
-
-    for (int i=0; i<10; i++)
-        dragon.attack(&warrior);
-
-    for (int i=0; i<10; i++)
-        spirit.attack(&sorcerer);
+    sorcerer.castSpell(&spirit);
+    sorcerer.castSpell(&dragon);
 
     dragon.print();
     spirit.print();
+
     party.print();
 
-    party.printInv();
-    party.useItem();
-    party.useItem();
-
     cout << endl;*/
-//----------------------------------------------------------------------------
-//    Warrior warrior(50);
-//    Sorcerer sorcerer(50);
-//    Party party(&warrior, &sorcerer);
-//
-//    warrior.learnSpell(new IceSpell(50));
-//    warrior.learnSpell(new IceSpell(20));
-//    sorcerer.learnSpell(new FireSpell(50));
-//    sorcerer.learnSpell(new LightningSpell(50));
-//
-//    party.print();
-//
-//    Dragon dragon(50);
-//    Spirit spirit(50);
-//
-//    warrior.castSpell(&dragon);
-//    warrior.castSpell(&spirit);
-//
-//    sorcerer.castSpell(&spirit);
-//    sorcerer.castSpell(&dragon);
-//
-//    dragon.print();
-//    spirit.print();
-//
-//    party.print();
-//
-//    cout << endl;
     return 0;
 
 }
