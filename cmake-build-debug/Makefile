@@ -67,10 +67,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Giann\CLionProjects\Project_OOP
+CMAKE_SOURCE_DIR = C:\Users\anarg\CLionProjects\Project_OOP
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Giann\CLionProjects\Project_OOP\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\anarg\CLionProjects\Project_OOP\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Giann\CLionProjects\Project_OOP\cmake-build-debug\CMakeFiles C:\Users\Giann\CLionProjects\Project_OOP\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\anarg\CLionProjects\Project_OOP\cmake-build-debug\CMakeFiles C:\Users\anarg\CLionProjects\Project_OOP\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Giann\CLionProjects\Project_OOP\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\anarg\CLionProjects\Project_OOP\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -195,6 +195,33 @@ Armour.s: Armour.cpp.s
 Armour.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Armour.cpp.s
 .PHONY : Armour.cpp.s
+
+Block.obj: Block.cpp.obj
+
+.PHONY : Block.obj
+
+# target to build an object file
+Block.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Block.cpp.obj
+.PHONY : Block.cpp.obj
+
+Block.i: Block.cpp.i
+
+.PHONY : Block.i
+
+# target to preprocess a source file
+Block.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Block.cpp.i
+.PHONY : Block.cpp.i
+
+Block.s: Block.cpp.s
+
+.PHONY : Block.s
+
+# target to generate assembly for a file
+Block.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Block.cpp.s
+.PHONY : Block.cpp.s
 
 DexterityPotion.obj: DexterityPotion.cpp.obj
 
@@ -492,6 +519,33 @@ LightningSpell.s: LightningSpell.cpp.s
 LightningSpell.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/LightningSpell.cpp.s
 .PHONY : LightningSpell.cpp.s
+
+Market.obj: Market.cpp.obj
+
+.PHONY : Market.obj
+
+# target to build an object file
+Market.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Market.cpp.obj
+.PHONY : Market.cpp.obj
+
+Market.i: Market.cpp.i
+
+.PHONY : Market.i
+
+# target to preprocess a source file
+Market.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Market.cpp.i
+.PHONY : Market.cpp.i
+
+Market.s: Market.cpp.s
+
+.PHONY : Market.s
+
+# target to generate assembly for a file
+Market.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Market.cpp.s
+.PHONY : Market.cpp.s
 
 Monster.obj: Monster.cpp.obj
 
@@ -832,6 +886,9 @@ help:
 	@echo ... Armour.obj
 	@echo ... Armour.i
 	@echo ... Armour.s
+	@echo ... Block.obj
+	@echo ... Block.i
+	@echo ... Block.s
 	@echo ... DexterityPotion.obj
 	@echo ... DexterityPotion.i
 	@echo ... DexterityPotion.s
@@ -865,6 +922,9 @@ help:
 	@echo ... LightningSpell.obj
 	@echo ... LightningSpell.i
 	@echo ... LightningSpell.s
+	@echo ... Market.obj
+	@echo ... Market.i
+	@echo ... Market.s
 	@echo ... Monster.obj
 	@echo ... Monster.i
 	@echo ... Monster.s

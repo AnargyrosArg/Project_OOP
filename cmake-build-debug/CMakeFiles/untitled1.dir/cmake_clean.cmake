@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/untitled1.dir/AgilityPotion.cpp.obj"
   "CMakeFiles/untitled1.dir/Armour.cpp.obj"
+  "CMakeFiles/untitled1.dir/Block.cpp.obj"
   "CMakeFiles/untitled1.dir/DexterityPotion.cpp.obj"
   "CMakeFiles/untitled1.dir/Dragon.cpp.obj"
   "CMakeFiles/untitled1.dir/Effects.cpp.obj"
@@ -12,6 +13,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/untitled1.dir/IceSpell.cpp.obj"
   "CMakeFiles/untitled1.dir/Item.cpp.obj"
   "CMakeFiles/untitled1.dir/LightningSpell.cpp.obj"
+  "CMakeFiles/untitled1.dir/Market.cpp.obj"
   "CMakeFiles/untitled1.dir/Monster.cpp.obj"
   "CMakeFiles/untitled1.dir/Paladin.cpp.obj"
   "CMakeFiles/untitled1.dir/Party.cpp.obj"
