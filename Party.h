@@ -8,21 +8,28 @@
 #define UNTITLED1_PARTY_H
 
 
-class Party {
-private:
-    vector <Hero*> party;
-    vector <Item*> inventory;
-public:
-    Party(Hero* hero1,Hero* hero2,Hero* hero3);
-    Party(Hero* hero1,Hero* hero2);
-    Party(Hero* hero);
+class Party
+{
+    private:
+        vector <Hero*> party;
+        vector <Item*> inventory;
+        int money;
+    public:
+        Party(Hero* hero1,Hero* hero2,Hero* hero3);
+        Party(Hero* hero1,Hero* hero2);
+        Party(Hero* hero);
+
+        int getMoney(){return money;}
+        int getLevel();
+
+        vector <Hero*>& getHeroes(){return party;}
+        void setMoney(int amount){money=amount;}
+        void pickUp(Item* item);
+        void printInv();
+        void useItem();
 
 
-    void pickUp(Item* item);
-    void printInv();
-    void useItem();
-
-    void print();
+        void print();
 };
 
 

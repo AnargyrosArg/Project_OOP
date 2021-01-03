@@ -6,10 +6,11 @@
 #include "Exoskeleton.h"
 
 /// CONSTRUCTOR
-Exoskeleton::Exoskeleton(int lvl) : Monster(getRandomName("../Names/Names.txt"), lvl, lvl*6, lvl, lvl*3, (double) lvl)
+Exoskeleton::Exoskeleton(int lvl) : Monster(getRandomName("../Names/Names.txt"), lvl, lvl*50, lvl, lvl*3, (double) lvl)
 {
-    cout << "Created Exoskeleton named " << Entity::getName() << ". Stats:" << endl << "Dmg: " << Monster::getDamage() << endl << "Def: "
-         << Monster::getDefence() << endl << "Dodge: " << Monster::getDodge() << endl << endl;
+    cout << "Created Exoskeleton named " << Entity::getName() << ". Stats:" << endl << "Hp: " << Entity::getMaxHealth()
+    << endl << "Dmg: " << Monster::getDamage() << endl << "Def: "
+    << Monster::getDefence() << endl << "Dodge: " << Monster::getDodge() << endl << endl;
 }
 
 /// DESTRUCTOR

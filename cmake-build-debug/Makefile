@@ -196,6 +196,33 @@ Armour.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Armour.cpp.s
 .PHONY : Armour.cpp.s
 
+Block.obj: Block.cpp.obj
+
+.PHONY : Block.obj
+
+# target to build an object file
+Block.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Block.cpp.obj
+.PHONY : Block.cpp.obj
+
+Block.i: Block.cpp.i
+
+.PHONY : Block.i
+
+# target to preprocess a source file
+Block.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Block.cpp.i
+.PHONY : Block.cpp.i
+
+Block.s: Block.cpp.s
+
+.PHONY : Block.s
+
+# target to generate assembly for a file
+Block.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Block.cpp.s
+.PHONY : Block.cpp.s
+
 DexterityPotion.obj: DexterityPotion.cpp.obj
 
 .PHONY : DexterityPotion.obj
@@ -331,6 +358,33 @@ Exoskeleton.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Exoskeleton.cpp.s
 .PHONY : Exoskeleton.cpp.s
 
+FireSpell.obj: FireSpell.cpp.obj
+
+.PHONY : FireSpell.obj
+
+# target to build an object file
+FireSpell.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/FireSpell.cpp.obj
+.PHONY : FireSpell.cpp.obj
+
+FireSpell.i: FireSpell.cpp.i
+
+.PHONY : FireSpell.i
+
+# target to preprocess a source file
+FireSpell.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/FireSpell.cpp.i
+.PHONY : FireSpell.cpp.i
+
+FireSpell.s: FireSpell.cpp.s
+
+.PHONY : FireSpell.s
+
+# target to generate assembly for a file
+FireSpell.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/FireSpell.cpp.s
+.PHONY : FireSpell.cpp.s
+
 HealthPotion.obj: HealthPotion.cpp.obj
 
 .PHONY : HealthPotion.obj
@@ -385,6 +439,33 @@ Hero.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Hero.cpp.s
 .PHONY : Hero.cpp.s
 
+IceSpell.obj: IceSpell.cpp.obj
+
+.PHONY : IceSpell.obj
+
+# target to build an object file
+IceSpell.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/IceSpell.cpp.obj
+.PHONY : IceSpell.cpp.obj
+
+IceSpell.i: IceSpell.cpp.i
+
+.PHONY : IceSpell.i
+
+# target to preprocess a source file
+IceSpell.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/IceSpell.cpp.i
+.PHONY : IceSpell.cpp.i
+
+IceSpell.s: IceSpell.cpp.s
+
+.PHONY : IceSpell.s
+
+# target to generate assembly for a file
+IceSpell.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/IceSpell.cpp.s
+.PHONY : IceSpell.cpp.s
+
 Item.obj: Item.cpp.obj
 
 .PHONY : Item.obj
@@ -411,6 +492,60 @@ Item.s: Item.cpp.s
 Item.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Item.cpp.s
 .PHONY : Item.cpp.s
+
+LightningSpell.obj: LightningSpell.cpp.obj
+
+.PHONY : LightningSpell.obj
+
+# target to build an object file
+LightningSpell.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/LightningSpell.cpp.obj
+.PHONY : LightningSpell.cpp.obj
+
+LightningSpell.i: LightningSpell.cpp.i
+
+.PHONY : LightningSpell.i
+
+# target to preprocess a source file
+LightningSpell.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/LightningSpell.cpp.i
+.PHONY : LightningSpell.cpp.i
+
+LightningSpell.s: LightningSpell.cpp.s
+
+.PHONY : LightningSpell.s
+
+# target to generate assembly for a file
+LightningSpell.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/LightningSpell.cpp.s
+.PHONY : LightningSpell.cpp.s
+
+Market.obj: Market.cpp.obj
+
+.PHONY : Market.obj
+
+# target to build an object file
+Market.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Market.cpp.obj
+.PHONY : Market.cpp.obj
+
+Market.i: Market.cpp.i
+
+.PHONY : Market.i
+
+# target to preprocess a source file
+Market.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Market.cpp.i
+.PHONY : Market.cpp.i
+
+Market.s: Market.cpp.s
+
+.PHONY : Market.s
+
+# target to generate assembly for a file
+Market.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Market.cpp.s
+.PHONY : Market.cpp.s
 
 Monster.obj: Monster.cpp.obj
 
@@ -546,6 +681,33 @@ Sorcerer.s: Sorcerer.cpp.s
 Sorcerer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Sorcerer.cpp.s
 .PHONY : Sorcerer.cpp.s
+
+Spell.obj: Spell.cpp.obj
+
+.PHONY : Spell.obj
+
+# target to build an object file
+Spell.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Spell.cpp.obj
+.PHONY : Spell.cpp.obj
+
+Spell.i: Spell.cpp.i
+
+.PHONY : Spell.i
+
+# target to preprocess a source file
+Spell.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Spell.cpp.i
+.PHONY : Spell.cpp.i
+
+Spell.s: Spell.cpp.s
+
+.PHONY : Spell.s
+
+# target to generate assembly for a file
+Spell.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Spell.cpp.s
+.PHONY : Spell.cpp.s
 
 Spirit.obj: Spirit.cpp.obj
 
@@ -724,6 +886,9 @@ help:
 	@echo ... Armour.obj
 	@echo ... Armour.i
 	@echo ... Armour.s
+	@echo ... Block.obj
+	@echo ... Block.i
+	@echo ... Block.s
 	@echo ... DexterityPotion.obj
 	@echo ... DexterityPotion.i
 	@echo ... DexterityPotion.s
@@ -739,15 +904,27 @@ help:
 	@echo ... Exoskeleton.obj
 	@echo ... Exoskeleton.i
 	@echo ... Exoskeleton.s
+	@echo ... FireSpell.obj
+	@echo ... FireSpell.i
+	@echo ... FireSpell.s
 	@echo ... HealthPotion.obj
 	@echo ... HealthPotion.i
 	@echo ... HealthPotion.s
 	@echo ... Hero.obj
 	@echo ... Hero.i
 	@echo ... Hero.s
+	@echo ... IceSpell.obj
+	@echo ... IceSpell.i
+	@echo ... IceSpell.s
 	@echo ... Item.obj
 	@echo ... Item.i
 	@echo ... Item.s
+	@echo ... LightningSpell.obj
+	@echo ... LightningSpell.i
+	@echo ... LightningSpell.s
+	@echo ... Market.obj
+	@echo ... Market.i
+	@echo ... Market.s
 	@echo ... Monster.obj
 	@echo ... Monster.i
 	@echo ... Monster.s
@@ -763,6 +940,9 @@ help:
 	@echo ... Sorcerer.obj
 	@echo ... Sorcerer.i
 	@echo ... Sorcerer.s
+	@echo ... Spell.obj
+	@echo ... Spell.i
+	@echo ... Spell.s
 	@echo ... Spirit.obj
 	@echo ... Spirit.i
 	@echo ... Spirit.s

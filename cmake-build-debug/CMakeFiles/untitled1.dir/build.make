@@ -349,6 +349,84 @@ CMakeFiles/untitled1.dir/AgilityPotion.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled1.dir/AgilityPotion.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\anarg\CLionProjects\Project_OOP\AgilityPotion.cpp -o CMakeFiles\untitled1.dir\AgilityPotion.cpp.s
 
+CMakeFiles/untitled1.dir/Spell.cpp.obj: CMakeFiles/untitled1.dir/flags.make
+CMakeFiles/untitled1.dir/Spell.cpp.obj: ../Spell.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\anarg\CLionProjects\Project_OOP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/untitled1.dir/Spell.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled1.dir\Spell.cpp.obj -c C:\Users\anarg\CLionProjects\Project_OOP\Spell.cpp
+
+CMakeFiles/untitled1.dir/Spell.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled1.dir/Spell.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\anarg\CLionProjects\Project_OOP\Spell.cpp > CMakeFiles\untitled1.dir\Spell.cpp.i
+
+CMakeFiles/untitled1.dir/Spell.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled1.dir/Spell.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\anarg\CLionProjects\Project_OOP\Spell.cpp -o CMakeFiles\untitled1.dir\Spell.cpp.s
+
+CMakeFiles/untitled1.dir/IceSpell.cpp.obj: CMakeFiles/untitled1.dir/flags.make
+CMakeFiles/untitled1.dir/IceSpell.cpp.obj: ../IceSpell.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\anarg\CLionProjects\Project_OOP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/untitled1.dir/IceSpell.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled1.dir\IceSpell.cpp.obj -c C:\Users\anarg\CLionProjects\Project_OOP\IceSpell.cpp
+
+CMakeFiles/untitled1.dir/IceSpell.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled1.dir/IceSpell.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\anarg\CLionProjects\Project_OOP\IceSpell.cpp > CMakeFiles\untitled1.dir\IceSpell.cpp.i
+
+CMakeFiles/untitled1.dir/IceSpell.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled1.dir/IceSpell.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\anarg\CLionProjects\Project_OOP\IceSpell.cpp -o CMakeFiles\untitled1.dir\IceSpell.cpp.s
+
+CMakeFiles/untitled1.dir/FireSpell.cpp.obj: CMakeFiles/untitled1.dir/flags.make
+CMakeFiles/untitled1.dir/FireSpell.cpp.obj: ../FireSpell.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\anarg\CLionProjects\Project_OOP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/untitled1.dir/FireSpell.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled1.dir\FireSpell.cpp.obj -c C:\Users\anarg\CLionProjects\Project_OOP\FireSpell.cpp
+
+CMakeFiles/untitled1.dir/FireSpell.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled1.dir/FireSpell.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\anarg\CLionProjects\Project_OOP\FireSpell.cpp > CMakeFiles\untitled1.dir\FireSpell.cpp.i
+
+CMakeFiles/untitled1.dir/FireSpell.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled1.dir/FireSpell.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\anarg\CLionProjects\Project_OOP\FireSpell.cpp -o CMakeFiles\untitled1.dir\FireSpell.cpp.s
+
+CMakeFiles/untitled1.dir/LightningSpell.cpp.obj: CMakeFiles/untitled1.dir/flags.make
+CMakeFiles/untitled1.dir/LightningSpell.cpp.obj: ../LightningSpell.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\anarg\CLionProjects\Project_OOP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/untitled1.dir/LightningSpell.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled1.dir\LightningSpell.cpp.obj -c C:\Users\anarg\CLionProjects\Project_OOP\LightningSpell.cpp
+
+CMakeFiles/untitled1.dir/LightningSpell.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled1.dir/LightningSpell.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\anarg\CLionProjects\Project_OOP\LightningSpell.cpp > CMakeFiles\untitled1.dir\LightningSpell.cpp.i
+
+CMakeFiles/untitled1.dir/LightningSpell.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled1.dir/LightningSpell.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\anarg\CLionProjects\Project_OOP\LightningSpell.cpp -o CMakeFiles\untitled1.dir\LightningSpell.cpp.s
+
+CMakeFiles/untitled1.dir/Block.cpp.obj: CMakeFiles/untitled1.dir/flags.make
+CMakeFiles/untitled1.dir/Block.cpp.obj: ../Block.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\anarg\CLionProjects\Project_OOP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/untitled1.dir/Block.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled1.dir\Block.cpp.obj -c C:\Users\anarg\CLionProjects\Project_OOP\Block.cpp
+
+CMakeFiles/untitled1.dir/Block.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled1.dir/Block.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\anarg\CLionProjects\Project_OOP\Block.cpp > CMakeFiles\untitled1.dir\Block.cpp.i
+
+CMakeFiles/untitled1.dir/Block.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled1.dir/Block.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\anarg\CLionProjects\Project_OOP\Block.cpp -o CMakeFiles\untitled1.dir\Block.cpp.s
+
+CMakeFiles/untitled1.dir/Market.cpp.obj: CMakeFiles/untitled1.dir/flags.make
+CMakeFiles/untitled1.dir/Market.cpp.obj: ../Market.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\anarg\CLionProjects\Project_OOP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/untitled1.dir/Market.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled1.dir\Market.cpp.obj -c C:\Users\anarg\CLionProjects\Project_OOP\Market.cpp
+
+CMakeFiles/untitled1.dir/Market.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled1.dir/Market.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\anarg\CLionProjects\Project_OOP\Market.cpp > CMakeFiles\untitled1.dir\Market.cpp.i
+
+CMakeFiles/untitled1.dir/Market.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled1.dir/Market.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\anarg\CLionProjects\Project_OOP\Market.cpp -o CMakeFiles\untitled1.dir\Market.cpp.s
+
 # Object files for target untitled1
 untitled1_OBJECTS = \
 "CMakeFiles/untitled1.dir/main.cpp.obj" \
@@ -371,7 +449,13 @@ untitled1_OBJECTS = \
 "CMakeFiles/untitled1.dir/StrengthPotion.cpp.obj" \
 "CMakeFiles/untitled1.dir/Effects.cpp.obj" \
 "CMakeFiles/untitled1.dir/DexterityPotion.cpp.obj" \
-"CMakeFiles/untitled1.dir/AgilityPotion.cpp.obj"
+"CMakeFiles/untitled1.dir/AgilityPotion.cpp.obj" \
+"CMakeFiles/untitled1.dir/Spell.cpp.obj" \
+"CMakeFiles/untitled1.dir/IceSpell.cpp.obj" \
+"CMakeFiles/untitled1.dir/FireSpell.cpp.obj" \
+"CMakeFiles/untitled1.dir/LightningSpell.cpp.obj" \
+"CMakeFiles/untitled1.dir/Block.cpp.obj" \
+"CMakeFiles/untitled1.dir/Market.cpp.obj"
 
 # External object files for target untitled1
 untitled1_EXTERNAL_OBJECTS =
@@ -397,11 +481,17 @@ untitled1.exe: CMakeFiles/untitled1.dir/StrengthPotion.cpp.obj
 untitled1.exe: CMakeFiles/untitled1.dir/Effects.cpp.obj
 untitled1.exe: CMakeFiles/untitled1.dir/DexterityPotion.cpp.obj
 untitled1.exe: CMakeFiles/untitled1.dir/AgilityPotion.cpp.obj
+untitled1.exe: CMakeFiles/untitled1.dir/Spell.cpp.obj
+untitled1.exe: CMakeFiles/untitled1.dir/IceSpell.cpp.obj
+untitled1.exe: CMakeFiles/untitled1.dir/FireSpell.cpp.obj
+untitled1.exe: CMakeFiles/untitled1.dir/LightningSpell.cpp.obj
+untitled1.exe: CMakeFiles/untitled1.dir/Block.cpp.obj
+untitled1.exe: CMakeFiles/untitled1.dir/Market.cpp.obj
 untitled1.exe: CMakeFiles/untitled1.dir/build.make
 untitled1.exe: CMakeFiles/untitled1.dir/linklibs.rsp
 untitled1.exe: CMakeFiles/untitled1.dir/objects1.rsp
 untitled1.exe: CMakeFiles/untitled1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\anarg\CLionProjects\Project_OOP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable untitled1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\anarg\CLionProjects\Project_OOP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX executable untitled1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\untitled1.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

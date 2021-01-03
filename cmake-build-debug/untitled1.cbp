@@ -92,6 +92,12 @@
 		<Unit filename="C:/Users/anarg/CLionProjects/Project_OOP/Armour.h">
 			<Option target="untitled1"/>
 		</Unit>
+		<Unit filename="C:/Users/anarg/CLionProjects/Project_OOP/Block.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="C:/Users/anarg/CLionProjects/Project_OOP/Block.h">
+			<Option target="untitled1"/>
+		</Unit>
 		<Unit filename="C:/Users/anarg/CLionProjects/Project_OOP/DexterityPotion.cpp">
 			<Option target="untitled1"/>
 		</Unit>
@@ -122,6 +128,12 @@
 		<Unit filename="C:/Users/anarg/CLionProjects/Project_OOP/Exoskeleton.h">
 			<Option target="untitled1"/>
 		</Unit>
+		<Unit filename="C:/Users/anarg/CLionProjects/Project_OOP/FireSpell.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="C:/Users/anarg/CLionProjects/Project_OOP/FireSpell.h">
+			<Option target="untitled1"/>
+		</Unit>
 		<Unit filename="C:/Users/anarg/CLionProjects/Project_OOP/HealthPotion.cpp">
 			<Option target="untitled1"/>
 		</Unit>
@@ -134,10 +146,28 @@
 		<Unit filename="C:/Users/anarg/CLionProjects/Project_OOP/Hero.h">
 			<Option target="untitled1"/>
 		</Unit>
+		<Unit filename="C:/Users/anarg/CLionProjects/Project_OOP/IceSpell.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="C:/Users/anarg/CLionProjects/Project_OOP/IceSpell.h">
+			<Option target="untitled1"/>
+		</Unit>
 		<Unit filename="C:/Users/anarg/CLionProjects/Project_OOP/Item.cpp">
 			<Option target="untitled1"/>
 		</Unit>
 		<Unit filename="C:/Users/anarg/CLionProjects/Project_OOP/Item.h">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="C:/Users/anarg/CLionProjects/Project_OOP/LightningSpell.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="C:/Users/anarg/CLionProjects/Project_OOP/LightningSpell.h">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="C:/Users/anarg/CLionProjects/Project_OOP/Market.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="C:/Users/anarg/CLionProjects/Project_OOP/Market.h">
 			<Option target="untitled1"/>
 		</Unit>
 		<Unit filename="C:/Users/anarg/CLionProjects/Project_OOP/Monster.cpp">
@@ -168,6 +198,12 @@
 			<Option target="untitled1"/>
 		</Unit>
 		<Unit filename="C:/Users/anarg/CLionProjects/Project_OOP/Sorcerer.h">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="C:/Users/anarg/CLionProjects/Project_OOP/Spell.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="C:/Users/anarg/CLionProjects/Project_OOP/Spell.h">
 			<Option target="untitled1"/>
 		</Unit>
 		<Unit filename="C:/Users/anarg/CLionProjects/Project_OOP/Spirit.cpp">

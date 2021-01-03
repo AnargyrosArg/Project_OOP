@@ -4,13 +4,13 @@
 
 #include "Party.h"
 
-Party::Party(Hero *hero1, Hero *hero2, Hero *hero3) {
+Party::Party(Hero *hero1, Hero *hero2, Hero *hero3):money(0){
     party.push_back(hero1);
     party.push_back(hero2);
     party.push_back(hero3);
 }
 
-Party::Party(Hero *hero1, Hero *hero2) {
+Party::Party(Hero *hero1, Hero *hero2):money(0){
     party.push_back(hero1);
     party.push_back(hero2);
 }
@@ -21,7 +21,7 @@ Party::Party(Hero *hero) {
 
 void Party::print() {
     for(int i=0;i<party.size();i++){
-        cout << endl;
+        cout << i+1 << ". ";
         party.at(i)->print();
         cout <<endl;
     }
@@ -29,6 +29,8 @@ void Party::print() {
 
 void Party::pickUp(Item *item) {
     inventory.push_back(item);
+    cout << "Our group of adventurers comes across " << item->getName()
+    << ". They nod at each other, and pick it up." << endl << endl;
 }
 
 void Party::printInv() {
@@ -38,6 +40,7 @@ void Party::printInv() {
         inventory.at(i)->print();
         cout << endl;
     }
+    cout << "Money: "<<getMoney()<<endl;
     cout << "-----------------------------"<<endl;
 }
 
@@ -47,16 +50,16 @@ void Party::useItem() {
         cout << i+1<<". ";
         party.at(i)->print();
     }
-    cout << "Select Hero to use item" << endl;
+    cout << "Someone in the group wants to use an item..." << endl;
     cin >> heroIndex;
     heroIndex--;
     if(heroIndex >= party.size()){
         cout << "No such hero" << endl;
         return;
     }
-    cout << "Selected " << party.at(heroIndex)->getName() << endl;
+    cout << "That person is " << party.at(heroIndex)->getName() << endl;
     printInv();
-    cout << "Select item to use" << endl;
+    cout << "Which item will he use?" << endl;
     cin >> itemIndex;
     itemIndex--;
     if(itemIndex >= inventory.size()){
@@ -74,4 +77,10 @@ void Party::useItem() {
             inventory.erase(inventory.begin() + itemIndex);
     }
     else cout << "Item is already equipped in party" << endl;
+}
+
+int Party::getLevel() {
+    if(party.size()>0){
+        return party.at(0)->getLevel();
+    }
 }

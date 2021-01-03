@@ -9,8 +9,9 @@ using namespace std;
 /// CONSTRUCTOR
 Sorcerer::Sorcerer(int lvl) : Hero(getRandomName("../Names/Names.txt"), lvl, lvl*6, lvl*4, lvl, lvl*4, lvl*3)
 {
-    cout << "Created Sorcerer named " << Entity::getName() << ". Stats:" << endl << "Mag: " << Hero::getMaxMagic() << endl << "Str: "
-         << Hero::getStrength() << endl << "Dex: " << Hero::getDexterity() << endl << "Agil: " << Hero::getAgility() << endl << endl;
+    cout << "Created Sorcerer named " << Entity::getName() << ". Stats:" << endl << "Hp: " << Entity::getMaxHealth()
+    << endl << "Mag: " << Hero::getMaxMagic() << endl << "Str: " << Hero::getStrength() << endl
+    << "Dex: " << Hero::getDexterity() << endl << "Agil: " << Hero::getAgility() << endl << endl;
 }
 
 /// DESTRUCTOR
