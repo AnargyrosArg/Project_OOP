@@ -8,10 +8,10 @@
 #include "Common.h"
 
 /// CONSTRUCTOR
-Common::Common(int level) : encounterChance(100) /// 100 % for now
+Common::Common(int level) : encounterChance(50) /// 100 % for now
 {
     int monsterType;
-    int monsterNumber = (rand() % 6) + 1;
+    int monsterNumber = (rand() % 2) + 1;
     int monsterLevel = (level / monsterNumber); /// added level of all monsters = level of encounter
 
     for (int i=0; i<monsterNumber; i++)
@@ -109,7 +109,6 @@ void Common::event(Party *party)
                 printMonsters();
                 currentHero->print();
                 cout << "It is " << currentHero->getName() << "'s time to act! What will they do?" << endl << endl;
-
                 cout << "1. Attack" << endl << "2. Cast Spell" << endl << "3. Use Item" << endl;
                 cin >> input;
                 while ((input < 1) || (input > 3)) {
@@ -162,4 +161,8 @@ void Common::event(Party *party)
         party->print();
 
     } else cout << "A new place, but nothing of interest to be found. Onwards!" << endl;
+}
+
+void Common::printBlock() {
+    cout << "[?]";
 }

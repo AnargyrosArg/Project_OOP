@@ -20,6 +20,8 @@ class Common : public Block
         void event(Party* party) override;
         void printMonsters() const;
         bool checkEndOfCombat(Party* party);
+
+        void printBlock();
 };
 
 

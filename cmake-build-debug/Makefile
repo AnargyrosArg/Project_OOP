@@ -67,10 +67,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Giann\CLionProjects\Project_OOP
+CMAKE_SOURCE_DIR = C:\Users\anarg\CLionProjects\Project_OOP
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Giann\CLionProjects\Project_OOP\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\anarg\CLionProjects\Project_OOP\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Giann\CLionProjects\Project_OOP\cmake-build-debug\CMakeFiles C:\Users\Giann\CLionProjects\Project_OOP\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\anarg\CLionProjects\Project_OOP\cmake-build-debug\CMakeFiles C:\Users\anarg\CLionProjects\Project_OOP\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Giann\CLionProjects\Project_OOP\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\anarg\CLionProjects\Project_OOP\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -412,6 +412,33 @@ FireSpell.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/FireSpell.cpp.s
 .PHONY : FireSpell.cpp.s
 
+Grid.obj: Grid.cpp.obj
+
+.PHONY : Grid.obj
+
+# target to build an object file
+Grid.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Grid.cpp.obj
+.PHONY : Grid.cpp.obj
+
+Grid.i: Grid.cpp.i
+
+.PHONY : Grid.i
+
+# target to preprocess a source file
+Grid.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Grid.cpp.i
+.PHONY : Grid.cpp.i
+
+Grid.s: Grid.cpp.s
+
+.PHONY : Grid.s
+
+# target to generate assembly for a file
+Grid.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Grid.cpp.s
+.PHONY : Grid.cpp.s
+
 HealthPotion.obj: HealthPotion.cpp.obj
 
 .PHONY : HealthPotion.obj
@@ -600,6 +627,33 @@ Monster.s: Monster.cpp.s
 Monster.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Monster.cpp.s
 .PHONY : Monster.cpp.s
+
+NonAccessible.obj: NonAccessible.cpp.obj
+
+.PHONY : NonAccessible.obj
+
+# target to build an object file
+NonAccessible.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/NonAccessible.cpp.obj
+.PHONY : NonAccessible.cpp.obj
+
+NonAccessible.i: NonAccessible.cpp.i
+
+.PHONY : NonAccessible.i
+
+# target to preprocess a source file
+NonAccessible.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/NonAccessible.cpp.i
+.PHONY : NonAccessible.cpp.i
+
+NonAccessible.s: NonAccessible.cpp.s
+
+.PHONY : NonAccessible.s
+
+# target to generate assembly for a file
+NonAccessible.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/NonAccessible.cpp.s
+.PHONY : NonAccessible.cpp.s
 
 Paladin.obj: Paladin.cpp.obj
 
@@ -937,6 +991,9 @@ help:
 	@echo ... FireSpell.obj
 	@echo ... FireSpell.i
 	@echo ... FireSpell.s
+	@echo ... Grid.obj
+	@echo ... Grid.i
+	@echo ... Grid.s
 	@echo ... HealthPotion.obj
 	@echo ... HealthPotion.i
 	@echo ... HealthPotion.s
@@ -958,6 +1015,9 @@ help:
 	@echo ... Monster.obj
 	@echo ... Monster.i
 	@echo ... Monster.s
+	@echo ... NonAccessible.obj
+	@echo ... NonAccessible.i
+	@echo ... NonAccessible.s
 	@echo ... Paladin.obj
 	@echo ... Paladin.i
 	@echo ... Paladin.s
