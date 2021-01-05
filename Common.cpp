@@ -88,6 +88,9 @@ bool Common::checkEndOfCombat(Party* party)
                 party->getHeroes().at(i)->levelUp();
 
             party->setMoney(party->getMoney()+monsters.size()*party->getLevel()*50); /// money
+
+            if (party->getHeroes().at(i)->checkDead()) /// if a hero died during combat put him at half of max hp
+                party->getHeroes().at(i)->setHealth(party->getHeroes().at(i)->getMaxHealth()/2);
         }
         encounterChance = 0; /// since the monsters were defeated, no more encounters should occur here
         return true;
@@ -102,7 +105,7 @@ void Common::event(Party *party)
     Monster* currentMonster;
     int input, heroTargetIndex;
     bool combatFinished = false, j, actionTaken = false;
-    double maxHp;
+    double maxHp, maxMagic;
 
     if ((rand() % 100) < encounterChance)
     {
@@ -159,6 +162,10 @@ void Common::event(Party *party)
                 maxHp = (double) currentHero->getMaxHealth(); /// regen some hp
                 currentHero->setHealth(currentHero->getHealth() + maxHp*0.02);
                 if (currentHero->getHealth() > (int) maxHp) currentHero->setHealth((int) maxHp);
+
+                maxMagic = (double) currentHero->getMaxMagic(); /// regen some magic
+                currentHero->setMagic(currentHero->getMagic() + maxMagic*0.04);
+                if (currentHero->getMagic() > (int) maxMagic) currentHero->setMagic((int) maxMagic);
             }
 
             /// monster turn
