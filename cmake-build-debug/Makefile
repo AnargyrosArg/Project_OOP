@@ -67,10 +67,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\anarg\CLionProjects\Project_OOP
+CMAKE_SOURCE_DIR = C:\Users\Giann\CLionProjects\Project_OOP
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\anarg\CLionProjects\Project_OOP\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Giann\CLionProjects\Project_OOP\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\anarg\CLionProjects\Project_OOP\cmake-build-debug\CMakeFiles C:\Users\anarg\CLionProjects\Project_OOP\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Giann\CLionProjects\Project_OOP\cmake-build-debug\CMakeFiles C:\Users\Giann\CLionProjects\Project_OOP\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\anarg\CLionProjects\Project_OOP\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Giann\CLionProjects\Project_OOP\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -736,6 +736,33 @@ Potion.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Potion.cpp.s
 .PHONY : Potion.cpp.s
 
+RPG.obj: RPG.cpp.obj
+
+.PHONY : RPG.obj
+
+# target to build an object file
+RPG.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/RPG.cpp.obj
+.PHONY : RPG.cpp.obj
+
+RPG.i: RPG.cpp.i
+
+.PHONY : RPG.i
+
+# target to preprocess a source file
+RPG.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/RPG.cpp.i
+.PHONY : RPG.cpp.i
+
+RPG.s: RPG.cpp.s
+
+.PHONY : RPG.s
+
+# target to generate assembly for a file
+RPG.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/RPG.cpp.s
+.PHONY : RPG.cpp.s
+
 Sorcerer.obj: Sorcerer.cpp.obj
 
 .PHONY : Sorcerer.obj
@@ -1027,6 +1054,9 @@ help:
 	@echo ... Potion.obj
 	@echo ... Potion.i
 	@echo ... Potion.s
+	@echo ... RPG.obj
+	@echo ... RPG.i
+	@echo ... RPG.s
 	@echo ... Sorcerer.obj
 	@echo ... Sorcerer.i
 	@echo ... Sorcerer.s

@@ -16,11 +16,11 @@ void HealthPotion::equip(Hero *hero) {
     }
 }
 
-HealthPotion::HealthPotion(int level):Potion("Health Potion",100*level,level,5*level)
+HealthPotion::HealthPotion(int level):Potion("Health Potion",50*level,level,5*level)
 {
-    cout << "Health potion created"<<endl << endl;
+    //cout << "Health potion created"<<endl << endl;
 }
 
 HealthPotion::~HealthPotion() {
-    cout << "Health Potion deleted" << endl;
+    //cout << "Health Potion deleted" << endl;
 }

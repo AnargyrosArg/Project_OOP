@@ -11,11 +11,11 @@ Armour::Armour(string name, int cost, int level, int defence)
 }
 Armour::Armour(int level)
 :Item(getRandomName("../Names/Armours.txt"),level,(100*level)+rand()%(10*level)),defence((level*10+rand()%level)/2){
-    cout << "Generated random Armour" << endl;
+    /*cout << "Generated random Armour" << endl;
     cout << "Name: " << getName() << endl;
     cout << "Defence: " << getDefence() << endl;
     cout << "Cost: " << getCost() << endl;
-    cout << "Level: " << getLevelReq() << endl << endl;
+    cout << "Level: " << getLevelReq() << endl << endl;*/
 }
 
 void Armour::print() {

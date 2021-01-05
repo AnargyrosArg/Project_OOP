@@ -8,7 +8,7 @@
 #include "Common.h"
 
 /// CONSTRUCTOR
-Common::Common(int level) : encounterChance(50) /// 100 % for now
+Common::Common(int level) : encounterChance(50)
 {
     int monsterType;
     int monsterNumber = (rand() % 2) + 1;
@@ -47,6 +47,7 @@ void Common::printMonsters() const
 bool Common::checkEndOfCombat(Party* party)
 {
     bool partyDead = true, monstersDead = true;
+    int levelsGained;
     for (int i=0; i<party->getHeroes().size(); i++)
         if (!party->getHeroes().at(i)->checkDead()) partyDead = false;
 
@@ -57,8 +58,16 @@ bool Common::checkEndOfCombat(Party* party)
         "No doubt devastated by such a defeat, they wake up a while later." << endl <<
         "Wounded, both physically and mentally, they still had to keep going." << endl << endl;
 
-        for (int i=0; i<party->getHeroes().size(); i++)
+        party->setMoney(party->getMoney()/2); /// heroes lose half their money
+
+        for (int i=0; i<party->getHeroes().size(); i++) /// put all heroes at half of max hp (and max magic)
+        {
             party->getHeroes().at(i)->setHealth(party->getHeroes().at(i)->getMaxHealth()/2);
+            party->getHeroes().at(i)->setMagic(party->getHeroes().at(i)->getMaxMagic());
+        }
+
+        for (int i=0; i<monsters.size(); i++) /// put monsters at max hp, in case this encounter triggers again
+            monsters.at(i)->setHealth(monsters.at(i)->getMaxHealth());
         return true;
     }
 
@@ -71,13 +80,16 @@ bool Common::checkEndOfCombat(Party* party)
         "They all shouted in excitement, filled with energy and joy, adrenaline still pumping through their veins." << endl <<
         "But battles such as these also give them the experience required to keep fighting even stronger foes!" << endl << endl;
 
-        for (int i=0; i<party->getHeroes().size(); i++)
+        for (int i=0; i<party->getHeroes().size(); i++) /// exp
         {
-            party->getHeroes().at(i)->setExperience(party->getHeroes().at(i)->getExperience() + monsters.size()*party->getLevel());
-            if (party->getHeroes().at(i)->getExperience() > 100) party->getHeroes().at(i)->levelUp(); /// exp and level up
+            party->getHeroes().at(i)->setExperience(party->getHeroes().at(i)->getExperience() + monsters.size()*party->getLevel()*5);
+            levelsGained = (party->getHeroes().at(i)->getExperience()) / 100;
+            for (int j=0; j<levelsGained; j++)
+                party->getHeroes().at(i)->levelUp();
 
-            party->setMoney(party->getMoney()+monsters.size()*party->getLevel()*2); /// money
+            party->setMoney(party->getMoney()+monsters.size()*party->getLevel()*50); /// money
         }
+        encounterChance = 0; /// since the monsters were defeated, no more encounters should occur here
         return true;
     }
     return false;
@@ -89,7 +101,7 @@ void Common::event(Party *party)
     Hero* currentHero;
     Monster* currentMonster;
     int input, heroTargetIndex;
-    bool combatFinished = false, j;
+    bool combatFinished = false, j, actionTaken = false;
     double maxHp;
 
     if ((rand() % 100) < encounterChance)
@@ -105,28 +117,42 @@ void Common::event(Party *party)
                 if (combatFinished) break;
                 currentHero = party->getHeroes().at(currentHeroIndex);
                 if (currentHero->checkDead()) continue;
+                actionTaken = false;
 
-                printMonsters();
-                currentHero->print();
-                cout << "It is " << currentHero->getName() << "'s time to act! What will they do?" << endl << endl;
-                cout << "1. Attack" << endl << "2. Cast Spell" << endl << "3. Use Item" << endl;
-                cin >> input;
-                while ((input < 1) || (input > 3)) {
-                    cout << "No such action" << endl << endl;
-                    cout << "1. Attack" << endl << "2. Cast Spell" << endl << "3. Use Item" << endl;
-                    cin >> input;
-                }
-
-                if (input != 3) /// ATTACK OR CAST SPELL
+                while (!actionTaken)
                 {
-                    for (int i = 0; i < monsters.size(); i++) {
-                        if (input == 1) j = currentHero->attack(monsters.at(i)); /// returns false if monster is already dead
-                        else j = currentHero->castSpell(monsters.at(i)); /// returns false if monster is already dead
-
-                        combatFinished = checkEndOfCombat(party); if (combatFinished) break; /// check if we killed all monsters
-                        if (j) break; /// if monster was not dead, break. If monster already dead, continue loop and target next monster
+                    cout << "It is " << currentHero->getName() << "'s time to act! What will they do?" << endl << endl;
+                    cout << "1. Attack" << endl << "2. Cast Spell" << endl << "3. Use Item" << endl
+                         << "4. Display stats" << endl;
+                    cin >> input;
+                    while ((input < 1) || (input > 4)) {
+                        cout << "No such action" << endl << endl;
+                        cout << "1. Attack" << endl << "2. Cast Spell" << endl << "3. Use Item" << endl
+                             << "4. Display stats" << endl;
+                        cin >> input;
                     }
-                } else party->useItem(currentHero); /// USE ITEM
+
+                    actionTaken = true; /// we assume player will choose an option that would end the hero's turn
+                    if (input == 1 || input == 2) /// ATTACK OR CAST SPELL
+                    {
+                        for (int i = 0; i < monsters.size(); i++) {
+                            if (input == 1)
+                                j = currentHero->attack(monsters.at(i)); /// returns false if monster is already dead
+                            else
+                                j = currentHero->castSpell(monsters.at(i)); /// returns false if monster is already dead
+
+                            combatFinished = checkEndOfCombat(party);
+                            if (combatFinished) break; /// check if we killed all monsters
+                            if (j) break; /// if monster was not dead, break. If monster already dead, continue loop and target next monster
+                        }
+                    } else if (input == 3) party->useItem(currentHero); /// USE ITEM
+                    else /// DISPLAY STATS
+                    {
+                        printMonsters();
+                        party->print();
+                        actionTaken = false; /// displaying stats is the only option that does not end this hero's turn
+                    }
+                }
 
                 currentHero->countTurn(); /// count a turn for effects
 

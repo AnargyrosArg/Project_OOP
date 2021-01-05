@@ -8,7 +8,7 @@
 
 /// CONSTRUCTOR
 Monster::Monster(string name_, int lvl, int maxHp, int dmg, int def, double dodge)
-: Entity(std::move(name_), lvl, maxHp), baseDamage(dmg), defence(def), dodgeChance(dodge/350) {}
+: Entity(std::move(name_), lvl, maxHp), baseDamage(dmg), defence(def), dodgeChance(dodge/350*4) {}
 
 /// DESTRUCTOR
 Monster::~Monster() = default;
@@ -30,7 +30,7 @@ void Monster::print() const
 void Monster::attack(Hero* hero)
 {
     if (checkDead() || hero->checkDead()) return;
-    bool dodged = (rand() % 100) < hero->getAgility()/4;
+    bool dodged = (rand() % 100) < hero->getAgility()/2;
 
     if (!dodged)
     {

@@ -21,6 +21,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/untitled1.dir/Paladin.cpp.obj"
   "CMakeFiles/untitled1.dir/Party.cpp.obj"
   "CMakeFiles/untitled1.dir/Potion.cpp.obj"
+  "CMakeFiles/untitled1.dir/RPG.cpp.obj"
   "CMakeFiles/untitled1.dir/Sorcerer.cpp.obj"
   "CMakeFiles/untitled1.dir/Spell.cpp.obj"
   "CMakeFiles/untitled1.dir/Spirit.cpp.obj"

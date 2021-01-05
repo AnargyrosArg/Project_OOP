@@ -6,14 +6,14 @@
 
 
 Item::Item(string Name,int level_requirement,int cost):name(move(Name)),levelReq(level_requirement),cost(cost), equipped(false), consumable(false) {
-    cout << "Item " << getName() << " Created"<< endl;
+    //cout << "Item " << getName() << " Created"<< endl;
 }
 
 Item::~Item() {
-    cout<< "Item "<<getName()<<" Deleted"<<endl;
+    //cout<< "Item "<<getName()<<" Deleted"<<endl;
 }
 
 void Item::print() {
-    cout << getName();
+    cout << getName() << " (lvl:" << getLevelReq() << ")";
 }
 

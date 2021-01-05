@@ -72,6 +72,7 @@ void Market::event(Party *party) {
     printStock();
     cout << items.size()+spells.size()+1 << ". Exit market"<<endl;
     cout << "Choose item to purchase" <<endl;
+    cout << "Money: " << party->getMoney() << endl;
     cin.clear();
     cin >> itemindex;
     --itemindex;

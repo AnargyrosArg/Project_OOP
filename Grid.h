@@ -25,6 +25,7 @@ public:
     void moveLeft();
     void moveRight();
     void print();
+    Party* getParty() const { return party; }
 };
 
 

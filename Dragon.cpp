@@ -6,7 +6,7 @@
 #include "Dragon.h"
 
 /// CONSTRUCTOR
-Dragon::Dragon(int lvl) : Monster(getRandomName("../Names/Names.txt"), lvl, lvl*100, lvl*3, lvl, (double) lvl)
+Dragon::Dragon(int lvl) : Monster(getRandomName("../Names/Names.txt"), lvl, lvl*65, lvl*3, lvl, (double) lvl)
 {
     /*cout << "Created Dragon named " << Entity::getName() << ". Stats:" << endl << "Hp: " << Entity::getMaxHealth()
     << endl << "Dmg: " << Monster::getDamage() << endl << "Def: "

@@ -6,29 +6,26 @@
 
 Grid::Grid(Party* party,int max_x, int max_y):party(party),MAX_X(max_x),MAX_Y(max_y),x(max_x/2),y(max_y/2)
 {
-    for(int j=0;j<MAX_Y;j++){
+    int centerX = MAX_X/2, centerY = MAX_Y/2;
+
+    for(int j=0;j<MAX_Y;j++) {
         grid.push_back(vector<Block*>());
-        for(int i=0;i<MAX_X;i++){
-            int type=rand()%10;
-            int distance=abs(((MAX_X/2)-i) + ((MAX_Y)-j));
-            cout << distance <<"<---"<< endl;
+        for(int i=0;i<MAX_X;i++) {
+            int type = rand() % 10;
+            int distance = abs(abs(centerX-i) + abs(centerY-j));
             switch (type) {
                 case 1:
-                    cout << "Market"<<endl;
-                    grid[j].push_back(new Market(distance+party->getLevel()));
+                    grid[j].push_back(new Market(distance+party->getLevel()-1));
                     break;
                 case 2:
-                    cout << "Non access"<<endl;
                     grid[j].push_back(new NonAccessible());
                     break;
                 default:
-                    cout << "Common"<<endl;
-                    grid[j].push_back(new Common(distance+party->getLevel()));
+                    grid[j].push_back(new Common(distance+party->getLevel()-1));
                     break;
             }
         }
     }
-
 }
 
 

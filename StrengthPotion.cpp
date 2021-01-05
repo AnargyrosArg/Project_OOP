@@ -14,16 +14,16 @@ void StrengthPotion::equip(Hero *hero) {
     }
 }
 
-StrengthPotion::StrengthPotion(int level,int potency,int duration):Potion("Strength Potion",100*level,level,potency,duration)
+StrengthPotion::StrengthPotion(int level,int potency,int duration):Potion("Strength Potion",50*level,level,potency,duration)
 {
-    cout << "Strength potion created"<<endl << endl;
+    //cout << "Strength potion created"<<endl << endl;
 }
 
 StrengthPotion::StrengthPotion(int level):Potion("Strength Potion",100*level,level,level*2,3)
 {
-    cout << "Strength potion created"<<endl << endl;
+    //cout << "Strength potion created"<<endl << endl;
 }
 
 StrengthPotion::~StrengthPotion() {
-    cout << "Strength Potion deleted" << endl;
+    //cout << "Strength Potion deleted" << endl;
 }

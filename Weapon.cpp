@@ -10,12 +10,12 @@ Weapon::Weapon(string name,int cost,int level,int damage, bool two_handed = fals
 }
 Weapon::Weapon(int level):Item(getRandomName("../Names/Weapons.txt"),level,
  (100*level)+rand()%(10*level)),damage((level*10+rand()%level)),twoHanded(rand()%2){
-    cout << "Generated random weapon" << endl;
+    /*cout << "Generated random weapon" << endl;
     cout << "Name: " << getName() << endl;
     cout << "Damage: " << getDamage() << endl;
     cout << "Cost: " << getCost() << endl;
     cout << (twoHanded ? "Two Handed" : "One Handed ") << endl;
-    cout << "Level: " << getLevelReq() << endl << endl;
+    cout << "Level: " << getLevelReq() << endl << endl;*/
 }
 
 Weapon::~Weapon(){
