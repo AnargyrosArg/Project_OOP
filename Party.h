@@ -28,6 +28,8 @@ class Party
         void printInv();
         void useItem(Hero* hero = nullptr);
         void print();
+        int getItemCount(){return inventory.size();}
+        vector <Item*>& getInv(){return inventory;}
 };
 
 

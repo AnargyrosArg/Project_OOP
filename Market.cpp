@@ -70,12 +70,16 @@ void Market::printStock() {
 void Market::event(Party *party) {
     int itemindex;
     printStock();
-    cout << items.size()+spells.size()+1 << ". Exit market"<<endl;
-    cout << "Choose item to purchase" <<endl;
+    cout << items.size()+spells.size()+1 << ". Sell Items"<<endl;
+    cout << items.size()+spells.size()+2 << ". Exit market"<<endl;
+    cout << "Choose action" <<endl;
     cout << "Money: " << party->getMoney() << endl;
     cin.clear();
     cin >> itemindex;
     --itemindex;
+    if(itemindex==items.size()+spells.size()){
+        Sell(party);
+    }
     if(itemindex>=items.size()+spells.size() || itemindex < 0 ){
         cout << "The shopkeeper waves at you as you leave his store"<<endl;
         return;
@@ -137,4 +141,23 @@ void Market::removeFromStock(int itemindex) {
 
 void Market::printBlock() {
     cout << "[M]";
+}
+
+void Market::Sell(Party *party) {
+    party->printInv();
+    int itemindex;
+    cout << party->getItemCount()+1<< ". Cancel"<<endl;
+    cout << "Choose action";
+    cin >> itemindex;
+    itemindex--;
+    if(itemindex>=party->getItemCount() || itemindex<0){
+        event(party);
+        return;
+    }else if(!party->getInv().at(itemindex)->isEquipped()){
+        party->setMoney(party->getMoney()+(party->getInv().at(itemindex)->getCost())/2);
+        party->getInv().erase(party->getInv().begin()+itemindex);
+        event(party);
+        return;
+    }
+
 }

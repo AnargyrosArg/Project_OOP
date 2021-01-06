@@ -129,6 +129,8 @@ void Common::event(Party *party)
                          << "4. Display stats" << endl;
                     cin >> input;
                     while ((input < 1) || (input > 4)) {
+                        cin.clear();
+                        cin.ignore(1);
                         cout << "No such action" << endl << endl;
                         cout << "1. Attack" << endl << "2. Cast Spell" << endl << "3. Use Item" << endl
                              << "4. Display stats" << endl;

@@ -31,6 +31,8 @@ public:
     void printStock();
     bool purchase(int itemindex,Party* party); //returns if purchase was successfull or not
 
+    void Sell(Party* party);
+
     void printBlock();
 };
 
