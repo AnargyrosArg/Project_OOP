@@ -15,7 +15,7 @@ Party::Party(Hero *hero1, Hero *hero2):money(0){
     party.push_back(hero2);
 }
 
-Party::Party(Hero *hero) {
+Party::Party(Hero *hero):money(0){
     party.push_back(hero);
 }
 
