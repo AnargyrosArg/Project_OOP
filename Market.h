@@ -30,6 +30,8 @@ public:
     void event(Party* party) override;
     void printStock();
     bool purchase(int itemindex,Party* party); //returns if purchase was successfull or not
+
+    void printBlock();
 };
 
 

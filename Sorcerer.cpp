@@ -3,15 +3,26 @@
 ///
 
 #include "Sorcerer.h"
+#include "IceSpell.h"
+#include "FireSpell.h"
+#include "LightningSpell.h"
 
 using namespace std;
 
 /// CONSTRUCTOR
 Sorcerer::Sorcerer(int lvl) : Hero(getRandomName("../Names/Names.txt"), lvl, lvl*6, lvl*4, lvl, lvl*4, lvl*3)
 {
-    cout << "Created Sorcerer named " << Entity::getName() << ". Stats:" << endl << "Hp: " << Entity::getMaxHealth()
+    cout << "An adventurer of the group is a Sorcerer named " << Entity::getName() << ". Stats:" << endl << "Hp: " << Entity::getMaxHealth()
     << endl << "Mag: " << Hero::getMaxMagic() << endl << "Str: " << Hero::getStrength() << endl
     << "Dex: " << Hero::getDexterity() << endl << "Agil: " << Hero::getAgility() << endl << endl;
+
+    /// starter spell / weapon
+    int spellType = rand() % 3;
+    if (spellType == 0) Hero::learnSpell(new IceSpell(lvl));
+    if (spellType == 1) Hero::learnSpell(new FireSpell(lvl));
+    if (spellType == 2) Hero::learnSpell(new LightningSpell(lvl));
+    Hero::equipWeapon(new Weapon(lvl/2));
+    cout << endl;
 }
 
 /// DESTRUCTOR

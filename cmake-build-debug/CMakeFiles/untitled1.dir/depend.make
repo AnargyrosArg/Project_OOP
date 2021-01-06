@@ -97,6 +97,31 @@ CMakeFiles/untitled1.dir/FireSpell.cpp.obj: ../Monster.h
 CMakeFiles/untitled1.dir/FireSpell.cpp.obj: ../Spell.h
 CMakeFiles/untitled1.dir/FireSpell.cpp.obj: ../Utils.h
 
+CMakeFiles/untitled1.dir/Grid.cpp.obj: ../AgilityPotion.h
+CMakeFiles/untitled1.dir/Grid.cpp.obj: ../Armour.h
+CMakeFiles/untitled1.dir/Grid.cpp.obj: ../Block.h
+CMakeFiles/untitled1.dir/Grid.cpp.obj: ../Common.h
+CMakeFiles/untitled1.dir/Grid.cpp.obj: ../DexterityPotion.h
+CMakeFiles/untitled1.dir/Grid.cpp.obj: ../Effects.h
+CMakeFiles/untitled1.dir/Grid.cpp.obj: ../Entity.h
+CMakeFiles/untitled1.dir/Grid.cpp.obj: ../FireSpell.h
+CMakeFiles/untitled1.dir/Grid.cpp.obj: ../Grid.cpp
+CMakeFiles/untitled1.dir/Grid.cpp.obj: ../Grid.h
+CMakeFiles/untitled1.dir/Grid.cpp.obj: ../HealthPotion.h
+CMakeFiles/untitled1.dir/Grid.cpp.obj: ../Hero.h
+CMakeFiles/untitled1.dir/Grid.cpp.obj: ../IceSpell.h
+CMakeFiles/untitled1.dir/Grid.cpp.obj: ../Item.h
+CMakeFiles/untitled1.dir/Grid.cpp.obj: ../LightningSpell.h
+CMakeFiles/untitled1.dir/Grid.cpp.obj: ../Market.h
+CMakeFiles/untitled1.dir/Grid.cpp.obj: ../Monster.h
+CMakeFiles/untitled1.dir/Grid.cpp.obj: ../NonAccessible.h
+CMakeFiles/untitled1.dir/Grid.cpp.obj: ../Party.h
+CMakeFiles/untitled1.dir/Grid.cpp.obj: ../Potion.h
+CMakeFiles/untitled1.dir/Grid.cpp.obj: ../Spell.h
+CMakeFiles/untitled1.dir/Grid.cpp.obj: ../StrengthPotion.h
+CMakeFiles/untitled1.dir/Grid.cpp.obj: ../Utils.h
+CMakeFiles/untitled1.dir/Grid.cpp.obj: ../Weapon.h
+
 CMakeFiles/untitled1.dir/HealthPotion.cpp.obj: ../Armour.h
 CMakeFiles/untitled1.dir/HealthPotion.cpp.obj: ../Effects.h
 CMakeFiles/untitled1.dir/HealthPotion.cpp.obj: ../Entity.h
@@ -173,6 +198,20 @@ CMakeFiles/untitled1.dir/Monster.cpp.obj: ../Spell.h
 CMakeFiles/untitled1.dir/Monster.cpp.obj: ../Utils.h
 CMakeFiles/untitled1.dir/Monster.cpp.obj: ../Weapon.h
 
+CMakeFiles/untitled1.dir/NonAccessible.cpp.obj: ../Armour.h
+CMakeFiles/untitled1.dir/NonAccessible.cpp.obj: ../Block.h
+CMakeFiles/untitled1.dir/NonAccessible.cpp.obj: ../Effects.h
+CMakeFiles/untitled1.dir/NonAccessible.cpp.obj: ../Entity.h
+CMakeFiles/untitled1.dir/NonAccessible.cpp.obj: ../Hero.h
+CMakeFiles/untitled1.dir/NonAccessible.cpp.obj: ../Item.h
+CMakeFiles/untitled1.dir/NonAccessible.cpp.obj: ../Monster.h
+CMakeFiles/untitled1.dir/NonAccessible.cpp.obj: ../NonAccessible.cpp
+CMakeFiles/untitled1.dir/NonAccessible.cpp.obj: ../NonAccessible.h
+CMakeFiles/untitled1.dir/NonAccessible.cpp.obj: ../Party.h
+CMakeFiles/untitled1.dir/NonAccessible.cpp.obj: ../Spell.h
+CMakeFiles/untitled1.dir/NonAccessible.cpp.obj: ../Utils.h
+CMakeFiles/untitled1.dir/NonAccessible.cpp.obj: ../Weapon.h
+
 CMakeFiles/untitled1.dir/Paladin.cpp.obj: ../Armour.h
 CMakeFiles/untitled1.dir/Paladin.cpp.obj: ../Effects.h
 CMakeFiles/untitled1.dir/Paladin.cpp.obj: ../Entity.h
@@ -209,11 +248,43 @@ CMakeFiles/untitled1.dir/Potion.cpp.obj: ../Spell.h
 CMakeFiles/untitled1.dir/Potion.cpp.obj: ../Utils.h
 CMakeFiles/untitled1.dir/Potion.cpp.obj: ../Weapon.h
 
+CMakeFiles/untitled1.dir/RPG.cpp.obj: ../AgilityPotion.h
+CMakeFiles/untitled1.dir/RPG.cpp.obj: ../Armour.h
+CMakeFiles/untitled1.dir/RPG.cpp.obj: ../Block.h
+CMakeFiles/untitled1.dir/RPG.cpp.obj: ../Common.h
+CMakeFiles/untitled1.dir/RPG.cpp.obj: ../DexterityPotion.h
+CMakeFiles/untitled1.dir/RPG.cpp.obj: ../Effects.h
+CMakeFiles/untitled1.dir/RPG.cpp.obj: ../Entity.h
+CMakeFiles/untitled1.dir/RPG.cpp.obj: ../FireSpell.h
+CMakeFiles/untitled1.dir/RPG.cpp.obj: ../Grid.h
+CMakeFiles/untitled1.dir/RPG.cpp.obj: ../HealthPotion.h
+CMakeFiles/untitled1.dir/RPG.cpp.obj: ../Hero.h
+CMakeFiles/untitled1.dir/RPG.cpp.obj: ../IceSpell.h
+CMakeFiles/untitled1.dir/RPG.cpp.obj: ../Item.h
+CMakeFiles/untitled1.dir/RPG.cpp.obj: ../LightningSpell.h
+CMakeFiles/untitled1.dir/RPG.cpp.obj: ../Market.h
+CMakeFiles/untitled1.dir/RPG.cpp.obj: ../Monster.h
+CMakeFiles/untitled1.dir/RPG.cpp.obj: ../NonAccessible.h
+CMakeFiles/untitled1.dir/RPG.cpp.obj: ../Paladin.h
+CMakeFiles/untitled1.dir/RPG.cpp.obj: ../Party.h
+CMakeFiles/untitled1.dir/RPG.cpp.obj: ../Potion.h
+CMakeFiles/untitled1.dir/RPG.cpp.obj: ../RPG.cpp
+CMakeFiles/untitled1.dir/RPG.cpp.obj: ../RPG.h
+CMakeFiles/untitled1.dir/RPG.cpp.obj: ../Sorcerer.h
+CMakeFiles/untitled1.dir/RPG.cpp.obj: ../Spell.h
+CMakeFiles/untitled1.dir/RPG.cpp.obj: ../StrengthPotion.h
+CMakeFiles/untitled1.dir/RPG.cpp.obj: ../Utils.h
+CMakeFiles/untitled1.dir/RPG.cpp.obj: ../Warrior.h
+CMakeFiles/untitled1.dir/RPG.cpp.obj: ../Weapon.h
+
 CMakeFiles/untitled1.dir/Sorcerer.cpp.obj: ../Armour.h
 CMakeFiles/untitled1.dir/Sorcerer.cpp.obj: ../Effects.h
 CMakeFiles/untitled1.dir/Sorcerer.cpp.obj: ../Entity.h
+CMakeFiles/untitled1.dir/Sorcerer.cpp.obj: ../FireSpell.h
 CMakeFiles/untitled1.dir/Sorcerer.cpp.obj: ../Hero.h
+CMakeFiles/untitled1.dir/Sorcerer.cpp.obj: ../IceSpell.h
 CMakeFiles/untitled1.dir/Sorcerer.cpp.obj: ../Item.h
+CMakeFiles/untitled1.dir/Sorcerer.cpp.obj: ../LightningSpell.h
 CMakeFiles/untitled1.dir/Sorcerer.cpp.obj: ../Monster.h
 CMakeFiles/untitled1.dir/Sorcerer.cpp.obj: ../Sorcerer.cpp
 CMakeFiles/untitled1.dir/Sorcerer.cpp.obj: ../Sorcerer.h
@@ -278,11 +349,10 @@ CMakeFiles/untitled1.dir/main.cpp.obj: ../Armour.h
 CMakeFiles/untitled1.dir/main.cpp.obj: ../Block.h
 CMakeFiles/untitled1.dir/main.cpp.obj: ../Common.h
 CMakeFiles/untitled1.dir/main.cpp.obj: ../DexterityPotion.h
-CMakeFiles/untitled1.dir/main.cpp.obj: ../Dragon.h
 CMakeFiles/untitled1.dir/main.cpp.obj: ../Effects.h
 CMakeFiles/untitled1.dir/main.cpp.obj: ../Entity.h
-CMakeFiles/untitled1.dir/main.cpp.obj: ../Exoskeleton.h
 CMakeFiles/untitled1.dir/main.cpp.obj: ../FireSpell.h
+CMakeFiles/untitled1.dir/main.cpp.obj: ../Grid.h
 CMakeFiles/untitled1.dir/main.cpp.obj: ../HealthPotion.h
 CMakeFiles/untitled1.dir/main.cpp.obj: ../Hero.h
 CMakeFiles/untitled1.dir/main.cpp.obj: ../IceSpell.h
@@ -290,15 +360,13 @@ CMakeFiles/untitled1.dir/main.cpp.obj: ../Item.h
 CMakeFiles/untitled1.dir/main.cpp.obj: ../LightningSpell.h
 CMakeFiles/untitled1.dir/main.cpp.obj: ../Market.h
 CMakeFiles/untitled1.dir/main.cpp.obj: ../Monster.h
-CMakeFiles/untitled1.dir/main.cpp.obj: ../Paladin.h
+CMakeFiles/untitled1.dir/main.cpp.obj: ../NonAccessible.h
 CMakeFiles/untitled1.dir/main.cpp.obj: ../Party.h
 CMakeFiles/untitled1.dir/main.cpp.obj: ../Potion.h
-CMakeFiles/untitled1.dir/main.cpp.obj: ../Sorcerer.h
+CMakeFiles/untitled1.dir/main.cpp.obj: ../RPG.h
 CMakeFiles/untitled1.dir/main.cpp.obj: ../Spell.h
-CMakeFiles/untitled1.dir/main.cpp.obj: ../Spirit.h
 CMakeFiles/untitled1.dir/main.cpp.obj: ../StrengthPotion.h
 CMakeFiles/untitled1.dir/main.cpp.obj: ../Utils.h
-CMakeFiles/untitled1.dir/main.cpp.obj: ../Warrior.h
 CMakeFiles/untitled1.dir/main.cpp.obj: ../Weapon.h
 CMakeFiles/untitled1.dir/main.cpp.obj: ../main.cpp
 

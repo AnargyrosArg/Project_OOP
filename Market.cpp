@@ -72,9 +72,12 @@ void Market::event(Party *party) {
     printStock();
     cout << items.size()+spells.size()+1 << ". Exit market"<<endl;
     cout << "Choose item to purchase" <<endl;
+    cout << "Money: " << party->getMoney() << endl;
+    cin.clear();
     cin >> itemindex;
     --itemindex;
-    if(itemindex>=items.size()+spells.size()){
+    if(itemindex>=items.size()+spells.size() || itemindex < 0 ){
+        cout << "The shopkeeper waves at you as you leave his store"<<endl;
         return;
     }
     if(purchase(itemindex, party)){
@@ -132,3 +135,6 @@ void Market::removeFromStock(int itemindex) {
     }
 }
 
+void Market::printBlock() {
+    cout << "[M]";
+}

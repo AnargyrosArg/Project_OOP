@@ -20,14 +20,14 @@ void AgilityPotion::equip(Hero *hero) {
 
 AgilityPotion::AgilityPotion(int level,int potency,int duration):Potion("Dexterity Potion",100*level,level,potency,duration)
 {
-    cout << "Agility potion created"<<endl;
+    //cout << "Agility potion created"<<endl;
 }
 
 AgilityPotion::AgilityPotion(int level):Potion("Dexterity Potion",100*level,level,level*2,3)
 {
-    cout << "Agility potion created"<<endl;
+    //cout << "Agility potion created"<<endl;
 }
 
 AgilityPotion::~AgilityPotion(){
-    cout << "Agility Potion deleted" << endl;
+    //cout << "Agility Potion deleted" << endl;
 }

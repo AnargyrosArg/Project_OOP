@@ -412,6 +412,33 @@ FireSpell.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/FireSpell.cpp.s
 .PHONY : FireSpell.cpp.s
 
+Grid.obj: Grid.cpp.obj
+
+.PHONY : Grid.obj
+
+# target to build an object file
+Grid.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Grid.cpp.obj
+.PHONY : Grid.cpp.obj
+
+Grid.i: Grid.cpp.i
+
+.PHONY : Grid.i
+
+# target to preprocess a source file
+Grid.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Grid.cpp.i
+.PHONY : Grid.cpp.i
+
+Grid.s: Grid.cpp.s
+
+.PHONY : Grid.s
+
+# target to generate assembly for a file
+Grid.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Grid.cpp.s
+.PHONY : Grid.cpp.s
+
 HealthPotion.obj: HealthPotion.cpp.obj
 
 .PHONY : HealthPotion.obj
@@ -601,6 +628,33 @@ Monster.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Monster.cpp.s
 .PHONY : Monster.cpp.s
 
+NonAccessible.obj: NonAccessible.cpp.obj
+
+.PHONY : NonAccessible.obj
+
+# target to build an object file
+NonAccessible.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/NonAccessible.cpp.obj
+.PHONY : NonAccessible.cpp.obj
+
+NonAccessible.i: NonAccessible.cpp.i
+
+.PHONY : NonAccessible.i
+
+# target to preprocess a source file
+NonAccessible.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/NonAccessible.cpp.i
+.PHONY : NonAccessible.cpp.i
+
+NonAccessible.s: NonAccessible.cpp.s
+
+.PHONY : NonAccessible.s
+
+# target to generate assembly for a file
+NonAccessible.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/NonAccessible.cpp.s
+.PHONY : NonAccessible.cpp.s
+
 Paladin.obj: Paladin.cpp.obj
 
 .PHONY : Paladin.obj
@@ -681,6 +735,33 @@ Potion.s: Potion.cpp.s
 Potion.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Potion.cpp.s
 .PHONY : Potion.cpp.s
+
+RPG.obj: RPG.cpp.obj
+
+.PHONY : RPG.obj
+
+# target to build an object file
+RPG.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/RPG.cpp.obj
+.PHONY : RPG.cpp.obj
+
+RPG.i: RPG.cpp.i
+
+.PHONY : RPG.i
+
+# target to preprocess a source file
+RPG.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/RPG.cpp.i
+.PHONY : RPG.cpp.i
+
+RPG.s: RPG.cpp.s
+
+.PHONY : RPG.s
+
+# target to generate assembly for a file
+RPG.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/RPG.cpp.s
+.PHONY : RPG.cpp.s
 
 Sorcerer.obj: Sorcerer.cpp.obj
 
@@ -937,6 +1018,9 @@ help:
 	@echo ... FireSpell.obj
 	@echo ... FireSpell.i
 	@echo ... FireSpell.s
+	@echo ... Grid.obj
+	@echo ... Grid.i
+	@echo ... Grid.s
 	@echo ... HealthPotion.obj
 	@echo ... HealthPotion.i
 	@echo ... HealthPotion.s
@@ -958,6 +1042,9 @@ help:
 	@echo ... Monster.obj
 	@echo ... Monster.i
 	@echo ... Monster.s
+	@echo ... NonAccessible.obj
+	@echo ... NonAccessible.i
+	@echo ... NonAccessible.s
 	@echo ... Paladin.obj
 	@echo ... Paladin.i
 	@echo ... Paladin.s
@@ -967,6 +1054,9 @@ help:
 	@echo ... Potion.obj
 	@echo ... Potion.i
 	@echo ... Potion.s
+	@echo ... RPG.obj
+	@echo ... RPG.i
+	@echo ... RPG.s
 	@echo ... Sorcerer.obj
 	@echo ... Sorcerer.i
 	@echo ... Sorcerer.s

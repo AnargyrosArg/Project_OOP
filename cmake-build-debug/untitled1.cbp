@@ -140,6 +140,12 @@
 		<Unit filename="C:/Users/Giann/CLionProjects/Project_OOP/FireSpell.h">
 			<Option target="untitled1"/>
 		</Unit>
+		<Unit filename="C:/Users/Giann/CLionProjects/Project_OOP/Grid.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="C:/Users/Giann/CLionProjects/Project_OOP/Grid.h">
+			<Option target="untitled1"/>
+		</Unit>
 		<Unit filename="C:/Users/Giann/CLionProjects/Project_OOP/HealthPotion.cpp">
 			<Option target="untitled1"/>
 		</Unit>
@@ -182,6 +188,12 @@
 		<Unit filename="C:/Users/Giann/CLionProjects/Project_OOP/Monster.h">
 			<Option target="untitled1"/>
 		</Unit>
+		<Unit filename="C:/Users/Giann/CLionProjects/Project_OOP/NonAccessible.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="C:/Users/Giann/CLionProjects/Project_OOP/NonAccessible.h">
+			<Option target="untitled1"/>
+		</Unit>
 		<Unit filename="C:/Users/Giann/CLionProjects/Project_OOP/Paladin.cpp">
 			<Option target="untitled1"/>
 		</Unit>
@@ -198,6 +210,12 @@
 			<Option target="untitled1"/>
 		</Unit>
 		<Unit filename="C:/Users/Giann/CLionProjects/Project_OOP/Potion.h">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="C:/Users/Giann/CLionProjects/Project_OOP/RPG.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="C:/Users/Giann/CLionProjects/Project_OOP/RPG.h">
 			<Option target="untitled1"/>
 		</Unit>
 		<Unit filename="C:/Users/Giann/CLionProjects/Project_OOP/Sorcerer.cpp">
