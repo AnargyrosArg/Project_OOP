@@ -22,7 +22,7 @@ class Entity
 
     public:
         Entity(string name_, int level_, int maxHealth_);
-        virtual ~Entity() = 0;
+        virtual ~Entity();
 
         string getName() const { return name; }
         int getLevel() const { return level; }

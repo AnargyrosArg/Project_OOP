@@ -18,6 +18,7 @@ class Party
         Party(Hero* hero1,Hero* hero2,Hero* hero3);
         Party(Hero* hero1,Hero* hero2);
         Party(Hero* hero);
+        ~Party();
 
         int getMoney(){return money;}
         int getLevel();

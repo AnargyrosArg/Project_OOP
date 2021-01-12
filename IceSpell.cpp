@@ -11,7 +11,7 @@ IceSpell::IceSpell(string name_, int cost_, int lvl, int dmg, int magicCost_, in
 
 /// CONSTRUCTOR 2
 IceSpell::IceSpell(int lvl)
-: Spell(getRandomName("../Names/Spells.txt"),
+: Spell(getRandomName("./Names/Spells.txt"),
         (120*lvl) + (rand() % (12*lvl)), lvl,lvl*14 + (rand() % lvl),
         lvl/2, lvl*2) {}
 

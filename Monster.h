@@ -17,7 +17,7 @@ class Monster : public Entity
 
     public:
         Monster(string name_, int lvl, int maxHp, int dmg, int def, double dodge);
-        ~Monster() override = 0;
+        virtual ~Monster();
 
         int getDamage() const { return baseDamage; }
         int getDefence() const { return defence; }

@@ -7,7 +7,7 @@
 using namespace std;
 
 /// CONSTRUCTOR
-Paladin::Paladin(int lvl) : Hero(getRandomName("../Names/Names.txt"), lvl, lvl*8, lvl*3, lvl*3, lvl*3, lvl)
+Paladin::Paladin(int lvl) : Hero(getRandomName("./Names/Names.txt"), lvl, lvl*8, lvl*3, lvl*3, lvl*3, lvl)
 {
     cout << "One of our adventurers is a Paladin, named " << Entity::getName() << ". Stats:" << endl << "Hp: " << Entity::getMaxHealth()
     << endl << "Mag: " << Hero::getMaxMagic() << endl << "Str: " << Hero::getStrength() << endl
@@ -21,8 +21,8 @@ Paladin::Paladin(int lvl) : Hero(getRandomName("../Names/Names.txt"), lvl, lvl*8
 /// DESTRUCTOR
 Paladin::~Paladin()
 {
-    cout << "Destroyed Paladin named " << Entity::getName() << ". Stats:" << endl << "Mag: " << Hero::getMaxMagic() << endl << "Str: "
-         << Hero::getStrength() << endl << "Dex: " << Hero::getDexterity() << endl << "Agil: " << Hero::getAgility() << endl << endl;
+//    cout << "Destroyed Paladin named " << Entity::getName() << ". Stats:" << endl << "Mag: " << Hero::getMaxMagic() << endl << "Str: "
+   //      << Hero::getStrength() << endl << "Dex: " << Hero::getDexterity() << endl << "Agil: " << Hero::getAgility() << endl << endl;
 }
 
 /// LEVEL UP

@@ -7,6 +7,7 @@ Inferno
 Fireball
 Explosion
 Meteor
+Salamander’s Blade
 Dragon Fire
 Sinkhole
 Pit

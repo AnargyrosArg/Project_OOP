@@ -8,3 +8,7 @@
 /// CONSTRUCTOR
 Spell::Spell(string name_, int cost_, int lvl, int dmg, int magicCost_, int pow)
 : name(std::move(name_)), cost(cost_), levelReq(lvl), baseDamage(dmg), magicCost(magicCost_), power(pow) {}
+
+Spell::~Spell() {
+
+}

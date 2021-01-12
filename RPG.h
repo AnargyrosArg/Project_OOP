@@ -14,7 +14,8 @@ class RPG
 
     public:
         RPG();
-        ~RPG() = default;
+        ~RPG();
+        void play();
         void options();
         void move();
 };

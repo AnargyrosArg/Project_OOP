@@ -7,5 +7,6 @@ int main()
 {
     srand(time(nullptr));
     RPG game;
+    game.play();
     return 0;
 }

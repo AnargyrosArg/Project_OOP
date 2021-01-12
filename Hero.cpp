@@ -11,7 +11,14 @@ Hero::Hero(string name_, int lvl, int hp, int magic_, int str, int dex, int agil
 ,armour(nullptr),weapon1(nullptr),weapon2(nullptr){}
 
 /// DESTRUCTOR
-Hero::~Hero() {}
+Hero::~Hero() {
+    for(int i=0;i<spells.size();i++){
+        delete spells.at(i);
+    }
+    delete weapon1;
+    delete weapon2;
+    delete armour;
+}
 
 /// SET ARMOUR
 void Hero::setArmour(Armour* armour_) {
@@ -140,6 +147,7 @@ void Hero::countTurn() {
             else if(Entity::getEffects().at(i)->getType()==AGILITY){
                 setAgility(getAgility()-Entity::getEffects().at(i)->getPower());
             }
+            delete getEffects().at(i);
             Entity::getEffects().erase(Entity::getEffects().begin()+i);
         }
     }

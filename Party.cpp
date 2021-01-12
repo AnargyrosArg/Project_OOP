@@ -85,6 +85,7 @@ void Party::useItem(Hero* hero)
     {
         inventory.at(itemIndex)->equip(hero);
         if (inventory.at(itemIndex)->isConsumable())
+            delete inventory.at(itemIndex);
             inventory.erase(inventory.begin() + itemIndex);
     }
     else cout << "Item is already equipped in party" << endl;
@@ -93,5 +94,14 @@ void Party::useItem(Hero* hero)
 int Party::getLevel() {
     if(party.size()>0){
         return party.at(0)->getLevel();
+    }
+}
+
+Party::~Party() {
+    for(int i=0;i<party.size();i++){
+        delete party.at(i);
+    }
+    for(int i=0;i<inventory.size();i++){
+        delete inventory.at(i);
     }
 }

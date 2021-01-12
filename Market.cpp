@@ -155,9 +155,19 @@ void Market::Sell(Party *party) {
         return;
     }else if(!party->getInv().at(itemindex)->isEquipped()){
         party->setMoney(party->getMoney()+(party->getInv().at(itemindex)->getCost())/2);
+        delete party->getInv().at(itemindex);
         party->getInv().erase(party->getInv().begin()+itemindex);
         event(party);
         return;
     }
 
+}
+
+Market::~Market() {
+    for(int i=0;i<items.size();i++){
+        delete items.at(i);
+    }
+    for(int i=0;i<spells.size();i++){
+        delete spells.at(i);
+    }
 }

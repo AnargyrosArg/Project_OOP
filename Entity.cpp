@@ -16,6 +16,9 @@ Entity::Entity(string name_, int level_, int health_) : name(std::move(name_)), 
 /// DESTRUCTOR
 Entity::~Entity()
 {
+    for(int i=0;i<effects.size();i++){
+        delete effects.at(i);
+    }
     ///cout << "Destroyed level " << level << " entity named " << name << " with " << health << " health." << endl;
 }
 

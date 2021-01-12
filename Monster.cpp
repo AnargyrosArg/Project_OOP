@@ -81,6 +81,7 @@ void Monster::countTurn() {
             else if(Entity::getEffects().at(i)->getType()==DODGE_DEBUFF){
                 setDodge(getDodge()+((double) Entity::getEffects().at(i)->getPower())/250.0);
             }
+            delete getEffects().at(i);
             Entity::getEffects().erase(Entity::getEffects().begin()+i);
         }
     }

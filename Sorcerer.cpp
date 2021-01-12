@@ -10,7 +10,7 @@
 using namespace std;
 
 /// CONSTRUCTOR
-Sorcerer::Sorcerer(int lvl) : Hero(getRandomName("../Names/Names.txt"), lvl, lvl*6, lvl*4, lvl, lvl*4, lvl*3)
+Sorcerer::Sorcerer(int lvl) : Hero(getRandomName("./Names/Names.txt"), lvl, lvl*6, lvl*4, lvl, lvl*4, lvl*3)
 {
     cout << "An adventurer of the group is a Sorcerer named " << Entity::getName() << ". Stats:" << endl << "Hp: " << Entity::getMaxHealth()
     << endl << "Mag: " << Hero::getMaxMagic() << endl << "Str: " << Hero::getStrength() << endl
@@ -28,8 +28,8 @@ Sorcerer::Sorcerer(int lvl) : Hero(getRandomName("../Names/Names.txt"), lvl, lvl
 /// DESTRUCTOR
 Sorcerer::~Sorcerer()
 {
-    cout << "Destroyed Sorcerer named " << Entity::getName() << ". Stats:" << endl << "Mag: " << Hero::getMaxMagic() << endl << "Str: "
-         << Hero::getStrength() << endl << "Dex: " << Hero::getDexterity() << endl << "Agil: " << Hero::getAgility() << endl << endl;
+ //   cout << "Destroyed Sorcerer named " << Entity::getName() << ". Stats:" << endl << "Mag: " << Hero::getMaxMagic() << endl << "Str: "
+   //      << Hero::getStrength() << endl << "Dex: " << Hero::getDexterity() << endl << "Agil: " << Hero::getAgility() << endl << endl;
 }
 
 /// LEVEL UP

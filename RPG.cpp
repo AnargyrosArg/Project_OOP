@@ -9,17 +9,20 @@
 #include <vector>
 
 /// CONSTRUCTOR
-RPG::RPG()
-{
+RPG::RPG(){}
+
+
+void RPG::play(){
+
     int peopleNumber, heroType;
     Hero* hero;
     vector <Hero*> heroes;
 
     cout << "Darkness. Moisture. Little oxygen. It was dead silent." << endl <<
-    "That is, until some footsteps, echoed through the twisting hallways and expansive rooms" << endl <<
-    "of the dungeon. A quiet sound, but amidst this silence, it seemed uncomfortably loud." << endl <<
-    "It was a group of adventurers, each one seeking something different from this place." << endl <<
-    "The number of people in the group was..." << endl;
+         "That is, until some footsteps, echoed through the twisting hallways and expansive rooms" << endl <<
+         "of the dungeon. A quiet sound, but amidst this silence, it seemed uncomfortably loud." << endl <<
+         "It was a group of adventurers, each one seeking something different from this place." << endl <<
+         "The number of people in the group was..." << endl;
 
     cin >> peopleNumber;
     while (peopleNumber < 1 || peopleNumber > 3)
@@ -37,7 +40,7 @@ RPG::RPG()
     cout << peopleNumber << "! A small group, when compared to the task at hand." << endl;
 
     cout << "Their decisions over the span of their short lives led them right here." << endl <<
-    "A true test of soul, body, and mind. Will they succeed, or will their journey come to a swift end?" << endl << endl;
+         "A true test of soul, body, and mind. Will they succeed, or will their journey come to a swift end?" << endl << endl;
 
     heroType = rand() % 3;
     for (int i=0; i<peopleNumber; i++)
@@ -56,7 +59,10 @@ RPG::RPG()
     if (peopleNumber == 3) grid = new Grid(new Party(heroes.at(0), heroes.at(1), heroes.at(2)), gridSize, gridSize);
 
     options();
+
 }
+
+
 
 /// OPTIONS (aka playing the game)
 void RPG::options()
@@ -139,4 +145,8 @@ void RPG::move()
     }
     cin.clear();
     cout << endl;
+}
+
+RPG::~RPG() {
+    delete grid;
 }

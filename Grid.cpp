@@ -92,3 +92,12 @@ void Grid::moveRight() {
     grid[x][y]->event(party);
     print();
 }
+
+Grid::~Grid() {
+    for(int j=0;j<MAX_Y;j++) {
+        for(int i=0;i<MAX_X;i++) {
+            delete grid[j][i];
+        }
+    }
+    delete party;
+}

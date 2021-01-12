@@ -7,7 +7,7 @@
 using namespace std;
 
 /// CONSTRUCTOR
-Warrior::Warrior(int lvl) : Hero(getRandomName("../Names/Names.txt"), lvl, lvl*10, lvl*2, lvl*3, lvl, lvl*3)
+Warrior::Warrior(int lvl) : Hero(getRandomName("./Names/Names.txt"), lvl, lvl*10, lvl*2, lvl*3, lvl, lvl*3)
 {
     cout << "In the group there is a warrior named " << Entity::getName() << ". Stats:" << endl << "Hp: " << Entity::getMaxHealth()
     << endl << "Mag: " << Hero::getMaxMagic() << endl << "Str: " << Hero::getStrength() << endl
@@ -21,8 +21,8 @@ Warrior::Warrior(int lvl) : Hero(getRandomName("../Names/Names.txt"), lvl, lvl*1
 /// DESTRUCTOR
 Warrior::~Warrior()
 {
-    cout << "Destroyed Warrior named " << Entity::getName() << ". Stats:" << endl << "Mag: " << Hero::getMaxMagic() << endl << "Str: "
-    << Hero::getStrength() << endl << "Dex: " << Hero::getDexterity() << endl << "Agil: " << Hero::getAgility() << endl << endl;
+  //  cout << "Destroyed Warrior named " << Entity::getName() << ". Stats:" << endl << "Mag: " << Hero::getMaxMagic() << endl << "Str: "
+//    << Hero::getStrength() << endl << "Dex: " << Hero::getDexterity() << endl << "Agil: " << Hero::getAgility() << endl << endl;
 }
 
 /// LEVEL UP

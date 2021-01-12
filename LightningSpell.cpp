@@ -11,7 +11,7 @@ LightningSpell::LightningSpell(string name_, int cost_, int lvl, int dmg, int ma
 
 /// CONSTRUCTOR 2
 LightningSpell::LightningSpell(int lvl)
-        : Spell(getRandomName("../Names/Spells.txt"),
+        : Spell(getRandomName("./Names/Spells.txt"),
                 (120*lvl) + (rand() % (12*lvl)), lvl,lvl*14 + (rand() % lvl),
                 lvl/2, lvl*2) {}
 

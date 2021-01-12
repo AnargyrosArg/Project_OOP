@@ -12,6 +12,7 @@ public:
     virtual bool isAccessible(){return true;}
     virtual void event(Party* party)=0;
     virtual void printBlock()=0;
+    virtual ~Block();
 };
 
 

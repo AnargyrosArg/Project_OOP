@@ -20,6 +20,7 @@ private:
     const int MAX_Y;
 public:
     Grid(Party* party,int max_x,int max_y);
+    ~Grid();
     void moveUp();
     void moveDown();
     void moveLeft();

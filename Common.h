@@ -16,7 +16,7 @@ class Common : public Block
 
     public:
         Common(int level);
-        ~Common() = default;
+        ~Common();
         void event(Party* party) override;
         void printMonsters() const;
         bool checkEndOfCombat(Party* party);

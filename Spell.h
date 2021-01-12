@@ -22,8 +22,7 @@ class Spell
 
     public:
         Spell(string name_, int cost_, int lvl, int dmg, int magicCost_, int power);
-        ~Spell() = default;
-
+        virtual ~Spell();
         string getName() const { return name; }
         int getCost() const { return cost; }
         int getLevelReq() const { return levelReq; }

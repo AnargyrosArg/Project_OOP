@@ -201,3 +201,9 @@ void Common::event(Party *party)
 void Common::printBlock() {
     cout << "[?]";
 }
+
+Common::~Common() {
+    for(int i=0;i<monsters.size();i++){
+        delete monsters.at(i);
+    }
+}

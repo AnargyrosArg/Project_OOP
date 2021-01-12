@@ -29,7 +29,7 @@ class Hero : public Entity
         int experience;
     public:
         Hero(string name_, int lvl, int hp, int magic_, int str, int dex, int agil);
-        ~Hero() override = 0;
+        virtual ~Hero();
 
         int getMaxMagic() const { return maxMagic; }
         int getMagic() const { return magic; }
